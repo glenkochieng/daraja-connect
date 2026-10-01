@@ -71,8 +71,9 @@ desktop.ini
 
 # Machine-local AI/design tool settings and caches
 .claude/settings.local.json
-.impeccable/*.local.json
-.impeccable/*.cache.json
+**/.impeccable/*.local.json
+**/.impeccable/*.cache.json
+**/.impeccable/questions/
 
 # ---------------------------------------------------------------- logs
 *.log
