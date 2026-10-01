@@ -1,5 +1,8 @@
 import { readFileSync } from 'node:fs';
 import { afterAll, beforeAll, beforeEach, describe, expect, it } from 'vitest';
+import { Article } from '../src/models/Article.js';
+import { Event } from '../src/models/Event.js';
+import { Update } from '../src/models/Update.js';
 import { User } from '../src/models/User.js';
 import { ensureAdmin, seedDatabase } from '../src/seed/index.js';
 import { sampleEmail, sampleName } from '../src/seed/names.js';
@@ -83,5 +86,22 @@ describe('seeding sample data', () => {
     expect(await ensureAdmin(testConfig({ ADMIN_EMAIL: 'a@daraja.test' }), silent)).toBe(false);
     expect(await ensureAdmin(config, silent)).toBe(true);
     expect(await ensureAdmin(config, silent)).toBe(false);
+  });
+});
+
+describe('seeding sample content', () => {
+  it('adds labelled sample articles, events and updates once', async () => {
+    const result = await seedDatabase(config, silent);
+    expect(result.content).toEqual({ skipped: false, articles: 6, events: 4, updates: 3 });
+    expect(await Article.countDocuments({ sample: true, status: 'approved' })).toBe(6);
+    expect(await Event.countDocuments({ sample: true, startsAt: { $gte: new Date() } })).toBe(3);
+    expect(await Update.countDocuments({ sample: true, pinned: true })).toBe(1);
+
+    const cargo = await Article.findOne({ category: 'cargo' }).populate('author');
+    expect(cargo.author.externalId).toMatch(/^MTR-/);
+    expect(cargo.author.profile.specialisation).toBe('cargo');
+
+    expect((await seedDatabase(config, silent)).content.skipped).toBe(true);
+    expect(await Article.countDocuments()).toBe(6);
   });
 });
