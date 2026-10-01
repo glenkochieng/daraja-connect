@@ -1,0 +1,42 @@
+name: ML service
+
+on:
+  pull_request:
+    paths: ['ml-service/**', '.github/workflows/ml-service.yml']
+  push:
+    branches: [main]
+    paths: ['ml-service/**', '.github/workflows/ml-service.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ml-service-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Lint and test (Python)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: ml-service
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+          cache: pip
+          cache-dependency-path: ml-service/requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -e . --no-deps
+      - name: Ruff
+        run: ruff check . --output-format github
+      - name: Tests
+        run: pytest
+      - name: Kenya Airways vocabulary provenance
+        run: python scripts/fetch_kq_public_data.py verify
