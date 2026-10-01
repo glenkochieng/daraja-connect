@@ -217,8 +217,7 @@ function RecommendedMentors({ query, taxonomy, onSent }) {
             </ButtonLink>
           }
         >
-          Recommendations need at least your career goals, the topics you want to learn or your
-          specialisation.
+          Recommendations need your career goals in your own words or the topics you want to learn.
         </EmptyState>
       ) : !query.data.items.length ? (
         <EmptyState title="No mentors are free right now">
