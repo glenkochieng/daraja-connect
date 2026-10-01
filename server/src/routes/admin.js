@@ -6,8 +6,10 @@ import { serializeUser } from '../lib/serialize.js';
 import { idParams, paginate, pagination, validate } from '../lib/validate.js';
 import { Article } from '../models/Article.js';
 import { ConnectionRequest } from '../models/ConnectionRequest.js';
+import { Event, Rsvp } from '../models/Event.js';
 import { MentorshipRequest } from '../models/MentorshipRequest.js';
 import { Recommendation } from '../models/Recommendation.js';
+import { Update } from '../models/Update.js';
 import { USER_STATUSES, USER_TYPES, User } from '../models/User.js';
 
 const escapeRegex = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -47,6 +49,13 @@ export async function adminStats() {
     },
     knowledge: {
       articlesByStatus: await countBy(Article, 'status'),
+    },
+    events: {
+      upcoming: await Event.countDocuments({ startsAt: { $gte: new Date() } }),
+      rsvps: await Rsvp.countDocuments(),
+    },
+    updates: {
+      published: await Update.countDocuments(),
     },
   };
 }

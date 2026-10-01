@@ -6,11 +6,13 @@ import { errorHandler, notFoundHandler } from './lib/errors.js';
 import { adminRouter } from './routes/admin.js';
 import { articleModerationRouter, articlesRouter } from './routes/articles.js';
 import { authRouter } from './routes/auth.js';
+import { eventsRouter } from './routes/events.js';
 import { healthRouter } from './routes/health.js';
 import { mentorshipRouter } from './routes/mentorship.js';
 import { metaRouter } from './routes/meta.js';
 import { connectionsRouter, directoryRouter } from './routes/networking.js';
 import { profileRouter } from './routes/profile.js';
+import { updatesRouter } from './routes/updates.js';
 import { usersRouter } from './routes/users.js';
 
 /**
@@ -39,6 +41,8 @@ export function createApp({ config, mlClient, taxonomy, log = console }) {
   app.use('/api/connections', connectionsRouter(deps));
   app.use('/api/articles', articlesRouter(deps));
   app.use('/api/admin/articles', articleModerationRouter(deps));
+  app.use('/api/events', eventsRouter(deps));
+  app.use('/api/updates', updatesRouter(deps));
   app.use('/api/admin', adminRouter(deps));
 
   app.use(notFoundHandler);
