@@ -9,10 +9,14 @@ import {
   RouteError,
 } from './components/Layout.jsx';
 import { Register, SignIn } from './pages/Auth.jsx';
+import { EventDetail, EventsList } from './pages/Events.jsx';
 import { Home } from './pages/Home.jsx';
+import { ArticleEditor, ArticleView, KnowledgeList } from './pages/Knowledge.jsx';
 import { Mentorship } from './pages/Mentorship.jsx';
+import { Connections, Directory, MemberProfile } from './pages/Networking.jsx';
 import { Profile } from './pages/Profile.jsx';
 import { Soon } from './pages/Soon.jsx';
+import { Updates } from './pages/Updates.jsx';
 
 const routes = [
   {
@@ -51,12 +55,16 @@ const routes = [
         children: [
           { index: true, element: <Home /> },
           { path: 'mentorship', element: <Mentorship /> },
-          { path: 'directory', element: <Soon moduleKey="networking" /> },
-          { path: 'connections', element: <Soon moduleKey="networking" /> },
-          { path: 'members/:id', element: <Soon moduleKey="networking" /> },
-          { path: 'knowledge/*', element: <Soon moduleKey="knowledge" /> },
-          { path: 'events/*', element: <Soon moduleKey="events" /> },
-          { path: 'updates', element: <Soon moduleKey="updates" /> },
+          { path: 'directory', element: <Directory /> },
+          { path: 'connections', element: <Connections /> },
+          { path: 'members/:id', element: <MemberProfile /> },
+          { path: 'knowledge', element: <KnowledgeList /> },
+          { path: 'knowledge/new', element: <ArticleEditor /> },
+          { path: 'knowledge/:id', element: <ArticleView /> },
+          { path: 'knowledge/:id/edit', element: <ArticleEditor /> },
+          { path: 'events', element: <EventsList /> },
+          { path: 'events/:id', element: <EventDetail /> },
+          { path: 'updates', element: <Updates /> },
           {
             path: 'admin/*',
             element: (
