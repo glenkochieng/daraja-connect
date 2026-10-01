@@ -23,9 +23,9 @@ const reset = process.argv.includes('--reset');
 await connectDatabase(config);
 try {
   const result = await seedDatabase(config, { reset });
-  if (result.skipped) {
-    console.info('Sample members already exist; nothing to do. Use --reset to start over.');
-  } else {
+  if (result.skipped && result.content.skipped) {
+    console.info('Sample data already exists; nothing to do. Use --reset to start over.');
+  } else if (!result.skipped) {
     console.info(`Seeded ${result.mentors} sample mentors and ${result.mentees} sample mentees.`);
     if (!result.sampleLoginEnabled) {
       console.info('SEED_USER_PASSWORD is not set, so sample accounts cannot be signed in to.');

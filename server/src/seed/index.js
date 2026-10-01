@@ -5,6 +5,7 @@ import mongoose from 'mongoose';
 import { hashPassword } from '../lib/auth.js';
 import { User } from '../models/User.js';
 import { sampleEmail, sampleName } from './names.js';
+import { seedSampleContent } from './sampleContent.js';
 
 async function readJson(file) {
   return JSON.parse(await readFile(file, 'utf8'));
@@ -84,8 +85,8 @@ function menteeDoc(e, passwordHash, now) {
 
 /**
  * Load the synthetic mentors and mentees (ml-service/data/synthetic) as approved
- * sample members. Idempotent: does nothing if sample members already exist,
- * unless `reset` clears the database first.
+ * sample members, plus sample articles, events and updates. Idempotent: each part
+ * is skipped if it already exists, unless `reset` clears the database first.
  */
 export async function seedDatabase(
   { seedDataDir, seedUserPassword, admin, bcryptRounds },
@@ -101,24 +102,24 @@ export async function seedDatabase(
   };
   if (await User.exists({ externalId: { $exists: true } })) {
     result.skipped = true;
-    return result;
+  } else {
+    const [mentors, mentees] = await Promise.all([
+      readJson(path.join(seedDataDir, 'mentors.json')),
+      readJson(path.join(seedDataDir, 'mentees.json')),
+    ]);
+    // One hash for every sample account. Without SEED_USER_PASSWORD the sample
+    // accounts get a random password nobody knows, so they cannot be signed in to.
+    const password = seedUserPassword ?? randomBytes(24).toString('hex');
+    const passwordHash = await hashPassword(password, bcryptRounds);
+    const now = new Date();
+    await User.insertMany([
+      ...mentors.map((m) => mentorDoc(m, passwordHash, now)),
+      ...mentees.map((e) => menteeDoc(e, passwordHash, now)),
+    ]);
+    result.mentors = mentors.length;
+    result.mentees = mentees.length;
+    result.sampleLoginEnabled = Boolean(seedUserPassword);
   }
-
-  const [mentors, mentees] = await Promise.all([
-    readJson(path.join(seedDataDir, 'mentors.json')),
-    readJson(path.join(seedDataDir, 'mentees.json')),
-  ]);
-  // One hash for every sample account. Without SEED_USER_PASSWORD the sample
-  // accounts get a random password nobody knows, so they cannot be signed in to.
-  const password = seedUserPassword ?? randomBytes(24).toString('hex');
-  const passwordHash = await hashPassword(password, bcryptRounds);
-  const now = new Date();
-  await User.insertMany([
-    ...mentors.map((m) => mentorDoc(m, passwordHash, now)),
-    ...mentees.map((e) => menteeDoc(e, passwordHash, now)),
-  ]);
-  result.mentors = mentors.length;
-  result.mentees = mentees.length;
-  result.sampleLoginEnabled = Boolean(seedUserPassword);
+  result.content = await seedSampleContent({ log });
   return result;
 }
