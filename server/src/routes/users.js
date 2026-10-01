@@ -3,6 +3,7 @@ import { requireApproved, requireAuth } from '../lib/auth.js';
 import { notFound } from '../lib/errors.js';
 import { serializeUser } from '../lib/serialize.js';
 import { idParams, validate } from '../lib/validate.js';
+import { ConnectionRequest, pairKey } from '../models/ConnectionRequest.js';
 import { MentorshipRequest } from '../models/MentorshipRequest.js';
 import { User } from '../models/User.js';
 
@@ -14,17 +15,19 @@ const between = (a, b, fieldA, fieldB) => ({
 });
 
 /**
- * Who may see a member's email address: themselves, admins, and people with an
- * accepted mentorship. Extended by the networking module (accepted connections).
+ * Who may see a member's email address: themselves, admins, accepted connections,
+ * and people with an accepted mentorship.
  */
 export async function canSeeEmail(viewer, target) {
   if (viewer.role === 'admin' || viewer.id === target.id) return true;
-  return Boolean(
-    await MentorshipRequest.exists({
+  const [connected, mentorship] = await Promise.all([
+    ConnectionRequest.exists({ pairKey: pairKey(viewer._id, target._id), status: 'accepted' }),
+    MentorshipRequest.exists({
       status: { $in: ['accepted', 'completed'] },
       ...between(viewer._id, target._id, 'mentee', 'mentor'),
     }),
-  );
+  ]);
+  return Boolean(connected || mentorship);
 }
 
 export function usersRouter({ config }) {
