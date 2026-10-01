@@ -48,12 +48,10 @@ export function authRouter({ config }) {
       consent: { given: true, givenAt: new Date() },
       profile: { roleTitle: body.roleTitle, yearsExperience: body.yearsExperience },
     });
-    res
-      .status(201)
-      .json({
-        token: signToken(user, config),
-        user: serializeUser(user, { includePrivate: true }),
-      });
+    res.status(201).json({
+      token: signToken(user, config),
+      user: serializeUser(user, { includePrivate: true }),
+    });
   });
 
   router.post('/login', limiter, validate({ body: loginBody }), async (req, res) => {
