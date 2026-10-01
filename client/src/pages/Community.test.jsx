@@ -48,7 +48,7 @@ describe('Directory', () => {
     const row = (await screen.findByText('Wanjiru Kamau')).closest('li');
     expect(within(row).getByText('Load Controller', { exact: false })).toBeTruthy();
     expect(within(row).getByText('(you share this)', { exact: false })).toBeTruthy();
-    expect(within(row).getByText('Mentor with free places')).toBeTruthy();
+    expect(within(row).getByText('Available to mentor')).toBeTruthy();
 
     await user.click(within(row).getByRole('button', { name: 'Connect' }));
     await user.type(within(row).getByLabelText(/Note to Wanjiru/), 'Hello');
@@ -115,7 +115,7 @@ describe('ArticleEditor', () => {
 });
 
 describe('EventsList', () => {
-  it('reserves a place and shows places left in words', async () => {
+  it('reserves a place and shows the places available in words', async () => {
     const event = {
       id: '64b0000000000000000000e1',
       title: 'Career clinic',
@@ -139,7 +139,7 @@ describe('EventsList', () => {
     renderRoutes([guarded('/events', <EventsList />)], { path: '/events', token: 't' });
     const user = userEvent.setup();
 
-    expect(await screen.findByText('2 places left')).toBeTruthy();
+    expect(await screen.findByText('2 places available')).toBeTruthy();
     expect(screen.getByText(/12:00 · Nairobi/)).toBeTruthy();
     await user.click(screen.getByRole('button', { name: /Reserve a place/ }));
     await waitFor(() =>
