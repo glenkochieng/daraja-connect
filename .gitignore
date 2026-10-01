@@ -69,9 +69,10 @@ desktop.ini
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# Machine-local AI/design tool settings
+# Machine-local AI/design tool settings and caches
 .claude/settings.local.json
 .impeccable/*.local.json
+.impeccable/*.cache.json
 
 # ---------------------------------------------------------------- logs
 *.log
