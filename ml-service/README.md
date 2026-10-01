@@ -134,15 +134,17 @@ const res = await fetch("http://matching-service:8000/recommendations", {
       wants_to_learn: ["flight_dispatch", "aircraft_performance"]
     },
     k: 5,
-    exclude_mentor_ids: openRequestMentorIds
+    exclude_mentor_ids: openRequestMentorIds,
+    // Candidate mentors from MongoDB (MentorProfile objects). Omit to use data/synthetic/mentors.json.
+    mentors: eligibleMentors
   })
 });
 const { status, results } = await res.json(); // status: ok | incomplete_profile | no_eligible_mentors
 ```
 
-Keep the service on the internal network. To use MongoDB instead of the JSON mentor file,
-replace `load_mentor_profiles()` in `src/daraja/api.py`. `GET /taxonomy` returns the topic and
-specialisation lists for the profile form.
+Keep the service on the internal network. The Express server (`server/src/services/mentorship.js`)
+sends the candidate mentors with each request, so this service never needs database credentials.
+`GET /taxonomy` returns the specialisations, topics and Pride Centre programmes for the profile forms.
 
 ## Project structure
 
