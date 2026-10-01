@@ -2,37 +2,37 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "API: matching service (uvicorn, reload)",
+      "name": "ML: matching service (uvicorn, reload)",
       "type": "debugpy",
       "request": "launch",
       "module": "uvicorn",
       "args": ["daraja.api:app", "--reload", "--port", "8000"],
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/ml-service",
       "justMyCode": true
     },
     {
-      "name": "Pipeline: run everything",
+      "name": "ML: run the whole pipeline",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/scripts/run_pipeline.py",
-      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/ml-service/scripts/run_pipeline.py",
+      "cwd": "${workspaceFolder}/ml-service",
       "console": "integratedTerminal"
     },
     {
-      "name": "Pipeline: quick (no sensitivity analysis)",
+      "name": "ML: pipeline, quick (no sensitivity analysis)",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/scripts/run_pipeline.py",
+      "program": "${workspaceFolder}/ml-service/scripts/run_pipeline.py",
       "args": ["--quick"],
-      "cwd": "${workspaceFolder}",
+      "cwd": "${workspaceFolder}/ml-service",
       "console": "integratedTerminal"
     },
     {
-      "name": "Evaluate on test split",
+      "name": "ML: evaluate on test split",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/scripts/evaluate.py",
-      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/ml-service/scripts/evaluate.py",
+      "cwd": "${workspaceFolder}/ml-service",
       "console": "integratedTerminal"
     },
     {
@@ -40,7 +40,7 @@
       "type": "debugpy",
       "request": "launch",
       "program": "${file}",
-      "cwd": "${workspaceFolder}",
+      "cwd": "${fileDirname}",
       "console": "integratedTerminal"
     }
   ]

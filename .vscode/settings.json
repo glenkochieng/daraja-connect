@@ -1,10 +1,11 @@
 {
-  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.defaultInterpreterPath": "${workspaceFolder}/ml-service/.venv/Scripts/python.exe",
   "python.terminal.activateEnvironment": true,
   "python.testing.pytestEnabled": true,
   "python.testing.unittestEnabled": false,
+  "python.testing.cwd": "${workspaceFolder}/ml-service",
   "python.testing.pytestArgs": ["tests"],
-  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "jupyter.notebookFileRoot": "${workspaceFolder}/ml-service",
   "files.exclude": {
     "**/__pycache__": true,
     "**/.pytest_cache": true,

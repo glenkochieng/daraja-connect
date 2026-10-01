@@ -16,13 +16,18 @@ block weights and a missing-data policy, selected by grid search on a validation
 
 ## Quick start (Windows, VS Code)
 
-1. Open this folder in VS Code and install the recommended extensions when prompted (Python, Jupyter).
-2. The virtual environment `.venv` already exists. If you need to recreate it, open a terminal (Ctrl + `) and run:
+This service lives in `ml-service/` of the Daraja Connect monorepo. Run every command below from
+this folder.
+
+1. Open the repository root in VS Code and install the recommended extensions when prompted (Python, Jupyter).
+2. Create the virtual environment (once). In a terminal (Ctrl + `):
 
    ```
+   cd ml-service
    python -m venv .venv
    .venv\Scripts\activate
-   pip install -e ".[dev]"
+   pip install -r requirements.txt
+   pip install -e . --no-deps
    ```
 
 3. Run everything (about 2 minutes):
@@ -32,8 +37,8 @@ block weights and a missing-data policy, selected by grid search on a validation
    ```
 
 4. Run the tests: `pytest`, or use the Testing panel in VS Code.
-5. Start the matching API: `uvicorn daraja.api:app --reload`, or press F5 and choose *API: matching service*. Then open http://127.0.0.1:8000/docs.
-6. Open `notebooks/01_walkthrough.ipynb` and select the `.venv` kernel.
+5. Start the matching API: `uvicorn daraja.api:app --reload`, or press F5 and choose *ML: matching service*. Then open http://127.0.0.1:8000/docs.
+6. Open `notebooks/01_walkthrough.ipynb` and select the `ml-service/.venv` kernel.
 
 ## How matching works
 
