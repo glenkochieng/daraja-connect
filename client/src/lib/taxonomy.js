@@ -29,3 +29,26 @@ export function programmeName(taxonomy, id) {
   if (!id) return '';
   return taxonomy?.programmeById.get(id)?.name ?? id;
 }
+
+/** A domain's display name: the specialisation name, or the id made readable ("career_development" -> "Career development"). */
+export function domainName(taxonomy, id) {
+  const known = taxonomy?.specialisationById.get(id)?.name;
+  if (known) return known;
+  const text = id.replace(/_/g, ' ');
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+/** Topics grouped by domain, in taxonomy order. */
+export function groupTopics(topics, taxonomy) {
+  const byDomain = new Map();
+  for (const topic of topics) {
+    const list = byDomain.get(topic.domain) ?? [];
+    list.push(topic);
+    byDomain.set(topic.domain, list);
+  }
+  return [...byDomain].map(([domain, list]) => ({
+    domain,
+    name: domainName(taxonomy, domain),
+    topics: list,
+  }));
+}

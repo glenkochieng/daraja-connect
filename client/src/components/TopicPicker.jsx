@@ -1,11 +1,6 @@
 import { useId, useMemo, useState } from 'react';
+import { groupTopics } from '../lib/taxonomy.js';
 import { Pictogram } from './Pictogram.jsx';
-
-/** "career_development" -> "Career development", for topic groups that are not specialisations. */
-function humanise(id) {
-  const text = id.replace(/_/g, ' ');
-  return text.charAt(0).toUpperCase() + text.slice(1);
-}
 
 /**
  * Choose topics from the recommender's taxonomy. Topics are grouped by domain and can be
@@ -19,18 +14,8 @@ export function TopicPicker({ label, hint, error, topics, taxonomy, value, onCha
 
   const groups = useMemo(() => {
     const needle = filter.trim().toLowerCase();
-    const byDomain = new Map();
-    for (const topic of topics) {
-      if (needle && !topic.name.toLowerCase().includes(needle)) continue;
-      const list = byDomain.get(topic.domain) ?? [];
-      list.push(topic);
-      byDomain.set(topic.domain, list);
-    }
-    return [...byDomain].map(([domain, list]) => ({
-      domain,
-      name: taxonomy?.specialisationById.get(domain)?.name ?? humanise(domain),
-      topics: list,
-    }));
+    const matching = needle ? topics.filter((t) => t.name.toLowerCase().includes(needle)) : topics;
+    return groupTopics(matching, taxonomy);
   }, [filter, taxonomy, topics]);
 
   const toggle = (topicId) =>
