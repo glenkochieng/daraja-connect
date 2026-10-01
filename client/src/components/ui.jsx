@@ -1,6 +1,7 @@
 import { useId, useState } from 'react';
 import { Link } from 'react-router';
 import { initialsOf } from '../lib/format.js';
+import { listInWords } from '../lib/profile.js';
 import { Pictogram } from './Pictogram.jsx';
 
 /** The location sign under the band: where you are and what you can do here. */
@@ -127,6 +128,7 @@ const STATUS = {
   approved: ['Published', 'check'],
   rejected: ['Not published', 'x'],
   available: ['Available', 'check'],
+  going: ['Going', 'check'],
   full: ['No places left', 'x'],
 };
 
@@ -142,6 +144,18 @@ export function StatusSign({ status, label }) {
       <Pictogram name={icon} size={14} />
       <span className="status__word">{label ?? word}</span>
     </span>
+  );
+}
+
+/** One quiet line in the location header pointing at what the profile still needs. */
+export function ProfileNudge({ gaps }) {
+  if (!gaps.length) return null;
+  const text = gaps.length <= 2 ? `Add ${listInWords(gaps)}` : 'Complete your profile';
+  return (
+    <Link to="/profile" className="status-link">
+      <Pictogram name="arrowRight" size={16} />
+      {text}
+    </Link>
   );
 }
 
