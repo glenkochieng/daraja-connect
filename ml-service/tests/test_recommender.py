@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
-
 from conftest import mentee, mentor
+
 from daraja.config import MatchingConfig
 from daraja.recommender import BlockScores, ContentRecommender, combine_blocks
 

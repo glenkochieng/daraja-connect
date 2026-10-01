@@ -52,12 +52,12 @@ class MatchingConfig:
         self.text.ngram_range = tuple(self.text.ngram_range)
         self.required_mentee_blocks_any = tuple(self.required_mentee_blocks_any)
 
-    def with_weights(self, **weights: float) -> "MatchingConfig":
+    def with_weights(self, **weights: float) -> MatchingConfig:
         data = self.to_dict()
         data["weights"] = {**data["weights"], **weights}
         return MatchingConfig.from_dict(data)
 
-    def with_policy(self, missing_policy: str) -> "MatchingConfig":
+    def with_policy(self, missing_policy: str) -> MatchingConfig:
         return MatchingConfig.from_dict({**self.to_dict(), "missing_policy": missing_policy})
 
     def to_dict(self) -> dict:
@@ -73,7 +73,7 @@ class MatchingConfig:
         return hashlib.sha256(payload).hexdigest()[:10]
 
     @classmethod
-    def from_dict(cls, data: dict) -> "MatchingConfig":
+    def from_dict(cls, data: dict) -> MatchingConfig:
         data = dict(data)
         data.pop("metadata", None)
         filters = FilterConfig(**data.pop("filters", {}))

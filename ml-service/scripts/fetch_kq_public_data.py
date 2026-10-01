@@ -206,7 +206,7 @@ def verify() -> int:
     vocab = json.loads(VOCAB_PATH.read_text(encoding="utf-8"))
     snapshots = {p.stem: normalise_for_match(p.read_text(encoding="utf-8")) for p in RAW_DIR.glob("*.txt")}
     rows, failures = [], 0
-    for path, label, evidence in _iter_evidence(vocab):
+    for _path, label, evidence in _iter_evidence(vocab):
         for ev in evidence:
             text = snapshots.get(ev["source"])
             ok = text is not None and normalise_for_match(ev["quote"]) in text

@@ -26,7 +26,7 @@ def main() -> None:
     DEMO_DIR.mkdir(parents=True, exist_ok=True)
     for rater, seed in (("demo_rater_A", 1), ("demo_rater_B", 2)):
         rng = np.random.default_rng(seed)
-        truth = np.array([relevance[m][t] for m, t in zip(sheet["mentee_id"], sheet["mentor_id"])])
+        truth = np.array([relevance[m][t] for m, t in zip(sheet["mentee_id"], sheet["mentor_id"], strict=False)])
         noise = np.where(rng.random(len(truth)) < 0.20, rng.choice([-1, 1], size=len(truth)), 0)
         filled = sheet.copy()
         filled["rating"] = np.clip(truth + noise, 0, 2)

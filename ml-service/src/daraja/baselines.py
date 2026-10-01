@@ -27,7 +27,7 @@ class RandomRecommender:
         self.config, self.seed, self.name = config, seed, name
         self.pool: MentorPool | None = None
 
-    def fit(self, mentors: Sequence[MentorProfile]) -> "RandomRecommender":
+    def fit(self, mentors: Sequence[MentorProfile]) -> RandomRecommender:
         self.pool = MentorPool(mentors)
         return self
 
@@ -49,7 +49,7 @@ class RuleBasedRecommender:
         self.config, self.name = config, name
         self.pool: MentorPool | None = None
 
-    def fit(self, mentors: Sequence[MentorProfile]) -> "RuleBasedRecommender":
+    def fit(self, mentors: Sequence[MentorProfile]) -> RuleBasedRecommender:
         self.pool = MentorPool(mentors)
         return self
 

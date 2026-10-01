@@ -147,7 +147,7 @@ def evaluate_pooled(key: pd.DataFrame, labels: pd.Series, k: int, threshold: int
     key = key[key["pair_id"].isin(labels.index)].copy()
     key["grade"] = key["pair_id"].map(labels)
     systems = [c.removeprefix("rank_") for c in key.columns if c.startswith("rank_")]
-    relevance = {m: dict(zip(g["mentor_id"], g["grade"])) for m, g in key.groupby("mentee_id")}
+    relevance = {m: dict(zip(g["mentor_id"], g["grade"], strict=False)) for m, g in key.groupby("mentee_id")}
     rankings = {}
     for system in systems:
         col = f"rank_{system}"
