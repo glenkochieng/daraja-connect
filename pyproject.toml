@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "daraja-recommender"
+version = "0.1.0"
+description = "Daraja Connect: a content-based mentor recommender for Kenya Airways Pride Centre alumni (mentees) and current/former employees (mentors)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scipy>=1.11",
+    "scikit-learn>=1.4",
+    "pyyaml>=6.0",
+    "pydantic>=2.5",
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "httpx2", "ipykernel>=6.29", "nbclient>=0.10", "nbformat>=5.10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    # raised inside starlette's own test client, not by this project
+    "ignore:The anyio.abc.BlockingPortal alias is deprecated:DeprecationWarning",
+]
