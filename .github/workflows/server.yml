@@ -1,0 +1,47 @@
+name: Server
+
+on:
+  pull_request:
+    paths:
+      - 'server/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'ml-service/data/taxonomy/**'
+      - 'ml-service/data/kq_public/kq_domain_vocabulary.json'
+      - 'ml-service/data/synthetic/*.json'
+      - '.github/workflows/server.yml'
+  push:
+    branches: [main]
+    paths: ['server/**', 'package-lock.json', '.github/workflows/server.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: server-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Lint and test (Express API)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      # mongodb-memory-server downloads a MongoDB binary on first use; keep it between runs.
+      - name: Cache MongoDB binary
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/mongodb-binaries
+          key: mongodb-binaries-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: mongodb-binaries-${{ runner.os }}-
+      - name: Install dependencies
+        run: npm ci
+      - name: ESLint
+        run: npx eslint server
+      - name: Tests
+        run: npm test --workspace server
