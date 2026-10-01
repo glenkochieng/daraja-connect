@@ -3,6 +3,7 @@ import express from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import { errorHandler, notFoundHandler } from './lib/errors.js';
+import { adminRouter } from './routes/admin.js';
 import { authRouter } from './routes/auth.js';
 import { healthRouter } from './routes/health.js';
 import { metaRouter } from './routes/meta.js';
@@ -30,6 +31,7 @@ export function createApp({ config, mlClient, taxonomy, log = console }) {
   app.use('/api/auth', authRouter(deps));
   app.use('/api/profile', profileRouter(deps));
   app.use('/api/users', usersRouter(deps));
+  app.use('/api/admin', adminRouter(deps));
 
   app.use(notFoundHandler);
   app.use(errorHandler({ log }));
