@@ -4,6 +4,7 @@ import { requireAdmin, requireAuth } from '../lib/auth.js';
 import { badRequest, notFound } from '../lib/errors.js';
 import { serializeUser } from '../lib/serialize.js';
 import { idParams, paginate, pagination, validate } from '../lib/validate.js';
+import { Article } from '../models/Article.js';
 import { ConnectionRequest } from '../models/ConnectionRequest.js';
 import { MentorshipRequest } from '../models/MentorshipRequest.js';
 import { Recommendation } from '../models/Recommendation.js';
@@ -43,6 +44,9 @@ export async function adminStats() {
     },
     networking: {
       connectionsByStatus: await countBy(ConnectionRequest, 'status'),
+    },
+    knowledge: {
+      articlesByStatus: await countBy(Article, 'status'),
     },
   };
 }

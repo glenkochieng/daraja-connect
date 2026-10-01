@@ -4,6 +4,7 @@ import helmet from 'helmet';
 import morgan from 'morgan';
 import { errorHandler, notFoundHandler } from './lib/errors.js';
 import { adminRouter } from './routes/admin.js';
+import { articleModerationRouter, articlesRouter } from './routes/articles.js';
 import { authRouter } from './routes/auth.js';
 import { healthRouter } from './routes/health.js';
 import { mentorshipRouter } from './routes/mentorship.js';
@@ -36,6 +37,8 @@ export function createApp({ config, mlClient, taxonomy, log = console }) {
   app.use('/api/mentorship', mentorshipRouter(deps));
   app.use('/api/directory', directoryRouter(deps));
   app.use('/api/connections', connectionsRouter(deps));
+  app.use('/api/articles', articlesRouter(deps));
+  app.use('/api/admin/articles', articleModerationRouter(deps));
   app.use('/api/admin', adminRouter(deps));
 
   app.use(notFoundHandler);
