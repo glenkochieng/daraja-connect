@@ -1,0 +1,13 @@
+node_modules/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+package-lock.json
+
+# The Python service has its own tooling (Ruff); its data files are generated.
+ml-service/
+
+# Markdown tables and prose are kept as written (Prettier pads tables, which makes diffs noisy)
+*.md
