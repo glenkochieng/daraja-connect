@@ -3,11 +3,28 @@ import { requireApproved, requireAuth } from '../lib/auth.js';
 import { notFound } from '../lib/errors.js';
 import { serializeUser } from '../lib/serialize.js';
 import { idParams, validate } from '../lib/validate.js';
+import { MentorshipRequest } from '../models/MentorshipRequest.js';
 import { User } from '../models/User.js';
 
-/** Who may see a member's email address. Extended by the networking module. */
+const between = (a, b, fieldA, fieldB) => ({
+  $or: [
+    { [fieldA]: a, [fieldB]: b },
+    { [fieldA]: b, [fieldB]: a },
+  ],
+});
+
+/**
+ * Who may see a member's email address: themselves, admins, and people with an
+ * accepted mentorship. Extended by the networking module (accepted connections).
+ */
 export async function canSeeEmail(viewer, target) {
-  return viewer.role === 'admin' || viewer.id === target.id;
+  if (viewer.role === 'admin' || viewer.id === target.id) return true;
+  return Boolean(
+    await MentorshipRequest.exists({
+      status: { $in: ['accepted', 'completed'] },
+      ...between(viewer._id, target._id, 'mentee', 'mentor'),
+    }),
+  );
 }
 
 export function usersRouter({ config }) {
