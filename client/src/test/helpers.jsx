@@ -34,6 +34,66 @@ export function renderRoutes(routes, { path = '/', token } = {}) {
   return { ...result, router };
 }
 
+export const sampleTaxonomy = {
+  specialisations: [
+    { id: 'ground_operations', name: 'Ground Handling & Airport Services' },
+    { id: 'aircraft_maintenance', name: 'Aircraft Maintenance & Engineering' },
+  ],
+  topics: [
+    { id: 'station_management', name: 'Station management', domain: 'ground_operations' },
+    { id: 'line_maintenance', name: 'Line maintenance', domain: 'aircraft_maintenance' },
+    { id: 'interview_prep', name: 'Interview preparation', domain: 'career_development' },
+    { id: 'b737', name: 'Boeing 737-800', domain: 'fleet' },
+  ],
+  programmes: [
+    {
+      id: 'cert_weight_balance',
+      name: 'Certificate in Weight and Balance',
+      domain: 'ground_operations',
+    },
+  ],
+};
+
+/** The taxonomy as `useTaxonomy()` returns it, for components that take it as a prop. */
+export const selectedTaxonomy = {
+  ...sampleTaxonomy,
+  topicById: new Map(sampleTaxonomy.topics.map((t) => [t.id, t])),
+  specialisationById: new Map(sampleTaxonomy.specialisations.map((s) => [s.id, s])),
+  programmeById: new Map(sampleTaxonomy.programmes.map((p) => [p.id, p])),
+};
+
+export const sampleMentor = {
+  id: '64b000000000000000000002',
+  name: 'Kiptoo Tanui',
+  userType: 'current_staff',
+  role: 'member',
+  isMentee: false,
+  isMentor: true,
+  isSample: false,
+  status: 'approved',
+  memberSince: '2026-09-01T08:00:00.000Z',
+  profile: {
+    headline: 'Station manager',
+    bio: '',
+    location: 'Mombasa',
+    specialisation: 'ground_operations',
+    yearsExperience: 18,
+    roleTitle: 'Station Manager',
+    department: 'Ground Operations',
+    fleetExperience: [],
+    skills: ['station_management'],
+    certifications: [],
+    linkedinUrl: '',
+  },
+  mentor: {
+    expertiseText: 'Running outstations.',
+    canMentorIn: ['station_management'],
+    maxMentees: 3,
+    currentMentees: 1,
+    isAvailable: true,
+  },
+};
+
 export const sampleMentee = {
   id: '64b000000000000000000001',
   name: 'Amina Wanjiru',
