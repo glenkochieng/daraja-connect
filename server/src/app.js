@@ -3,7 +3,11 @@ import express from 'express';
 import helmet from 'helmet';
 import morgan from 'morgan';
 import { errorHandler, notFoundHandler } from './lib/errors.js';
+import { authRouter } from './routes/auth.js';
 import { healthRouter } from './routes/health.js';
+import { metaRouter } from './routes/meta.js';
+import { profileRouter } from './routes/profile.js';
+import { usersRouter } from './routes/users.js';
 
 /**
  * Build the Express application. Dependencies are passed in so tests can use an
@@ -22,6 +26,10 @@ export function createApp({ config, mlClient, taxonomy, log = console }) {
 
   const deps = { config, mlClient, taxonomy, log };
   app.use('/api/health', healthRouter(deps));
+  app.use('/api/meta', metaRouter(deps));
+  app.use('/api/auth', authRouter(deps));
+  app.use('/api/profile', profileRouter(deps));
+  app.use('/api/users', usersRouter(deps));
 
   app.use(notFoundHandler);
   app.use(errorHandler({ log }));
