@@ -1,19 +1,28 @@
 {
-  "name": "daraja-connect-recommender",
-  "version": "1.0.0",
-  "description": "A **content-based mentor recommender** that ranks current and former Kenya Airways employees (mentors) for Kenya Airways Pride Centre alumni (mentees). It compares profiles with TF-IDF text similarity, skill-tag similarity and a specialisation match, combines the three with weights, and explains each recommendation.",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "tests"
+  "name": "daraja-connect",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Daraja Connect monorepo: React client, Express API and Python matching service for the Kenya Airways alumni ecosystem",
+  "license": "UNLICENSED",
+  "type": "module",
+  "workspaces": [],
+  "engines": {
+    "node": ">=22"
   },
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test:e2e": "playwright test"
+  },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.63.0",
-    "@types/node": "^26.6.2"
+    "@types/node": "^26.6.2",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.9"
   }
 }
