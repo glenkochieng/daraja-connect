@@ -77,11 +77,19 @@ export function AdminLayout() {
 
 /* ------------------------------------------------------------------ overview */
 
-function Stat({ value, label }) {
+/** A group of figures: plain heading, then label-left, figure-right rows on hairlines. */
+function Figures({ title, rows }) {
   return (
-    <div className="stat">
-      <span className="stat__value">{value ?? 0}</span>
-      <span className="stat__label">{label}</span>
+    <div className="board__row figures">
+      <h3 className="stat-group">{title}</h3>
+      <dl className="figures__list">
+        {rows.map(([label, value]) => (
+          <div className="figure" key={label}>
+            <dt>{label}</dt>
+            <dd>{value ?? 0}</dd>
+          </div>
+        ))}
+      </dl>
     </div>
   );
 }
@@ -98,34 +106,34 @@ export function AdminOverview() {
                 <Pictogram name="admin" /> The platform today
               </h2>
             </div>
-            <div className="board__row stack" style={{ gap: 'var(--s5)' }}>
-              <div>
-                <h3 className="stat-group">Members</h3>
-                <div className="stats">
-                  <Stat value={s.users.byType.pride_alumni} label="Pride Centre graduates" />
-                  <Stat value={s.users.byType.current_staff} label="Kenya Airways staff" />
-                  <Stat value={s.users.byType.former_staff} label="Former staff" />
-                  <Stat value={s.users.byStatus.rejected} label="Registrations refused" />
-                </div>
-              </div>
-              <div>
-                <h3 className="stat-group">Mentorship</h3>
-                <div className="stats">
-                  <Stat value={s.mentorship.requestsByStatus.pending} label="Requests waiting" />
-                  <Stat value={s.mentorship.requestsByStatus.accepted} label="Active mentorships" />
-                  <Stat value={s.mentorship.requestsByStatus.completed} label="Completed" />
-                  <Stat value={s.mentorship.recommendationsShown} label="Recommendations shown" />
-                </div>
-              </div>
-              <div>
-                <h3 className="stat-group">Community</h3>
-                <div className="stats">
-                  <Stat value={s.networking.connectionsByStatus.accepted} label="Connections" />
-                  <Stat value={s.knowledge.articlesByStatus.approved} label="Articles published" />
-                  <Stat value={s.events.upcoming} label="Upcoming events" />
-                  <Stat value={s.events.rsvps} label="Event places reserved" />
-                </div>
-              </div>
+            <div className="board__body">
+              <Figures
+                title="Members"
+                rows={[
+                  ['Pride Centre graduates', s.users.byType.pride_alumni],
+                  ['Kenya Airways staff', s.users.byType.current_staff],
+                  ['Former Kenya Airways staff', s.users.byType.former_staff],
+                  ['Registrations refused', s.users.byStatus.rejected],
+                ]}
+              />
+              <Figures
+                title="Mentorship"
+                rows={[
+                  ['Requests waiting for a mentor', s.mentorship.requestsByStatus.pending],
+                  ['Active mentorships', s.mentorship.requestsByStatus.accepted],
+                  ['Completed mentorships', s.mentorship.requestsByStatus.completed],
+                  ['Recommendations shown', s.mentorship.recommendationsShown],
+                ]}
+              />
+              <Figures
+                title="Community"
+                rows={[
+                  ['Connections', s.networking.connectionsByStatus.accepted],
+                  ['Articles published', s.knowledge.articlesByStatus.approved],
+                  ['Upcoming events', s.events.upcoming],
+                  ['Event places reserved', s.events.rsvps],
+                ]}
+              />
             </div>
           </section>
           <section className="board board--departures" aria-labelledby="waiting-title">
@@ -213,7 +221,7 @@ function DecisionForm({ approveLabel, rejectLabel, reasonLabel, busy, onDecide, 
       <div className="cluster">
         {allow.includes('approved') ? (
           <Button
-            variant="go"
+            variant="primary"
             size="small"
             icon="check"
             busy={busy === 'approved'}

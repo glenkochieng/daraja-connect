@@ -38,11 +38,13 @@ function useRsvp() {
 
 /** Going, full, or the places left: always a word, never colour alone. */
 function PlaceStatus({ event }) {
-  if (event.going) return <StatusSign status="accepted" label="You are going" />;
+  if (event.going) return <StatusSign status="going" label="You are going" />;
   if (event.spotsLeft === 0) return <StatusSign status="full" />;
   if (event.spotsLeft != null)
-    return <StatusSign status="available" label={`${plural(event.spotsLeft, 'place')} left`} />;
-  return <StatusSign status="available" label="Open to all" />;
+    return (
+      <StatusSign status="available" label={`${plural(event.spotsLeft, 'place')} available`} />
+    );
+  return <StatusSign status="available" label="Places available" />;
 }
 
 function RsvpButton({ event, rsvp, size }) {
