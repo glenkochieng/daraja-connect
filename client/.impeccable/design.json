@@ -1,0 +1,611 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-01T12:32:26.987Z",
+  "title": "Design System: Daraja Connect",
+  "extensions": {
+    "colorMeta": {
+      "sign-black": {
+        "role": "primary",
+        "displayName": "Sign Black",
+        "canonical": "#16181b",
+        "oklch": "oklch(20.8% 0.007 258.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 258.4)",
+          "oklch(25.0% 0.007 258.4)",
+          "oklch(35.0% 0.007 258.4)",
+          "oklch(47.0% 0.007 258.4)",
+          "oklch(59.0% 0.007 258.4)",
+          "oklch(71.0% 0.007 258.4)",
+          "oklch(83.0% 0.007 258.4)",
+          "oklch(95.0% 0.003 258.4)"
+        ]
+      },
+      "sign-raised": {
+        "role": "primary",
+        "displayName": "Sign Raised",
+        "canonical": "#24282c",
+        "oklch": "oklch(27.4% 0.009 248.2)",
+        "tonalRamp": [
+          "oklch(15.0% 0.009 248.2)",
+          "oklch(25.0% 0.009 248.2)",
+          "oklch(35.0% 0.009 248.2)",
+          "oklch(47.0% 0.009 248.2)",
+          "oklch(59.0% 0.009 248.2)",
+          "oklch(71.0% 0.009 248.2)",
+          "oklch(83.0% 0.009 248.2)",
+          "oklch(95.0% 0.005 248.2)"
+        ]
+      },
+      "sign-rule": {
+        "role": "primary",
+        "displayName": "Sign Rule",
+        "canonical": "#343a40",
+        "oklch": "oklch(34.5% 0.013 248.2)",
+        "tonalRamp": [
+          "oklch(15.0% 0.013 248.2)",
+          "oklch(25.0% 0.013 248.2)",
+          "oklch(35.0% 0.013 248.2)",
+          "oklch(47.0% 0.013 248.2)",
+          "oklch(59.0% 0.013 248.2)",
+          "oklch(71.0% 0.013 248.2)",
+          "oklch(83.0% 0.013 248.2)",
+          "oklch(95.0% 0.007 248.2)"
+        ]
+      },
+      "sign-text": {
+        "role": "primary",
+        "displayName": "Sign Text",
+        "canonical": "#f2f1ec",
+        "oklch": "oklch(95.8% 0.007 97.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 97.4)",
+          "oklch(25.0% 0.007 97.4)",
+          "oklch(35.0% 0.007 97.4)",
+          "oklch(47.0% 0.007 97.4)",
+          "oklch(59.0% 0.007 97.4)",
+          "oklch(71.0% 0.007 97.4)",
+          "oklch(83.0% 0.007 97.4)",
+          "oklch(95.0% 0.003 97.4)"
+        ]
+      },
+      "sign-text-2": {
+        "role": "primary",
+        "displayName": "Sign Text Secondary",
+        "canonical": "#b8bcbf",
+        "oklch": "oklch(79.3% 0.006 239.8)",
+        "tonalRamp": [
+          "oklch(15.0% 0.006 239.8)",
+          "oklch(25.0% 0.006 239.8)",
+          "oklch(35.0% 0.006 239.8)",
+          "oklch(47.0% 0.006 239.8)",
+          "oklch(59.0% 0.006 239.8)",
+          "oklch(71.0% 0.006 239.8)",
+          "oklch(83.0% 0.006 239.8)",
+          "oklch(95.0% 0.003 239.8)"
+        ]
+      },
+      "directional-yellow": {
+        "role": "secondary",
+        "displayName": "Directional Yellow",
+        "canonical": "#f2c230",
+        "oklch": "oklch(83.4% 0.158 89.0)",
+        "tonalRamp": [
+          "oklch(15.0% 0.158 89.0)",
+          "oklch(25.0% 0.158 89.0)",
+          "oklch(35.0% 0.158 89.0)",
+          "oklch(47.0% 0.158 89.0)",
+          "oklch(59.0% 0.158 89.0)",
+          "oklch(71.0% 0.158 89.0)",
+          "oklch(83.0% 0.158 89.0)",
+          "oklch(95.0% 0.079 89.0)"
+        ]
+      },
+      "directional-yellow-hover": {
+        "role": "secondary",
+        "displayName": "Bright Yellow",
+        "canonical": "#ffd34d",
+        "oklch": "oklch(88.2% 0.154 90.3)",
+        "tonalRamp": [
+          "oklch(15.0% 0.154 90.3)",
+          "oklch(25.0% 0.154 90.3)",
+          "oklch(35.0% 0.154 90.3)",
+          "oklch(47.0% 0.154 90.3)",
+          "oklch(59.0% 0.154 90.3)",
+          "oklch(71.0% 0.154 90.3)",
+          "oklch(83.0% 0.154 90.3)",
+          "oklch(95.0% 0.077 90.3)"
+        ]
+      },
+      "go-green": {
+        "role": "tertiary",
+        "displayName": "Go Green",
+        "canonical": "#1c6a46",
+        "oklch": "oklch(46.8% 0.095 158.8)",
+        "tonalRamp": [
+          "oklch(15.0% 0.095 158.8)",
+          "oklch(25.0% 0.095 158.8)",
+          "oklch(35.0% 0.095 158.8)",
+          "oklch(47.0% 0.095 158.8)",
+          "oklch(59.0% 0.095 158.8)",
+          "oklch(71.0% 0.095 158.8)",
+          "oklch(83.0% 0.095 158.8)",
+          "oklch(95.0% 0.048 158.8)"
+        ]
+      },
+      "stop-red": {
+        "role": "tertiary",
+        "displayName": "Stop Red",
+        "canonical": "#9a2c1b",
+        "oklch": "oklch(46.1% 0.149 31.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.149 31.6)",
+          "oklch(25.0% 0.149 31.6)",
+          "oklch(35.0% 0.149 31.6)",
+          "oklch(47.0% 0.149 31.6)",
+          "oklch(59.0% 0.149 31.6)",
+          "oklch(71.0% 0.149 31.6)",
+          "oklch(83.0% 0.149 31.6)",
+          "oklch(95.0% 0.074 31.6)"
+        ]
+      },
+      "stop-wash": {
+        "role": "tertiary",
+        "displayName": "Stop Wash",
+        "canonical": "#f6e2dc",
+        "oklch": "oklch(92.7% 0.024 37.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.024 37.4)",
+          "oklch(25.0% 0.024 37.4)",
+          "oklch(35.0% 0.024 37.4)",
+          "oklch(47.0% 0.024 37.4)",
+          "oklch(59.0% 0.024 37.4)",
+          "oklch(71.0% 0.024 37.4)",
+          "oklch(83.0% 0.024 37.4)",
+          "oklch(95.0% 0.012 37.4)"
+        ]
+      },
+      "wait-olive": {
+        "role": "tertiary",
+        "displayName": "Wait Olive",
+        "canonical": "#6b5200",
+        "oklch": "oklch(45.2% 0.092 88.2)",
+        "tonalRamp": [
+          "oklch(15.0% 0.092 88.2)",
+          "oklch(25.0% 0.092 88.2)",
+          "oklch(35.0% 0.092 88.2)",
+          "oklch(47.0% 0.092 88.2)",
+          "oklch(59.0% 0.092 88.2)",
+          "oklch(71.0% 0.092 88.2)",
+          "oklch(83.0% 0.092 88.2)",
+          "oklch(95.0% 0.046 88.2)"
+        ]
+      },
+      "terminal-floor": {
+        "role": "neutral",
+        "displayName": "Terminal Floor",
+        "canonical": "#ecede9",
+        "oklch": "oklch(94.4% 0.005 117.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.005 117.9)",
+          "oklch(25.0% 0.005 117.9)",
+          "oklch(35.0% 0.005 117.9)",
+          "oklch(47.0% 0.005 117.9)",
+          "oklch(59.0% 0.005 117.9)",
+          "oklch(71.0% 0.005 117.9)",
+          "oklch(83.0% 0.005 117.9)",
+          "oklch(95.0% 0.003 117.9)"
+        ]
+      },
+      "board-panel": {
+        "role": "neutral",
+        "displayName": "Board Panel",
+        "canonical": "#fafaf7",
+        "oklch": "oklch(98.4% 0.004 106.5)",
+        "tonalRamp": [
+          "oklch(15.0% 0.004 106.5)",
+          "oklch(25.0% 0.004 106.5)",
+          "oklch(35.0% 0.004 106.5)",
+          "oklch(47.0% 0.004 106.5)",
+          "oklch(59.0% 0.004 106.5)",
+          "oklch(71.0% 0.004 106.5)",
+          "oklch(83.0% 0.004 106.5)",
+          "oklch(95.0% 0.002 106.5)"
+        ]
+      },
+      "board-panel-hover": {
+        "role": "neutral",
+        "displayName": "Board Panel Hover",
+        "canonical": "#f1f2ee",
+        "oklch": "oklch(95.9% 0.005 117.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.005 117.9)",
+          "oklch(25.0% 0.005 117.9)",
+          "oklch(35.0% 0.005 117.9)",
+          "oklch(47.0% 0.005 117.9)",
+          "oklch(59.0% 0.005 117.9)",
+          "oklch(71.0% 0.005 117.9)",
+          "oklch(83.0% 0.005 117.9)",
+          "oklch(95.0% 0.003 117.9)"
+        ]
+      },
+      "board-panel-sunk": {
+        "role": "neutral",
+        "displayName": "Board Panel Sunk",
+        "canonical": "#e3e4df",
+        "oklch": "oklch(91.7% 0.007 115.7)",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 115.7)",
+          "oklch(25.0% 0.007 115.7)",
+          "oklch(35.0% 0.007 115.7)",
+          "oklch(47.0% 0.007 115.7)",
+          "oklch(59.0% 0.007 115.7)",
+          "oklch(71.0% 0.007 115.7)",
+          "oklch(83.0% 0.007 115.7)",
+          "oklch(95.0% 0.003 115.7)"
+        ]
+      },
+      "field-white": {
+        "role": "neutral",
+        "displayName": "Field White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.000 89.9)",
+          "oklch(25.0% 0.000 89.9)",
+          "oklch(35.0% 0.000 89.9)",
+          "oklch(47.0% 0.000 89.9)",
+          "oklch(59.0% 0.000 89.9)",
+          "oklch(71.0% 0.000 89.9)",
+          "oklch(83.0% 0.000 89.9)",
+          "oklch(95.0% 0.000 89.9)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#16181b",
+        "oklch": "oklch(20.8% 0.007 258.4)",
+        "tonalRamp": [
+          "oklch(15.0% 0.007 258.4)",
+          "oklch(25.0% 0.007 258.4)",
+          "oklch(35.0% 0.007 258.4)",
+          "oklch(47.0% 0.007 258.4)",
+          "oklch(59.0% 0.007 258.4)",
+          "oklch(71.0% 0.007 258.4)",
+          "oklch(83.0% 0.007 258.4)",
+          "oklch(95.0% 0.003 258.4)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "#474c52",
+        "oklch": "oklch(41.4% 0.012 252.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.012 252.9)",
+          "oklch(25.0% 0.012 252.9)",
+          "oklch(35.0% 0.012 252.9)",
+          "oklch(47.0% 0.012 252.9)",
+          "oklch(59.0% 0.012 252.9)",
+          "oklch(71.0% 0.012 252.9)",
+          "oklch(83.0% 0.012 252.9)",
+          "oklch(95.0% 0.006 252.9)"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Ink 3",
+        "canonical": "#62686e",
+        "oklch": "oklch(51.4% 0.012 248.1)",
+        "tonalRamp": [
+          "oklch(15.0% 0.012 248.1)",
+          "oklch(25.0% 0.012 248.1)",
+          "oklch(35.0% 0.012 248.1)",
+          "oklch(47.0% 0.012 248.1)",
+          "oklch(59.0% 0.012 248.1)",
+          "oklch(71.0% 0.012 248.1)",
+          "oklch(83.0% 0.012 248.1)",
+          "oklch(95.0% 0.006 248.1)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#cdd0ca",
+        "oklch": "oklch(85.4% 0.009 128.6)",
+        "tonalRamp": [
+          "oklch(15.0% 0.009 128.6)",
+          "oklch(25.0% 0.009 128.6)",
+          "oklch(35.0% 0.009 128.6)",
+          "oklch(47.0% 0.009 128.6)",
+          "oklch(59.0% 0.009 128.6)",
+          "oklch(71.0% 0.009 128.6)",
+          "oklch(83.0% 0.009 128.6)",
+          "oklch(95.0% 0.004 128.6)"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Rule Strong",
+        "canonical": "#80868b",
+        "oklch": "oklch(61.7% 0.010 242.9)",
+        "tonalRamp": [
+          "oklch(15.0% 0.010 242.9)",
+          "oklch(25.0% 0.010 242.9)",
+          "oklch(35.0% 0.010 242.9)",
+          "oklch(47.0% 0.010 242.9)",
+          "oklch(59.0% 0.010 242.9)",
+          "oklch(71.0% 0.010 242.9)",
+          "oklch(83.0% 0.010 242.9)",
+          "oklch(95.0% 0.005 242.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Location-header module name only; 2rem below 56rem."
+      },
+      "tile": {
+        "displayName": "Tile",
+        "purpose": "Concourse letter in the location-header tile."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Sign-in title, rank numerals, departure day numerals."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Board titles (pictogram-led), update titles, admin figures."
+      },
+      "title-sm": {
+        "displayName": "Title Small",
+        "purpose": "Names on recommendation and destination rows, article titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Everything else; tabular figures on."
+      },
+      "reading": {
+        "displayName": "Reading",
+        "purpose": "Article reading view only."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Buttons and band signs."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, status signs, tags."
+      },
+      "group-label": {
+        "displayName": "Group Label",
+        "purpose": "Uppercase name of the group it sits on: picker topic groups, admin figure groups, the month under a date numeral. Never above a headline."
+      }
+    },
+    "shadows": [
+      {
+        "name": "board-outline",
+        "value": "0 0 0 1px #cdd0ca",
+        "purpose": "Hairline outline separating a light board or notice from the floor. Not a drop shadow; the system has none."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Exponential ease-out for every state transition."
+      },
+      {
+        "name": "fast",
+        "value": "160ms",
+        "purpose": "Hover tints and the 3px arrow step on buttons and links."
+      },
+      {
+        "name": "medium",
+        "value": "240ms",
+        "purpose": "Location-sign view transition along the band and the one-time status flip (rotateX -90deg to 0)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "fast: 0ms; medium: 0ms",
+        "purpose": "Reduced motion zeroes the view-transition and status-flip durations and stops the skeleton pulse."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tiny",
+        "value": "22.4rem",
+        "purpose": "Wordmark text screen-reader only on module screens."
+      },
+      {
+        "name": "phone",
+        "value": "30rem",
+        "purpose": "Wordmark tightens; the word \"Menu\" is screen-reader only beside a location sign."
+      },
+      {
+        "name": "narrow",
+        "value": "40rem",
+        "purpose": "Row asides drop under the text; the sign wall hides its signs on sign-in."
+      },
+      {
+        "name": "tablet",
+        "value": "56rem",
+        "purpose": "Gutter 1rem, display 2rem, tile 3rem; sign-in stacks."
+      },
+      {
+        "name": "split",
+        "value": "64rem",
+        "purpose": "Board and departures-board split collapses to one column."
+      },
+      {
+        "name": "band",
+        "value": "80rem",
+        "purpose": "Module signs fold into the menu drawer; the location sign stays in the band."
+      },
+      {
+        "name": "band-tight",
+        "value": "86rem",
+        "purpose": "Band signs tighten their padding."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Every committing action (Request, Accept, Approve, Publish); ink with a yellow trailing arrow.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Request <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn{font-family:'Signika Variable','Segoe UI',system-ui,sans-serif;display:inline-flex;align-items:center;gap:0.5rem;min-height:2.75rem;padding:0 1rem;border:1.5px solid transparent;border-radius:3px;font-weight:600;font-size:0.9375rem;line-height:1.2;cursor:pointer;transition:background 160ms cubic-bezier(0.16,1,0.3,1);} .ds-btn svg{transition:transform 160ms cubic-bezier(0.16,1,0.3,1);} .ds-btn:hover svg,.ds-btn:focus-visible svg{transform:translateX(3px);} .ds-btn:focus-visible{outline:3px solid #16181b;outline-offset:2px;} .ds-btn-primary{background:#16181b;color:#f2f1ec;} .ds-btn-primary svg{color:#f2c230;} .ds-btn-primary:hover{background:#24282c;}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Non-committing actions; 1.5px ink outline.",
+      "html": "<button class=\"ds-btn ds-btn-secondary\">Withdraw request</button>",
+      "css": ".ds-btn{font-family:'Signika Variable','Segoe UI',system-ui,sans-serif;display:inline-flex;align-items:center;gap:0.5rem;min-height:2.75rem;padding:0 1rem;border:1.5px solid transparent;border-radius:3px;font-weight:600;font-size:0.9375rem;line-height:1.2;cursor:pointer;transition:background 160ms cubic-bezier(0.16,1,0.3,1);} .ds-btn svg{transition:transform 160ms cubic-bezier(0.16,1,0.3,1);} .ds-btn:hover svg,.ds-btn:focus-visible svg{transform:translateX(3px);} .ds-btn:focus-visible{outline:3px solid #16181b;outline-offset:2px;} .ds-btn-secondary{background:transparent;border-color:#16181b;color:#16181b;} .ds-btn-secondary:hover{background:#f1f2ee;}"
+    },
+    {
+      "name": "Yellow Button on a Departures Board",
+      "kind": "button",
+      "refersTo": "button-yellow",
+      "description": "A yellow panel carrying black text on dark boards: reserve a place, edit your profile.",
+      "html": "<div class=\"ds-dark\"><button class=\"ds-btn ds-btn-yellow\">Reserve a place <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M13 6l6 6-6 6\"/></svg></button></div>",
+      "css": ".ds-btn{font-family:'Signika Variable','Segoe UI',system-ui,sans-serif;display:inline-flex;align-items:center;gap:0.5rem;min-height:2.75rem;padding:0 1rem;border:1.5px solid transparent;border-radius:3px;font-weight:600;font-size:0.9375rem;line-height:1.2;cursor:pointer;transition:background 160ms cubic-bezier(0.16,1,0.3,1);} .ds-btn svg{transition:transform 160ms cubic-bezier(0.16,1,0.3,1);} .ds-btn:hover svg,.ds-btn:focus-visible svg{transform:translateX(3px);} .ds-btn:focus-visible{outline:3px solid #16181b;outline-offset:2px;} .ds-dark{background:#16181b;padding:1rem 1.5rem;border-radius:3px;} .ds-btn-yellow{background:#f2c230;color:#16181b;} .ds-btn-yellow:hover{background:#ffd34d;} .ds-dark .ds-btn:focus-visible{outline-color:#f2c230;}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Field-white slot with a 1.5px rule-strong border; label above, hint below.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Your goals</span><input class=\"ds-input\" placeholder=\"What do you want to learn?\"><span class=\"ds-field-hint\">Mentors are ranked on these words.</span></label>",
+      "css": ".ds-field{font-family:'Signika Variable','Segoe UI',system-ui,sans-serif;display:grid;gap:0.25rem;max-width:22rem;color:#16181b;} .ds-field-label{font-weight:600;font-size:0.875rem;} .ds-field-hint{color:#62686e;font-size:0.875rem;} .ds-input{font:inherit;min-height:2.75rem;padding:0.5rem 0.75rem;background:#fff;border:1.5px solid #80868b;border-radius:3px;color:#16181b;} .ds-input::placeholder{color:#62686e;} .ds-input:hover{border-color:#474c52;} .ds-input:focus-visible{border-color:#16181b;outline:3px solid #16181b;outline-offset:2px;}"
+    },
+    {
+      "name": "Sign Band with Location Sign",
+      "kind": "nav",
+      "refersTo": "sign-band",
+      "description": "Sticky dark band of module signs; the current module inverts to black on yellow.",
+      "html": "<nav class=\"ds-band\"><a class=\"ds-sign ds-here\" href=\"#\" aria-current=\"page\"><span class=\"ds-letter\">M</span>Mentorship</a><a class=\"ds-sign\" href=\"#\"><span class=\"ds-letter\">N</span>Networking</a><a class=\"ds-sign\" href=\"#\"><span class=\"ds-letter\">E</span>Events</a></nav>",
+      "css": ".ds-band{font-family:'Signika Variable','Segoe UI',system-ui,sans-serif;display:flex;height:4rem;background:#16181b;color:#f2f1ec;} .ds-sign{display:flex;align-items:center;gap:0.5rem;padding:0 1rem;border-left:1px solid #343a40;color:#f2f1ec;font-size:0.9375rem;font-weight:500;text-decoration:none;transition:background 160ms cubic-bezier(0.16,1,0.3,1);} .ds-sign:hover{background:#24282c;} .ds-sign:focus-visible{outline:3px solid #f2c230;outline-offset:-4px;} .ds-letter{width:1.625rem;height:1.625rem;display:grid;place-items:center;background:#f2c230;color:#16181b;font-weight:700;font-size:0.875rem;border-radius:2px;} .ds-here,.ds-here:hover{background:#f2c230;color:#16181b;} .ds-here .ds-letter{background:#16181b;color:#f2c230;} .ds-here:focus-visible{outline-color:#16181b;}"
+    },
+    {
+      "name": "Location Header",
+      "kind": "custom",
+      "refersTo": "letter-tile",
+      "description": "Yellow concourse tile, display-size module name, one status line that may end in an arrow link.",
+      "html": "<div class=\"ds-loc\"><div class=\"ds-tile\">M</div><div><h1 class=\"ds-loc-title\">Mentorship</h1><p class=\"ds-loc-status\">5 mentors suggested for you. <a class=\"ds-status-link\" href=\"#\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M13 6l6 6-6 6\"/></svg>Add your skills</a></p></div></div>",
+      "css": ".ds-loc{font-family:'Signika Variable','Segoe UI',system-ui,sans-serif;display:flex;align-items:center;gap:1.5rem;color:#16181b;} .ds-tile{width:3.5rem;height:3.5rem;display:grid;place-items:center;background:#f2c230;color:#16181b;font-size:2.25rem;font-weight:700;line-height:1;border-radius:3px;} .ds-loc-title{margin:0;font-size:2.5rem;font-weight:600;line-height:1.2;letter-spacing:-0.01em;} .ds-loc-status{margin:0.25rem 0 0;color:#474c52;font-size:1.125rem;} .ds-status-link{display:inline-flex;align-items:center;gap:0.25rem;color:#16181b;font-weight:600;text-underline-offset:0.2em;} .ds-status-link svg{transition:transform 160ms cubic-bezier(0.16,1,0.3,1);} .ds-status-link:hover svg,.ds-status-link:focus-visible svg{transform:translateX(3px);}"
+    },
+    {
+      "name": "Board with Ruled Rows",
+      "kind": "card",
+      "refersTo": "board",
+      "description": "Light board, not a card: titled header over a 2px ink rule, hairline rows, a leading-arrow footer link.",
+      "html": "<section class=\"ds-board\"><header class=\"ds-board-h\"><h2>Recommended mentors</h2><span class=\"ds-note\">Ranked for your profile</span></header><div class=\"ds-row\"><span class=\"ds-rank\">1</span>Mutua W. · Load Controller</div><div class=\"ds-row\"><span class=\"ds-rank\">2</span>Makena S. · Duty Manager</div><div class=\"ds-foot\"><a class=\"ds-board-link\" href=\"#\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"M13 6l6 6-6 6\"/></svg>All mentors</a></div></section>",
+      "css": ".ds-board{font-family:'Signika Variable','Segoe UI',system-ui,sans-serif;background:#fafaf7;color:#16181b;border-radius:3px;box-shadow:0 0 0 1px #cdd0ca;max-width:32rem;} .ds-board-h{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 1.5rem;border-bottom:2px solid #16181b;} .ds-board-h h2{margin:0;font-size:1.375rem;font-weight:600;line-height:1.2;} .ds-note{color:#474c52;font-size:0.875rem;} .ds-row{padding:1rem 1.5rem;border-top:1px solid #cdd0ca;font-variant-numeric:tabular-nums;} .ds-board-h + .ds-row{border-top:0;} .ds-rank{font-size:1.75rem;font-weight:600;margin-right:1rem;} .ds-foot{padding:0.75rem 1.5rem;border-top:1px solid #cdd0ca;} .ds-board-link{display:inline-flex;align-items:center;gap:0.5rem;color:#16181b;font-weight:600;text-decoration:none;} .ds-board-link:hover{text-decoration:underline;} .ds-board-link svg{transition:transform 160ms cubic-bezier(0.16,1,0.3,1);} .ds-board-link:hover svg,.ds-board-link:focus-visible svg{transform:translateX(3px);}"
+    },
+    {
+      "name": "Status Signs",
+      "kind": "chip",
+      "refersTo": "status-available",
+      "description": "Word, pictogram and line type: green only for available or accepted, ink for going, ink outline for published, dashed for pending.",
+      "html": "<div class=\"ds-statuses\"><span class=\"ds-status ds-available\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg>4 places available</span><span class=\"ds-status ds-going\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg>Going</span><span class=\"ds-status ds-published\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12.5l4.5 4.5L19 7.5\"/></svg>Published</span><span class=\"ds-status ds-pending\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"8.5\"/><path d=\"M12 7.5V12l3 2\"/></svg>Pending</span></div>",
+      "css": ".ds-statuses{font-family:'Signika Variable','Segoe UI',system-ui,sans-serif;display:flex;flex-wrap:wrap;gap:0.5rem;padding:1rem;background:#fafaf7;} .ds-status{display:inline-flex;align-items:center;gap:0.25rem;padding:0.125rem 0.5rem;border:1.5px solid transparent;border-radius:2px;font-size:0.875rem;font-weight:600;white-space:nowrap;} .ds-available{background:#1c6a46;color:#fff;} .ds-going{background:#16181b;color:#f2f1ec;} .ds-published{border-color:#16181b;color:#16181b;} .ds-pending{border-style:dashed;border-color:#6b5200;color:#6b5200;}"
+    },
+    {
+      "name": "Topic Tags",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Plain tag, chosen tag (ink), and shared-topic tag (yellow panel with an ink border).",
+      "html": "<div class=\"ds-tags\"><button class=\"ds-tag\" aria-pressed=\"false\">Cargo handling</button><button class=\"ds-tag\" aria-pressed=\"true\">Dangerous goods</button><span class=\"ds-tag ds-shared\">Station management</span></div>",
+      "css": ".ds-tags{font-family:'Signika Variable','Segoe UI',system-ui,sans-serif;display:flex;flex-wrap:wrap;gap:0.5rem;} .ds-tag{font:inherit;display:inline-flex;align-items:center;min-height:2rem;padding:0.125rem 0.5rem;background:#fafaf7;border:1px solid #80868b;border-radius:2px;font-size:0.875rem;line-height:1.4;color:#16181b;cursor:pointer;} .ds-tag:hover{border-color:#16181b;} .ds-tag:focus-visible{outline:3px solid #16181b;outline-offset:2px;} .ds-tag[aria-pressed=\"true\"]{background:#16181b;border-color:#16181b;color:#f2f1ec;} .ds-shared{background:#f2c230;border-color:#16181b;font-weight:600;cursor:default;}"
+    },
+    {
+      "name": "Departures Board",
+      "kind": "custom",
+      "refersTo": "board-departures",
+      "description": "Dark status board: yellow header rule, yellow date numerals, raised row hover.",
+      "html": "<section class=\"ds-dep\"><header class=\"ds-dep-h\"><h2>Departures</h2></header><a class=\"ds-dep-row\" href=\"#\"><span class=\"ds-when\"><span class=\"ds-day\">11</span><span class=\"ds-mon\">Oct</span></span><span>Pride Centre alumni networking evening</span></a></section>",
+      "css": ".ds-dep{font-family:'Signika Variable','Segoe UI',system-ui,sans-serif;background:#16181b;color:#f2f1ec;border-radius:3px;max-width:32rem;} .ds-dep-h{padding:1rem 1.5rem;border-bottom:2px solid #f2c230;} .ds-dep-h h2{margin:0;font-size:1.375rem;font-weight:600;} .ds-dep-row{display:grid;grid-template-columns:3rem 1fr;align-items:center;gap:1rem;padding:1rem 1.5rem;color:#f2f1ec;text-decoration:none;font-weight:600;transition:background 160ms cubic-bezier(0.16,1,0.3,1);} .ds-dep-row:hover{background:#24282c;} .ds-dep-row:focus-visible{outline:3px solid #f2c230;outline-offset:-3px;} .ds-when{display:grid;justify-items:center;line-height:1;} .ds-day{color:#f2c230;font-size:1.75rem;font-weight:600;font-variant-numeric:tabular-nums;} .ds-mon{margin-top:0.125rem;color:#b8bcbf;font-size:0.8125rem;letter-spacing:0.08em;text-transform:uppercase;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Terminal Wayfinding",
+    "overview": "The platform is a terminal you move through by signs. A near-black sign band runs across the top; each module is a concourse with its own letter tile and pictogram; the module you are in inverts to a black-on-yellow \"you are here\" location sign. Under the band, a location header repeats the concourse letter as a large yellow tile beside the module name and one plain status line. Everything below is a board: people, requests, articles and events are listed on hairline-ruled rows the way a terminal lists departures, with dark departures boards for things in motion.\n\nDensity is operational, not editorial. Rows carry tabular numerals, plain-language reasons and a single status word; there are no hero images, no decorative illustration and no cards. One wayfinding face carries every role, and authored stroke pictograms do the work icons would do elsewhere. Motion is short and stateful only: the location sign slides along the band between modules, arrows step forward on hover and focus, and a status that changes flips once like a split-flap cell.\n\nThe world refuses the professional-network card feed: avatars in white cards, a blue accent and a left sidebar. Members carry initials tiles, never photographs or stock faces.",
+    "keyCharacteristics": [
+      "Near-black sign panels with directional yellow; light boards on a terrazzo-grey floor.",
+      "A black-on-yellow \"you are here\" location sign in the band and a yellow concourse letter tile in the location header.",
+      "Boards with hairline-ruled rows instead of cards; dark departures boards for live status.",
+      "One face (Signika Variable) with tabular figures everywhere.",
+      "Status is always a word plus a pictogram plus a line type; colour is never the only signal.",
+      "Arrows lead link text and trail action buttons."
+    ],
+    "rules": [
+      {
+        "name": "The Green Means Go Rule",
+        "body": "Green appears only with the words \"available\" or \"accepted\" (\"4 places available\", \"Available to mentor\", \"Accepted\"). Buttons are never green; success notices are neutral with a check pictogram.",
+        "section": "colors"
+      },
+      {
+        "name": "The Directional Yellow Rule",
+        "body": "Yellow appears only on sign panels (dark band, dark boards, sign wall) or as a panel carrying black text: letter tiles, the location sign, arrows and numerals on dark boards, shared-topic tags, the count badge. Never yellow text or a yellow pictogram on a light board, and never a pale yellow wash.",
+        "section": "colors"
+      },
+      {
+        "name": "The Dashed Wait Rule",
+        "body": "Pending and waiting states are drawn with a dashed line: dashed wait-olive on light boards, dashed yellow on dark boards. There is no yellow wash panel.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Face Rule",
+        "body": "Signika Variable is the only family. Do not add a display or mono face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Figures are tabular everywhere (`font-variant-numeric: tabular-nums` on body); numbers that are compared sit right-aligned or in a fixed column.",
+        "section": "typography"
+      },
+      {
+        "name": "The Board Not Card Rule",
+        "body": "Content sits on boards with hairline-ruled rows. Filter forms are the control strip inside the board they filter, not a separate panel. Admin figures are label-left, tabular-figure-right rows on hairlines.",
+        "section": "layout"
+      },
+      {
+        "name": "The One Status Line Rule",
+        "body": "The location header carries one status line. Profile gaps appear there as a single arrow link (\"→ Add your skills\"), never as a nudge banner or a completeness count.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat Terminal Rule",
+        "body": "No drop shadows on boards, rows, buttons or the band. Depth is tone and rule weight.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use green only with the words \"available\" or \"accepted\".",
+      "**Do** make Accept, Approve and Publish sign-black primary buttons with a trailing arrow (\"Request →\").",
+      "**Do** lead link text with its arrow in board footers and the status line (\"→ All events\", \"→ Add your skills\").",
+      "**Do** draw pending and waiting states with a dashed line.",
+      "**Do** keep yellow on sign panels or as a panel carrying black text.",
+      "**Do** sign a held event place as `going`: ink on light boards, black on yellow on dark boards; sign \"Published\" with an ink outline.",
+      "**Do** put content on boards with hairline-ruled rows, filters as the board's own control strip, and admin figures as label-left, tabular-figure-right rows.",
+      "**Do** keep the current module visible as the black-on-yellow location sign at every width, even when the other signs fold into the menu.",
+      "**Do** zero the view-transition and status-flip durations under reduced motion.",
+      "**Do** pair every status and notice with a word and a pictogram."
+    ],
+    "donts": [
+      "**Don't** make a button green, or use a green success notice.",
+      "**Don't** use cards, avatars in white cards, a blue accent or a left sidebar.",
+      "**Don't** use a yellow wash panel, or yellow text or pictograms on a light board.",
+      "**Don't** show profile gaps as a nudge banner or a completeness count.",
+      "**Don't** add drop shadows to boards, rows, buttons or the band.",
+      "**Don't** add a second typeface or round anything into a pill.",
+      "**Don't** show member photographs or stock faces; use initials tiles.",
+      "**Don't** use Kenya Airways logos, colours or slogans."
+    ]
+  }
+}
