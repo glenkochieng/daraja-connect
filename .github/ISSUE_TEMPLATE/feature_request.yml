@@ -1,6 +1,6 @@
 name: Feature or task
 description: A new feature, an improvement, or a piece of planned work
-labels: ["feature"]
+labels: ['feature']
 body:
   - type: dropdown
     id: component

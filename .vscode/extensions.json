@@ -1,3 +1,13 @@
 {
-  "recommendations": ["ms-python.python", "ms-python.debugpy", "ms-toolsai.jupyter", "redhat.vscode-yaml"]
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.debugpy",
+    "ms-toolsai.jupyter",
+    "charliermarsh.ruff",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "redhat.vscode-yaml",
+    "ms-playwright.playwright"
+  ]
 }

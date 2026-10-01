@@ -21,10 +21,23 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.0", "httpx2", "ipykernel>=6.29", "nbclient>=0.10", "nbformat>=5.10"]
+dev = ["pytest>=8.0", "httpx2", "ipykernel>=6.29", "nbclient>=0.10", "nbformat>=5.10", "ruff>=0.14"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+# The notebook is generated and executed by a script; lint the code it imports instead.
+extend-exclude = ["notebooks"]
+
+[tool.ruff.lint]
+# pycodestyle, pyflakes, import order, bugbear, pyupgrade
+select = ["E", "W", "F", "I", "B", "UP"]
+# Long lines are a formatting concern, not a lint error; rewrapping existing code
+# would be a mass reformat, which this project keeps out of logic changes.
+ignore = ["E501"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

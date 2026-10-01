@@ -1,7 +1,7 @@
 name: Bug report
 description: Something in Daraja Connect is broken or behaves unexpectedly
-title: "bug: "
-labels: ["bug"]
+title: 'bug: '
+labels: ['bug']
 body:
   - type: dropdown
     id: component
