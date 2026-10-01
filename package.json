@@ -5,9 +5,11 @@
   "description": "Daraja Connect monorepo: React client, Express API and Python matching service for the Kenya Airways alumni ecosystem",
   "license": "UNLICENSED",
   "type": "module",
-  "workspaces": [],
+  "workspaces": [
+    "server"
+  ],
   "engines": {
-    "node": ">=22"
+    "node": "\u003e=22"
   },
   "scripts": {
     "dev": "node scripts/dev.mjs",
