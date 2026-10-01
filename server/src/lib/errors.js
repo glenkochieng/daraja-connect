@@ -52,7 +52,10 @@ export function errorHandler({ log = console } = {}) {
       message = 'Request body is too large';
     }
 
-    if (status >= 500) log.error?.(err);
+    // Expected failures (HttpError, e.g. a 503 while the ML service starts) are reported to
+    // the client only; anything else is a bug and is logged with its stack trace.
+    if (status >= 500 && !(err instanceof HttpError)) log.error?.(err);
+    else if (status >= 500) log.warn?.(`${status} ${req.method} ${req.originalUrl}: ${message}`);
     res.status(status).json({ error: details === undefined ? { message } : { message, details } });
   };
 }
