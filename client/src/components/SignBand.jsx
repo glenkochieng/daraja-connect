@@ -41,7 +41,10 @@ export function SignBand() {
   const current = modules.find((m) => isActive(m, pathname));
 
   return (
-    <header className="sign-band" data-open={open}>
+    <header
+      className={`sign-band${modules.length > 5 ? ' sign-band--crowded' : ''}`}
+      data-open={open}
+    >
       <div className="sign-band__inner">
         <Link to="/" className="wordmark" viewTransition>
           <span className="wordmark__tile" aria-hidden="true">
@@ -68,12 +71,12 @@ export function SignBand() {
             <span className="initials initials--sm" aria-hidden="true">
               {initialsOf(user?.name)}
             </span>
-            <span>{firstName(user?.name)}</span>
+            <span className="band-label">{firstName(user?.name)}</span>
             <span className="visually-hidden">: your profile</span>
           </Link>
           <button type="button" className="band-signout" onClick={signOut}>
             <Pictogram name="signOut" size={18} />
-            Sign out
+            <span className="band-label">Sign out</span>
           </button>
         </div>
         <button

@@ -81,3 +81,18 @@ export function firstName(name = '') {
 export function plural(count, one, many = `${one}s`) {
   return `${count} ${count === 1 ? one : many}`;
 }
+
+// Admin forms use <input type="datetime-local">, which has no time zone. The values are
+// read and written as East Africa Time (UTC+3; Kenya has no daylight saving time).
+const EAT_OFFSET_MS = 3 * 60 * 60 * 1000;
+
+/** "2026-10-11T18:00" typed in East Africa Time -> ISO string in UTC. */
+export function eatInputToIso(value) {
+  return value ? new Date(`${value}:00+03:00`).toISOString() : null;
+}
+
+/** ISO string -> "2026-10-11T18:00" in East Africa Time, for a datetime-local input. */
+export function isoToEatInput(iso) {
+  if (!iso) return '';
+  return new Date(new Date(iso).getTime() + EAT_OFFSET_MS).toISOString().slice(0, 16);
+}

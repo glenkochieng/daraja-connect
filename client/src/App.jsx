@@ -8,6 +8,8 @@ import {
   RequireAuth,
   RouteError,
 } from './components/Layout.jsx';
+import { AdminArticles, AdminLayout, AdminMembers, AdminOverview } from './pages/Admin.jsx';
+import { AdminEvents, AdminUpdates } from './pages/AdminContent.jsx';
 import { Register, SignIn } from './pages/Auth.jsx';
 import { EventDetail, EventsList } from './pages/Events.jsx';
 import { Home } from './pages/Home.jsx';
@@ -15,7 +17,6 @@ import { ArticleEditor, ArticleView, KnowledgeList } from './pages/Knowledge.jsx
 import { Mentorship } from './pages/Mentorship.jsx';
 import { Connections, Directory, MemberProfile } from './pages/Networking.jsx';
 import { Profile } from './pages/Profile.jsx';
-import { Soon } from './pages/Soon.jsx';
 import { Updates } from './pages/Updates.jsx';
 
 const routes = [
@@ -66,12 +67,19 @@ const routes = [
           { path: 'events/:id', element: <EventDetail /> },
           { path: 'updates', element: <Updates /> },
           {
-            path: 'admin/*',
+            path: 'admin',
             element: (
               <RequireAdmin>
-                <Soon moduleKey="admin" />
+                <AdminLayout />
               </RequireAdmin>
             ),
+            children: [
+              { index: true, element: <AdminOverview /> },
+              { path: 'members', element: <AdminMembers /> },
+              { path: 'articles', element: <AdminArticles /> },
+              { path: 'events', element: <AdminEvents /> },
+              { path: 'updates', element: <AdminUpdates /> },
+            ],
           },
         ],
       },
