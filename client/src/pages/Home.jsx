@@ -5,7 +5,7 @@ import {
   ButtonLink,
   EmptyState,
   LocationHeader,
-  Notice,
+  ProfileNudge,
   QueryBoard,
   SampleTag,
   StatusSign,
@@ -24,7 +24,7 @@ import {
   plural,
 } from '../lib/format.js';
 import { MODULES } from '../lib/modules.js';
-import { listInWords, profileGaps } from '../lib/profile.js';
+import { profileGaps } from '../lib/profile.js';
 
 function useMentorshipSummary(user) {
   const as = user.isMentee ? 'mentee' : 'mentor';
@@ -117,7 +117,7 @@ function NextDepartures() {
                   </span>
                   <span className="departure__status">
                     {event.going ? (
-                      <StatusSign status="accepted" label="Going" />
+                      <StatusSign status="going" />
                     ) : event.spotsLeft === 0 ? (
                       <StatusSign status="full" />
                     ) : null}
@@ -232,7 +232,12 @@ export function Home() {
       <LocationHeader
         icon="here"
         title={`${greeting()}, ${firstName(user.name)}`}
-        status={`You are at the main concourse. ${USER_TYPE_LABELS[user.userType]}, member since ${formatDate(user.memberSince)}.`}
+        status={
+          <>
+            You are at the main concourse. {USER_TYPE_LABELS[user.userType]}, member since{' '}
+            {formatDate(user.memberSince)}. <ProfileNudge gaps={gaps} />
+          </>
+        }
         actions={
           user.isMentee ? (
             <ButtonLink to="/mentorship" viewTransition variant="primary" arrow>
@@ -246,24 +251,6 @@ export function Home() {
         }
       />
       <div className="page">
-        {gaps.length ? (
-          <Notice
-            tone="wait"
-            icon="edit"
-            title={
-              user.isMentee
-                ? 'Your mentor matches get better with a fuller profile'
-                : 'Mentees find you through your profile'
-            }
-            action={
-              <ButtonLink to="/profile" variant="secondary" size="small" arrow>
-                Complete your profile
-              </ButtonLink>
-            }
-          >
-            <p>Add {listInWords(gaps)}.</p>
-          </Notice>
-        ) : null}
         <div className="split">
           <section className="board" aria-labelledby="where-title">
             <div className="board__header">

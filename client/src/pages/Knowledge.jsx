@@ -187,7 +187,6 @@ export function KnowledgeList() {
       />
       <div className="page">
         <KnowledgeTabs mine={mine} />
-        {mine ? null : <ArticleFilters key={values.q} filters={filters} taxonomy={taxonomy.data} />}
         <section className="board" aria-labelledby="articles-title" aria-busy={query.isFetching}>
           <div className="board__header">
             <h2 className="board__title" id="articles-title">
@@ -199,6 +198,9 @@ export function KnowledgeList() {
               </p>
             ) : null}
           </div>
+          {mine ? null : (
+            <ArticleFilters key={values.q} filters={filters} taxonomy={taxonomy.data} />
+          )}
           <QueryBoard
             query={query}
             rows={4}

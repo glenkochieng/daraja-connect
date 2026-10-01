@@ -56,7 +56,7 @@ the block is present on both profiles. Weights: text 0.4, skills 0.3, specialisa
 Two other missing-data policies are implemented and compared (see `docs/methodology.md`).
 
 Each result includes per-block scores and reasons, e.g. *"Can mentor in: Dangerous goods regulations |
-Same specialisation: Cargo & Logistics | Shared terms: dangerous goods"*.
+Same specialisation: Cargo & Logistics | You both mention dangerous goods"*. Generic words that appear in almost every profile (years, experience, work and similar) are never listed, and a word inside a listed phrase is not repeated.
 
 ## Data
 

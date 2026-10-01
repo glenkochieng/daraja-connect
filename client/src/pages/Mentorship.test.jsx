@@ -62,7 +62,7 @@ describe('Mentorship for a mentee', () => {
     renderRoutes(routes, { path: '/mentorship', token: 't' });
 
     expect(await screen.findByText('Can mentor in: Station management')).toBeTruthy();
-    expect(screen.getByText('2 places left')).toBeTruthy();
+    expect(screen.getByText('2 places available')).toBeTruthy();
     expect(screen.getByLabelText('Rank 1')).toBeTruthy();
     expect(screen.getByText('Not compared: missing on one side')).toBeTruthy();
   });

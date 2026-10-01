@@ -108,7 +108,7 @@ function ConnectionAction({ member, connection }) {
 
   let action;
   if (connection.status === 'connected') {
-    action = <StatusSign status="accepted" label="Connected" />;
+    action = <StatusSign status="accepted" label="Connection accepted" />;
   } else if (connection.status === 'pending_outgoing') {
     action = <StatusSign status="pending" label="Request sent" />;
   } else if (connection.status === 'pending_incoming') {
@@ -116,7 +116,7 @@ function ConnectionAction({ member, connection }) {
     action = (
       <div className="cluster">
         <Button
-          variant="go"
+          variant="primary"
           size="small"
           icon="check"
           busy={busy && respond.variables.action === 'accept'}
@@ -308,7 +308,7 @@ function MemberRow({ member, taxonomy, myTopics }) {
       </div>
       <div className="member__aside">
         {member.mentorAvailable ? (
-          <StatusSign status="available" label="Mentor with free places" />
+          <StatusSign status="available" label="Available to mentor" />
         ) : null}
         <ConnectionAction member={member} connection={member.connection} />
       </div>
@@ -347,7 +347,6 @@ export function Directory() {
       />
       <div className="page">
         <NetworkTabs />
-        <DirectoryFilters key={values.q} filters={filters} taxonomy={taxonomy.data} />
         <section className="board" aria-labelledby="directory-title" aria-busy={query.isFetching}>
           <div className="board__header">
             <h2 className="board__title" id="directory-title">
@@ -355,6 +354,7 @@ export function Directory() {
             </h2>
             <p className="board__note">Topics you share are marked in yellow</p>
           </div>
+          <DirectoryFilters key={values.q} filters={filters} taxonomy={taxonomy.data} />
           <QueryBoard
             query={query}
             rows={6}
@@ -513,7 +513,7 @@ export function MemberProfile() {
                   </h2>
                   {member.mentor.isAvailable &&
                   member.mentor.currentMentees < member.mentor.maxMentees ? (
-                    <StatusSign status="available" label="Taking new mentees" />
+                    <StatusSign status="available" label="Available for new mentees" />
                   ) : (
                     <StatusSign status="full" label="Not taking new mentees" />
                   )}
@@ -688,7 +688,7 @@ export function Connections() {
                         ) : null}
                         <div className="cluster">
                           <Button
-                            variant="go"
+                            variant="primary"
                             size="small"
                             icon="check"
                             busy={respond.isPending && respond.variables?.id === c.id}

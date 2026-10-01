@@ -3,7 +3,7 @@ import pytest
 from conftest import mentee, mentor
 
 from daraja.config import MatchingConfig
-from daraja.recommender import BlockScores, ContentRecommender, combine_blocks
+from daraja.recommender import BlockScores, ContentRecommender, combine_blocks, join_words, shared_phrases
 
 
 def test_best_matching_mentor_ranks_first(config, mentors):
@@ -111,6 +111,26 @@ def test_reasons_explain_the_match(config, mentors):
     assert "Dangerous goods regulations" in reasons
     assert "Same specialisation" in reasons
     assert "dangerous goods" in reasons
+
+
+def test_shared_terms_skip_generic_words_and_repeats():
+    terms = ["years", "interview", "interview preparation", "preparation", "station", "work experience"]
+    assert shared_phrases(terms, 3) == ["interview preparation", "station"]
+    assert shared_phrases(["years", "experience", "work"], 3) == []
+    # Words another reason already shows are not repeated.
+    covered = ["station", "management", "ground", "handling"]
+    assert shared_phrases(["station", "handling", "interview preparation"], 3, covered) == ["interview preparation"]
+    assert shared_phrases(["station", "handling"], 3, covered) == []
+    assert join_words(["a"]) == "a"
+    assert join_words(["a", "b", "c"]) == "a, b and c"
+
+
+def test_reason_names_shared_phrases_as_a_sentence(config, mentors):
+    rec = ContentRecommender(config).fit(mentors)
+    result = rec.recommend(mentee(goals_text="dangerous goods regulations", wants_to_learn=["dangerous_goods"]))
+    mention = [r for r in result.results[0].reasons if r.startswith("You both mention")]
+    assert mention and "dangerous goods" in mention[0]
+    assert "Shared terms" not in " | ".join(result.results[0].reasons)
 
 
 def test_unknown_tags_are_ignored(config, mentors):

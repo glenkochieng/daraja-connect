@@ -108,22 +108,21 @@ function Section({ title, icon, note, children }) {
 function Checklist({ form, user }) {
   const preview = { ...user, ...toBody(form) };
   const items = profileChecklist(preview);
-  const done = items.filter((i) => i.done).length;
   return (
     <aside className="board board--departures profile-aside" aria-labelledby="checklist-title">
       <div className="board__header">
         <h2 className="board__title" id="checklist-title">
           <Pictogram name="mentorship" /> What your matches use
         </h2>
-        <p className="board__note">
-          {done} of {items.length}
-        </p>
       </div>
       <ul className="board__body">
         {items.map((item) => (
           <li className="board__row checklist__row" key={item.label}>
             <Pictogram name={item.done ? 'check' : 'clock'} size={18} />
-            <span className={item.done ? '' : 'muted'}>{capitalise(item.label)}</span>
+            <span className={item.done ? '' : 'muted'}>
+              <span className="visually-hidden">{item.done ? 'Done: ' : 'Still to add: '}</span>
+              {capitalise(item.label)}
+            </span>
           </li>
         ))}
       </ul>
@@ -442,7 +441,7 @@ function ProfileForm({ user, taxonomy }) {
 
         <div className="save-bar">
           {save.isSuccess ? (
-            <Notice tone="go" title="Profile saved">
+            <Notice icon="check" title="Profile saved">
               <p>Your recommendations will use these details from now on.</p>
             </Notice>
           ) : null}

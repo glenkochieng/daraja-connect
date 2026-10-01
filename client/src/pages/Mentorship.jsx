@@ -10,6 +10,7 @@ import {
   Initials,
   LocationHeader,
   Notice,
+  ProfileNudge,
   QueryBoard,
   SampleTag,
   StatusSign,
@@ -20,7 +21,7 @@ import { api, qs } from '../lib/api.js';
 import { useAuth } from '../lib/auth.jsx';
 import { firstName, formatAgo, formatDate, plural } from '../lib/format.js';
 import { personLine } from '../lib/people.js';
-import { listInWords, profileGaps } from '../lib/profile.js';
+import { profileGaps } from '../lib/profile.js';
 import { useTaxonomy } from '../lib/taxonomy.js';
 
 const BLOCK_LABELS = {
@@ -177,7 +178,7 @@ function RecommendationRow({ item, taxonomy, open, onToggle, onSent }) {
         <ScoreDetails item={item} />
       </div>
       <div className="rec__aside">
-        <StatusSign status="available" label={`${plural(m.capacityLeft, 'place')} left`} />
+        <StatusSign status="available" label={`${plural(m.capacityLeft, 'place')} available`} />
         {open ? null : (
           <Button variant="primary" arrow onClick={onToggle} aria-expanded={false}>
             Request
@@ -344,9 +345,15 @@ function MenteeMentorship({ user }) {
         letter="M"
         title="Mentorship"
         status={
-          recommendations.isPending
-            ? 'Finding mentors who match your profile…'
-            : `${plural(suggested, 'mentor')} suggested for you · ${plural(open?.length ?? 0, 'open request')}`
+          recommendations.isPending ? (
+            'Finding mentors who match your profile…'
+          ) : (
+            <>
+              {plural(suggested, 'mentor')} suggested for you ·{' '}
+              {plural(open?.length ?? 0, 'open request')}.{' '}
+              {recommendations.data?.status === 'ok' ? <ProfileNudge gaps={gaps} /> : null}
+            </>
+          )
         }
         actions={
           <ButtonLink to="/profile" variant="secondary" icon="edit">
@@ -356,13 +363,8 @@ function MenteeMentorship({ user }) {
       />
       <div className="page">
         {sentTo ? (
-          <Notice tone="go" title={`Request sent to ${sentTo.name}`}>
+          <Notice icon="check" title={`Request sent to ${sentTo.name}`}>
             <p>Their answer will appear under “Your requests”.</p>
-          </Notice>
-        ) : null}
-        {gaps.length && recommendations.data?.status === 'ok' ? (
-          <Notice tone="wait" icon="edit" title="Sharper matches are one step away">
-            <p>Add {listInWords(gaps)} to your profile.</p>
           </Notice>
         ) : null}
         <div className="split">
@@ -454,7 +456,7 @@ function IncomingRow({ request: r, taxonomy, action }) {
           />
           <div className="cluster">
             <Button
-              variant="go"
+              variant="primary"
               icon="check"
               busy={busy && action.variables?.action === 'accept'}
               disabled={busy}
@@ -511,7 +513,7 @@ function Capacity({ user }) {
           ) : full ? (
             <StatusSign status="full" />
           ) : (
-            <StatusSign status="available" label="Taking new mentees" />
+            <StatusSign status="available" label="Available for new mentees" />
           )}
         </p>
       </div>
@@ -543,7 +545,13 @@ function MentorMentorship({ user }) {
       <LocationHeader
         letter="M"
         title="Mentorship"
-        status={`${plural(counts.pending, 'request')} waiting for your reply · ${user.mentor.currentMentees} of ${user.mentor.maxMentees} places taken`}
+        status={
+          <>
+            {plural(counts.pending, 'request')} waiting for your reply ·{' '}
+            {user.mentor.currentMentees} of {user.mentor.maxMentees} places taken.{' '}
+            <ProfileNudge gaps={gaps} />
+          </>
+        }
         actions={
           <ButtonLink to="/profile" variant="secondary" icon="edit">
             Edit what you mentor in
@@ -551,11 +559,6 @@ function MentorMentorship({ user }) {
         }
       />
       <div className="page">
-        {gaps.length ? (
-          <Notice tone="wait" icon="edit" title="Mentees find you through your profile">
-            <p>Add {listInWords(gaps)}.</p>
-          </Notice>
-        ) : null}
         <div className="split">
           <section className="board" aria-labelledby="incoming-title">
             <div className="board__header">

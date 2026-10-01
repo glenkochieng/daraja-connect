@@ -42,7 +42,13 @@ export function SignBand() {
 
   return (
     <header
-      className={`sign-band${modules.length > 5 ? ' sign-band--crowded' : ''}`}
+      className={[
+        'sign-band',
+        modules.length > 5 && 'sign-band--crowded',
+        current && 'sign-band--located',
+      ]
+        .filter(Boolean)
+        .join(' ')}
       data-open={open}
     >
       <div className="sign-band__inner">
@@ -50,7 +56,7 @@ export function SignBand() {
           <span className="wordmark__tile" aria-hidden="true">
             <Pictogram name="arrowRight" size={18} />
           </span>
-          Daraja Connect
+          <span className="wordmark__text">Daraja Connect</span>
         </Link>
         <nav aria-label="Modules">
           <ul className="signs">
@@ -79,6 +85,13 @@ export function SignBand() {
             <span className="band-label">Sign out</span>
           </button>
         </div>
+        {current ? (
+          // On narrow screens the signs fold into the menu, but where you are stays signed.
+          <span className="band-here" aria-hidden="true">
+            <span className="sign-link__letter">{current.letter}</span>
+            {current.name}
+          </span>
+        ) : null}
         <button
           type="button"
           className="band-menu-button"
@@ -86,7 +99,7 @@ export function SignBand() {
           aria-controls="band-drawer"
           onClick={() => setOpenOn(open ? null : pathname)}
         >
-          {current ? current.name : 'Menu'}
+          <span className="band-menu-button__label">Menu</span>
           <Pictogram name={open ? 'x' : 'menu'} />
         </button>
       </div>
