@@ -1,80 +1,92 @@
 // @ts-check
+import { randomBytes } from 'node:crypto';
+import { existsSync } from 'node:fs';
+import path from 'node:path';
 import { defineConfig, devices } from '@playwright/test';
 
 /**
- * Read environment variables from file.
- * https://github.com/motdotla/dotenv
+ * End-to-end tests start the whole stack (matching service, API with an in-memory
+ * database and seeded sample data, React client) on their own ports, so they can run
+ * while `npm run dev` is running. Run them with `npm run test:e2e`.
  */
-// import dotenv from 'dotenv';
-// import path from 'path';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
+const ports = { ml: 8100, api: 4100, web: 5174 };
 
-/**
- * @see https://playwright.dev/docs/test-configuration
- */
+// Throwaway credentials for the in-memory database, made once per run. Test workers
+// inherit process.env from this process, so they see the same values.
+process.env.E2E_ADMIN_EMAIL ??= 'e2e-admin@daraja.test';
+process.env.E2E_ADMIN_PASSWORD ??= `Admin-${randomBytes(9).toString('hex')}`;
+process.env.E2E_SEED_PASSWORD ??= `Sample-${randomBytes(9).toString('hex')}`;
+process.env.E2E_API_URL ??= `http://localhost:${ports.api}`;
+
+// Use the matching service's virtual environment when it exists (local Windows or
+// macOS/Linux); CI installs the requirements into the runner's Python instead.
+const venv = path.join(import.meta.dirname, 'ml-service', '.venv');
+const python =
+  [path.join(venv, 'Scripts', 'python.exe'), path.join(venv, 'bin', 'python')].find(existsSync) ??
+  'python';
+
 export default defineConfig({
   testDir: './e2e',
-  /* Run tests in files in parallel */
-  fullyParallel: true,
-  /* Fail the build on CI if you accidentally left test.only in the source code. */
+  // The tests share one seeded database, so they run one at a time.
+  fullyParallel: false,
+  workers: 1,
   forbidOnly: !!process.env.CI,
-  /* Retry on CI only */
-  retries: process.env.CI ? 2 : 0,
-  /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
-  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  retries: process.env.CI ? 1 : 0,
+  timeout: 60_000,
+  reporter: process.env.CI
+    ? [['github'], ['html', { open: 'never' }]]
+    : [['list'], ['html', { open: 'never' }]],
+  globalSetup: './e2e/global-setup.js',
   use: {
-    /* Base URL to use in actions like `await page.goto('')`. */
-    // baseURL: 'http://localhost:3000',
-
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    baseURL: `http://localhost:${ports.web}`,
+    trace: 'retain-on-failure',
+    screenshot: 'only-on-failure',
   },
-
-  /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'], viewport: { width: 1440, height: 900 } },
     },
-
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
-
-    /* Test against mobile viewports. */
-    // {
-    //   name: 'Mobile Chrome',
-    //   use: { ...devices['Pixel 5'] },
-    // },
-    // {
-    //   name: 'Mobile Safari',
-    //   use: { ...devices['iPhone 12'] },
-    // },
-
-    /* Test against branded browsers. */
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    // },
   ],
-
-  /* Run your local dev server before starting the tests */
-  // webServer: {
-  //   command: 'npm run start',
-  //   url: 'http://localhost:3000',
-  //   reuseExistingServer: !process.env.CI,
-  // },
+  webServer: [
+    {
+      name: 'ml',
+      command: `"${python}" -m uvicorn daraja.api:app --port ${ports.ml}`,
+      cwd: 'ml-service',
+      url: `http://127.0.0.1:${ports.ml}/health`,
+      timeout: 120_000,
+      reuseExistingServer: false,
+    },
+    {
+      name: 'api',
+      command: 'node src/index.js',
+      cwd: 'server',
+      url: `http://localhost:${ports.api}/api/health`,
+      timeout: 180_000,
+      reuseExistingServer: false,
+      env: {
+        NODE_ENV: 'development',
+        PORT: String(ports.api),
+        // Empty means the in-memory database, even if server/.env names a real one.
+        MONGODB_URI: '',
+        JWT_SECRET: randomBytes(32).toString('hex'),
+        CLIENT_ORIGIN: `http://localhost:${ports.web}`,
+        ML_SERVICE_URL: `http://127.0.0.1:${ports.ml}`,
+        AUTH_RATE_LIMIT: '1000',
+        SEED_ON_START: 'true',
+        SEED_USER_PASSWORD: process.env.E2E_SEED_PASSWORD,
+        ADMIN_EMAIL: process.env.E2E_ADMIN_EMAIL,
+        ADMIN_PASSWORD: process.env.E2E_ADMIN_PASSWORD,
+      },
+    },
+    {
+      name: 'web',
+      command: `node ../node_modules/vite/bin/vite.js --port ${ports.web} --strictPort`,
+      cwd: 'client',
+      url: `http://localhost:${ports.web}`,
+      timeout: 120_000,
+      reuseExistingServer: false,
+      env: { API_PROXY_TARGET: `http://localhost:${ports.api}` },
+    },
+  ],
 });
