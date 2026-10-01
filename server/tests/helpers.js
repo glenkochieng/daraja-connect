@@ -4,9 +4,45 @@ import { inject, vi } from 'vitest';
 import { createApp } from '../src/app.js';
 import { loadConfig } from '../src/config.js';
 import { createTaxonomyCache } from '../src/lib/taxonomy.js';
+import { User } from '../src/models/User.js';
 import { TAXONOMY } from './fixtures/taxonomy.js';
 
 export const silentLog = { info() {}, warn() {}, error() {} };
+
+export const bearer = (token) => ({ Authorization: `Bearer ${token}` });
+
+let userCounter = 0;
+
+/** Register through the API; returns { token, user, email, password }. */
+export async function registerUser(api, overrides = {}) {
+  userCounter += 1;
+  const body = {
+    name: `Test Member ${userCounter}`,
+    email: `member${userCounter}.${Date.now()}@example.test`,
+    password: 'correct-horse-battery-staple',
+    userType: 'pride_alumni',
+    consent: true,
+    ...overrides,
+  };
+  const res = await api.post('/api/auth/register').send(body).expect(201);
+  return { token: res.body.token, user: res.body.user, email: body.email, password: body.password };
+}
+
+export async function setUser(id, fields) {
+  await User.updateOne({ _id: id }, { $set: fields });
+}
+
+export async function registerApproved(api, overrides) {
+  const account = await registerUser(api, overrides);
+  await setUser(account.user.id, { status: 'approved' });
+  return account;
+}
+
+export async function registerAdmin(api) {
+  const account = await registerUser(api, { userType: 'current_staff' });
+  await setUser(account.user.id, { status: 'approved', role: 'admin' });
+  return account;
+}
 
 export function testConfig(overrides = {}) {
   return loadConfig({
