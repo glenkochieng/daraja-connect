@@ -1,0 +1,44 @@
+# Daraja Connect mentor recommender: default configuration.
+#
+# score(mentee, mentor) = sum_b w_b * s_b / sum_b w_b   over the blocks b that are
+# present for BOTH profiles (see missing_policy). Blocks:
+#   text            TF-IDF cosine: mentee goals text vs mentor expertise text
+#   skills          cosine of multi-hot topic tags: mentee "wants to learn" vs mentor "can mentor in"
+#   specialisation  1 if the mentee's target domain equals the mentor's domain, else 0
+#
+# These are EQUAL weights, i.e. the "unweighted cosine" baseline.
+# scripts/tune_weights.py writes the tuned weights to config/matching.tuned.yaml.
+
+weights:
+  text: 0.3333
+  skills: 0.3333
+  specialisation: 0.3334
+
+# How to treat a block that is missing on either side:
+#   renormalise_content  rescale only between text and skills; specialisation keeps its
+#                        fixed share, so a specialisation match cannot dominate an
+#                        incomplete profile (default)
+#   renormalise          drop the missing block and rescale all remaining weights
+#   zero                 treat the missing block's similarity as 0
+# scripts/tune_weights.py compares all three on the validation split.
+missing_policy: renormalise_content
+
+# Hard filters (applied before scoring; they are never part of the score)
+filters:
+  require_consent: true
+  require_available: true
+  respect_capacity: true          # current_mentees < max_mentees
+  min_experience_gap_years: 2     # mentor.years_experience - mentee.years_experience
+
+top_k: 5
+
+text:
+  use_glossary: true
+  ngram_range: [1, 2]
+  sublinear_tf: true
+  min_df: 1
+  stop_words: english
+
+# A mentee must have at least one of these blocks, otherwise the result is
+# "incomplete_profile" and the UI should ask them to complete their profile.
+required_mentee_blocks_any: [text, skills]
