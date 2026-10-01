@@ -1,0 +1,37 @@
+{
+  "_meta": {
+    "title": "Aviation abbreviation and synonym glossary (author-defined)",
+    "purpose": "Normalises aviation abbreviations and common synonyms to a single token before TF-IDF, so 'B787', 'Dreamliner' and 'Boeing 787-8' count as the same term.",
+    "coverage_note": "Deliberately incomplete: it covers abbreviations, aircraft names and well-known synonyms only. Paraphrases such as 'fresh produce exports' vs 'perishables' are NOT mapped, which is a known limitation of lexical TF-IDF matching. Extend it with domain experts.",
+    "version": "1.0"
+  },
+  "entries": [
+    {"canonical": "boeing787", "display": "Boeing 787", "variants": ["boeing 787-8 dreamliner", "boeing 787-8", "boeing 787", "787-8", "787 dreamliner", "b787-8", "b787", "dreamliner", "787"]},
+    {"canonical": "boeing737freighter", "display": "Boeing 737-300F", "variants": ["boeing 737-300f", "737-300f", "boeing 737 freighter", "b737 freighter"]},
+    {"canonical": "boeing737", "display": "Boeing 737-800", "variants": ["boeing 737-800", "b737-800", "737-800", "737 next generation", "boeing 737", "b737"]},
+    {"canonical": "embraere190", "display": "Embraer E190", "variants": ["embraer e190", "embraer-e190", "embraer 190", "e190"]},
+    {"canonical": "boeing777", "display": "Boeing 777-300ER", "variants": ["boeing 777-300er", "b777-300er", "777-300er", "boeing 777", "b777", "777"]},
+    {"canonical": "aircraftonground", "display": "AOG", "variants": ["aircraft on ground", "aog"]},
+    {"canonical": "nondestructivetesting", "display": "NDT", "variants": ["non-destructive testing", "nondestructive testing", "ndt"]},
+    {"canonical": "heavymaintenance", "display": "heavy maintenance", "variants": ["heavy maintenance", "base maintenance", "heavy checks", "c-checks", "c-check"]},
+    {"canonical": "aircraftmaintenanceengineer", "display": "AME", "variants": ["aircraft maintenance engineer", "ame"]},
+    {"canonical": "inflightentertainment", "display": "IFE", "variants": ["in-flight entertainment", "ife"]},
+    {"canonical": "dangerousgoods", "display": "dangerous goods", "variants": ["dangerous goods regulations", "dangerous goods", "dgr", "hazardous materials", "hazmat"]},
+    {"canonical": "crewresourcemanagement", "display": "CRM", "variants": ["crew resource management", "crm"]},
+    {"canonical": "safetyemergencyprocedures", "display": "SEP", "variants": ["safety and emergency procedures", "sep"]},
+    {"canonical": "aviationsecurity", "display": "AVSEC", "variants": ["aviation security", "avsec"]},
+    {"canonical": "safetymanagementsystem", "display": "SMS", "variants": ["safety management systems", "safety management system", "sms"]},
+    {"canonical": "loadcontrol", "display": "load control", "variants": ["weight and balance", "load control", "load sheets", "load sheet"]},
+    {"canonical": "reducedmobility", "display": "reduced mobility assistance", "variants": ["passengers with reduced mobility", "reduced mobility", "mobility assistance", "wheelchair assistance", "prm"]},
+    {"canonical": "coolchain", "display": "cool chain", "variants": ["temperature-controlled", "cold chain", "cool chain", "ceiv pharma"]},
+    {"canonical": "sustainableaviationfuel", "display": "SAF", "variants": ["sustainable aviation fuel", "saf"]},
+    {"canonical": "droneoperations", "display": "drones", "variants": ["unmanned aircraft systems", "drones", "drone", "uas"]},
+    {"canonical": "groundsupportequipment", "display": "GSE", "variants": ["ground support equipment", "gse"]},
+    {"canonical": "newdistributioncapability", "display": "NDC", "variants": ["new distribution capability", "ndc"]},
+    {"canonical": "revenuemanagement", "display": "revenue management", "variants": ["revenue management", "yield management"]},
+    {"canonical": "iosaaudit", "display": "IOSA", "variants": ["iata operational safety audit", "iosa"]},
+    {"canonical": "isagoaudit", "display": "ISAGO", "variants": ["iata safety audit for ground operations", "isago"]},
+    {"canonical": "premierworld", "display": "Premier World", "variants": ["premier world", "business class"]},
+    {"canonical": "metartaf", "display": "METAR/TAF", "variants": ["metar and taf", "metar", "taf"]}
+  ]
+}

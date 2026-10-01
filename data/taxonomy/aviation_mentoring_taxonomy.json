@@ -1,0 +1,98 @@
+{
+  "_meta": {
+    "title": "Aviation mentoring taxonomy (author-defined)",
+    "purpose": "Controlled list of specialisation domains and mentoring topics. Users pick topics as tags (mentees: 'wants to learn'; mentors: 'can mentor in'). The synthetic data generator also uses the phrases to write free-text profiles.",
+    "provenance": "Defined by the project author. Topics are grounded in Kenya Airways' public vocabulary where possible (see kq_refs -> data/kq_public/kq_domain_vocabulary.json). This list should be reviewed with Pride Centre / KQ domain experts during requirements elicitation.",
+    "version": "1.0"
+  },
+  "domains": [
+    {"id": "aircraft_maintenance", "name": "Aircraft Maintenance & Engineering", "selectable_specialisation": true},
+    {"id": "flight_operations", "name": "Flight Operations", "selectable_specialisation": true},
+    {"id": "cabin_services", "name": "Cabin Services", "selectable_specialisation": true},
+    {"id": "ground_operations", "name": "Ground Handling & Airport Services", "selectable_specialisation": true},
+    {"id": "cargo", "name": "Cargo & Logistics", "selectable_specialisation": true},
+    {"id": "safety_security_quality", "name": "Safety, Security & Quality", "selectable_specialisation": true},
+    {"id": "commercial", "name": "Commercial, Sales & Customer Experience", "selectable_specialisation": true},
+    {"id": "digital_innovation", "name": "Digital, Innovation & Sustainability", "selectable_specialisation": true},
+    {"id": "career_development", "name": "Career Development & Leadership", "selectable_specialisation": false},
+    {"id": "fleet", "name": "Aircraft Types", "selectable_specialisation": false}
+  ],
+  "topics": [
+    {"id": "line_maintenance", "name": "Line maintenance & AOG support", "domain": "aircraft_maintenance", "kq_refs": ["line_maintenance_aog"], "phrases": ["line maintenance", "AOG troubleshooting", "transit checks on the line", "getting aircraft back into service quickly"]},
+    {"id": "heavy_maintenance", "name": "Heavy & base maintenance", "domain": "aircraft_maintenance", "kq_refs": ["heavy_maintenance"], "phrases": ["heavy maintenance", "C-check planning and execution", "base maintenance in the hangar", "major airframe inspections"]},
+    {"id": "component_repair", "name": "Component repair shops", "domain": "aircraft_maintenance", "kq_refs": ["component_repair"], "phrases": ["component repair", "specialised repair shops", "overhauling aircraft components in the workshop"]},
+    {"id": "engine_maintenance", "name": "Engine on-wing support", "domain": "aircraft_maintenance", "kq_refs": ["engine_on_wing"], "phrases": ["engine on-wing support", "borescope inspections", "powerplant maintenance", "turbofan engine troubleshooting"]},
+    {"id": "ndt_inspection", "name": "Non-destructive testing (NDT)", "domain": "aircraft_maintenance", "kq_refs": ["ndt"], "phrases": ["non-destructive testing", "NDT inspection techniques", "eddy current and ultrasonic inspection", "structural crack detection"]},
+    {"id": "avionics_cabin_systems", "name": "Avionics, cabin & IFE systems", "domain": "aircraft_maintenance", "kq_refs": ["cabin_ife_maintenance"], "phrases": ["avionics systems", "aircraft electrical and avionics troubleshooting", "cabin and IFE systems maintenance", "wiring and instrument faults"]},
+    {"id": "maintenance_planning", "name": "Maintenance planning & reliability", "domain": "aircraft_maintenance", "kq_refs": [], "phrases": ["maintenance planning", "work package preparation", "maintenance records and reliability", "planning hangar slots"]},
+    {"id": "licensing_part145", "name": "AME licensing & Part-145 procedures", "domain": "aircraft_maintenance", "kq_refs": ["easa_part_145", "engineering_training"], "phrases": ["aircraft maintenance engineer licence preparation", "AME licence modules", "EASA Part-145 procedures", "working in an approved maintenance organisation"]},
+
+    {"id": "flight_dispatch", "name": "Flight dispatch", "domain": "flight_operations", "kq_refs": [], "phrases": ["flight dispatch", "operational flight planning", "preparing flight plans and fuel figures", "dispatcher duties"]},
+    {"id": "crew_resource_management", "name": "Crew resource management (CRM)", "domain": "flight_operations", "kq_refs": [], "phrases": ["crew resource management", "CRM", "cockpit communication and teamwork", "threat and error management"]},
+    {"id": "type_rating_preparation", "name": "Type rating preparation", "domain": "flight_operations", "kq_refs": [], "phrases": ["type rating preparation", "simulator check preparation", "transitioning onto a new aircraft type"]},
+    {"id": "aircraft_performance", "name": "Aircraft performance", "domain": "flight_operations", "kq_refs": [], "phrases": ["aircraft performance calculations", "take-off and landing performance", "weight limits and runway analysis"]},
+    {"id": "aviation_meteorology", "name": "Aviation meteorology", "domain": "flight_operations", "kq_refs": [], "phrases": ["aviation meteorology", "interpreting METAR and TAF reports", "weather briefing for flights"]},
+    {"id": "pilot_career_pathway", "name": "Pilot career pathway", "domain": "flight_operations", "kq_refs": [], "phrases": ["pilot career pathway", "commercial pilot licence progression", "becoming a first officer", "building flying hours"]},
+
+    {"id": "safety_emergency_procedures", "name": "Safety & emergency procedures (SEP)", "domain": "cabin_services", "kq_refs": [], "phrases": ["safety and emergency procedures", "SEP training", "cabin evacuation drills", "ditching and fire drills"]},
+    {"id": "inflight_service", "name": "In-flight service delivery", "domain": "cabin_services", "kq_refs": [], "phrases": ["in-flight service delivery", "onboard meal and beverage service", "economy cabin service"]},
+    {"id": "premium_cabin_service", "name": "Premier World (premium cabin) service", "domain": "cabin_services", "kq_refs": ["premier_world"], "phrases": ["Premier World service", "business class service", "premium cabin hospitality"]},
+    {"id": "inflight_first_aid", "name": "In-flight first aid", "domain": "cabin_services", "kq_refs": [], "phrases": ["in-flight first aid", "handling medical emergencies onboard", "passenger medical incidents"]},
+    {"id": "cabin_leadership", "name": "Cabin crew leadership", "domain": "cabin_services", "kq_refs": [], "phrases": ["purser leadership", "leading a cabin crew team", "senior cabin crew responsibilities"]},
+
+    {"id": "passenger_handling", "name": "Passenger handling & check-in", "domain": "ground_operations", "kq_refs": ["check_in_passenger_handling"], "phrases": ["passenger handling", "check-in and boarding", "airport passenger services", "managing departure gates"]},
+    {"id": "ramp_operations", "name": "Ramp handling & GSE", "domain": "ground_operations", "kq_refs": ["ramp_handling", "ground_support_equipment"], "phrases": ["ramp handling", "aircraft turnaround on the apron", "ground support equipment operations", "pushback and towing"]},
+    {"id": "load_control", "name": "Load control / weight & balance", "domain": "ground_operations", "kq_refs": ["aircraft_loading"], "phrases": ["load control", "weight and balance", "preparing load sheets", "aircraft loading instructions"]},
+    {"id": "station_management", "name": "Station management", "domain": "ground_operations", "kq_refs": [], "phrases": ["station management", "ground handling supervision", "running airport station operations"]},
+    {"id": "special_assistance", "name": "Mobility & special assistance", "domain": "ground_operations", "kq_refs": ["mobility_assistance"], "phrases": ["mobility assistance", "passengers with reduced mobility", "VIP meet and assist", "wheelchair assistance coordination"]},
+    {"id": "ground_safety_audits", "name": "Ground operations audits (ISAGO)", "domain": "ground_operations", "kq_refs": ["isago"], "phrases": ["ISAGO audits", "ground operations safety standards", "ground handling audit preparation"]},
+
+    {"id": "dangerous_goods", "name": "Dangerous goods regulations", "domain": "cargo", "kq_refs": [], "phrases": ["dangerous goods regulations", "DGR compliance", "hazardous materials acceptance", "shipping lithium batteries safely"]},
+    {"id": "cargo_acceptance", "name": "Cargo acceptance & documentation", "domain": "cargo", "kq_refs": [], "phrases": ["cargo acceptance and documentation", "air waybill processing", "cargo skills and procedures", "export documentation"]},
+    {"id": "pharma_cool_chain", "name": "Pharmaceutical cool chain", "domain": "cargo", "kq_refs": ["pharma_cool_chain", "ceiv_pharma"], "phrases": ["pharmaceutical cool chain", "CEIV Pharma handling", "temperature-controlled cargo", "cold chain logistics"]},
+    {"id": "perishables", "name": "Perishables handling", "domain": "cargo", "kq_refs": ["cargo_handling"], "phrases": ["perishables handling", "fresh produce exports", "flower and horticulture shipments"]},
+    {"id": "freighter_operations", "name": "Freighter operations", "domain": "cargo", "kq_refs": [], "phrases": ["freighter operations", "main deck cargo loading", "737-300F freighter loading"]},
+    {"id": "cargo_sales", "name": "Cargo sales", "domain": "cargo", "kq_refs": [], "phrases": ["cargo sales", "selling cargo capacity", "freight forwarder relationships"]},
+
+    {"id": "aviation_security", "name": "Aviation security (AVSEC)", "domain": "safety_security_quality", "kq_refs": [], "phrases": ["aviation security", "AVSEC screening", "security threat awareness", "access control at the airport"]},
+    {"id": "safety_management", "name": "Safety management systems", "domain": "safety_security_quality", "kq_refs": [], "phrases": ["safety management systems", "SMS hazard reporting", "safety risk assessment", "occurrence investigation"]},
+    {"id": "quality_auditing", "name": "Quality auditing", "domain": "safety_security_quality", "kq_refs": ["iosa"], "phrases": ["quality auditing", "lead auditor skills", "compliance audits", "IOSA audit preparation"]},
+    {"id": "human_factors", "name": "Human factors", "domain": "safety_security_quality", "kq_refs": [], "phrases": ["human factors", "human performance and error management", "fatigue risk awareness"]},
+    {"id": "regulatory_compliance", "name": "Regulatory compliance", "domain": "safety_security_quality", "kq_refs": [], "phrases": ["regulatory compliance", "civil aviation regulations", "KCAA requirements"]},
+    {"id": "emergency_response", "name": "Emergency response planning", "domain": "safety_security_quality", "kq_refs": [], "phrases": ["emergency response planning", "crisis management drills", "airport emergency exercises"]},
+
+    {"id": "revenue_management", "name": "Revenue management & pricing", "domain": "commercial", "kq_refs": [], "phrases": ["revenue management", "pricing and inventory control", "yield management", "fare structures"]},
+    {"id": "network_planning", "name": "Network & schedule planning", "domain": "commercial", "kq_refs": [], "phrases": ["network planning", "route development", "schedule planning"]},
+    {"id": "sales_distribution", "name": "Sales & distribution (incl. NDC)", "domain": "commercial", "kq_refs": ["ndc_distribution"], "phrases": ["sales and distribution", "NDC distribution", "travel agency sales", "corporate sales accounts"]},
+    {"id": "loyalty_programmes", "name": "Loyalty programmes", "domain": "commercial", "kq_refs": ["asante_rewards"], "phrases": ["loyalty programmes", "Asante Rewards", "frequent flyer engagement"]},
+    {"id": "customer_experience", "name": "Customer experience & service recovery", "domain": "commercial", "kq_refs": ["lounges"], "phrases": ["customer experience", "service recovery", "complaint handling", "lounge and premium customer care"]},
+    {"id": "marketing_communications", "name": "Marketing & communications", "domain": "commercial", "kq_refs": [], "phrases": ["marketing and public relations", "brand communications", "advertising campaigns", "social media marketing"]},
+
+    {"id": "drone_operations", "name": "Drone operations", "domain": "digital_innovation", "kq_refs": ["precision_farming_drones"], "phrases": ["drone operations", "unmanned aircraft systems", "precision farming with drones"]},
+    {"id": "aviation_it_systems", "name": "Airline IT systems", "domain": "digital_innovation", "kq_refs": [], "phrases": ["airline IT systems", "booking and departure control systems", "digital products for airlines"]},
+    {"id": "data_analytics", "name": "Data analytics", "domain": "digital_innovation", "kq_refs": [], "phrases": ["airline data analytics", "operational dashboards and reporting", "analysing performance data"]},
+    {"id": "sustainability", "name": "Sustainability & SAF", "domain": "digital_innovation", "kq_refs": ["sustainable_aviation_fuel"], "phrases": ["sustainable aviation fuel", "SAF", "carbon reduction initiatives", "net zero planning"]},
+
+    {"id": "leadership_management", "name": "Leadership & people management", "domain": "career_development", "kq_refs": [], "phrases": ["leadership and people management", "leading teams", "supervisory skills", "managing performance"]},
+    {"id": "career_progression", "name": "Career progression", "domain": "career_development", "kq_refs": [], "phrases": ["career progression", "planning promotions", "professional growth", "moving between departments"]},
+    {"id": "job_search_interviews", "name": "Job search & interviews", "domain": "career_development", "kq_refs": [], "phrases": ["interview preparation", "CV writing for airline jobs", "airline recruitment processes"]},
+    {"id": "entrepreneurship_consulting", "name": "Entrepreneurship & consulting", "domain": "career_development", "kq_refs": [], "phrases": ["starting an aviation business", "entrepreneurship", "aviation consulting"]},
+    {"id": "public_speaking", "name": "Presentation & stakeholder communication", "domain": "career_development", "kq_refs": [], "phrases": ["presentation skills", "public speaking", "stakeholder communication"]},
+
+    {"id": "fleet_b787", "name": "Boeing 787-8 Dreamliner", "domain": "fleet", "kq_refs": ["b787_8"], "phrases": ["Boeing 787-8", "787 Dreamliner", "B787", "Dreamliner operations"]},
+    {"id": "fleet_b737", "name": "Boeing 737-800", "domain": "fleet", "kq_refs": ["b737_800"], "phrases": ["Boeing 737-800", "B737", "737 Next Generation"]},
+    {"id": "fleet_e190", "name": "Embraer E190", "domain": "fleet", "kq_refs": ["e190"], "phrases": ["Embraer E190", "E190", "Embraer 190 jets"]},
+    {"id": "fleet_b777", "name": "Boeing 777-300ER", "domain": "fleet", "kq_refs": ["b777_300er"], "phrases": ["Boeing 777-300ER", "B777", "777 wide-body"]},
+    {"id": "fleet_b737f", "name": "Boeing 737-300F freighter", "domain": "fleet", "kq_refs": ["b737_300f"], "phrases": ["737-300F", "Boeing 737 freighter"]}
+  ],
+  "role_titles": {
+    "aircraft_maintenance": ["Licensed Aircraft Maintenance Engineer", "Avionics Engineer", "Maintenance Planner", "NDT Inspector", "Powerplant Engineer", "Hangar Supervisor"],
+    "flight_operations": ["Captain", "First Officer", "Training Captain", "Flight Dispatcher", "Flight Operations Officer"],
+    "cabin_services": ["Cabin Services Manager", "Purser", "Senior Cabin Crew", "Cabin Crew Instructor"],
+    "ground_operations": ["Station Manager", "Load Controller", "Ramp Supervisor", "Passenger Services Supervisor", "Ground Operations Duty Manager"],
+    "cargo": ["Cargo Operations Supervisor", "Dangerous Goods Specialist", "Pharma Cargo Coordinator", "Cargo Sales Executive"],
+    "safety_security_quality": ["Safety Officer", "Quality Auditor", "Aviation Security Supervisor", "Compliance Manager"],
+    "commercial": ["Revenue Analyst", "Network Planner", "Sales Manager", "Customer Experience Lead", "Marketing Officer", "Loyalty Programme Manager"],
+    "digital_innovation": ["Drone Operations Pilot", "IT Systems Analyst", "Data Analyst", "Sustainability Officer"]
+  }
+}
