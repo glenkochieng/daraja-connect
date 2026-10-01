@@ -1,0 +1,19 @@
+{
+  "name": "daraja-connect-recommender",
+  "version": "1.0.0",
+  "description": "A **content-based mentor recommender** that ranks current and former Kenya Airways employees (mentors) for Kenya Airways Pride Centre alumni (mentees). It compares profiles with TF-IDF text similarity, skill-tag similarity and a specialisation match, combines the three with weights, and explains each recommendation.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2"
+  }
+}
