@@ -224,8 +224,41 @@ export function QueryBoard({ query, isEmpty, empty, rows, children }) {
   return children(query.data);
 }
 
+/** Topic ids as tags; topics the viewer shares are marked so the overlap reads at a glance. */
+export function TopicTags({ ids, taxonomy, shared, limit }) {
+  if (!ids?.length) return null;
+  const shown = limit ? ids.slice(0, limit) : ids;
+  const sharedSet = new Set(shared ?? []);
+  return (
+    <ul className="cluster" aria-label="Topics">
+      {shown.map((id) => (
+        <li key={id} className={`tag${sharedSet.has(id) ? ' tag--shared' : ''}`}>
+          {taxonomy?.topicById.get(id)?.name ?? id}
+          {sharedSet.has(id) ? <span className="visually-hidden"> (you share this)</span> : null}
+        </li>
+      ))}
+      {limit && ids.length > limit ? (
+        <li className="tag-more">+{ids.length - limit} more</li>
+      ) : null}
+    </ul>
+  );
+}
+
+/** Member-written plain text: paragraphs split on blank lines, line breaks kept, never HTML. */
+export function Prose({ text }) {
+  const paragraphs = (text ?? '').split(/\n\s*\n/).filter((p) => p.trim());
+  return (
+    <div className="prose">
+      {paragraphs.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  );
+}
+
 export function Pager({ page, pages, total, onPage, noun = 'result' }) {
-  if (!total) return null;
+  // One page needs no pager; the count is already in the location header.
+  if (!total || pages <= 1) return null;
   return (
     <div className="pager">
       <span>

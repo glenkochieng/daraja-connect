@@ -18,9 +18,10 @@ import {
 } from '../components/ui.jsx';
 import { api, qs } from '../lib/api.js';
 import { useAuth } from '../lib/auth.jsx';
-import { USER_TYPE_LABELS, firstName, formatAgo, formatDate, plural } from '../lib/format.js';
+import { firstName, formatAgo, formatDate, plural } from '../lib/format.js';
+import { personLine } from '../lib/people.js';
 import { listInWords, profileGaps } from '../lib/profile.js';
-import { specialisationName, useTaxonomy } from '../lib/taxonomy.js';
+import { useTaxonomy } from '../lib/taxonomy.js';
 
 const BLOCK_LABELS = {
   text: 'Your goals compared with their expertise',
@@ -57,17 +58,6 @@ function useRequestAction() {
       }
     },
   });
-}
-
-function personLine(person, taxonomy) {
-  const parts = [
-    person.roleTitle || person.headline,
-    USER_TYPE_LABELS[person.userType],
-    specialisationName(taxonomy, person.specialisation),
-    person.yearsExperience != null && plural(person.yearsExperience, 'year'),
-  ].filter(Boolean);
-  // A headline often repeats the account type ("Pride Centre graduate"); say it once.
-  return [...new Set(parts)].join(' · ');
 }
 
 /* ------------------------------------------------------------------ mentee view */
