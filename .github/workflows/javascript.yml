@@ -1,0 +1,40 @@
+name: JavaScript lint
+
+on:
+  pull_request:
+    paths:
+      - '**/*.js'
+      - '**/*.mjs'
+      - '**/*.jsx'
+      - '**/*.json'
+      - '**/*.yml'
+      - '.prettierrc.json'
+      - '.prettierignore'
+      - '.github/workflows/javascript.yml'
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: javascript-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: ESLint and Prettier
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: ESLint
+        run: npm run lint
+      - name: Prettier
+        run: npm run format:check
