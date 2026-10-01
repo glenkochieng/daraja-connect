@@ -1,0 +1,2743 @@
+[
+  {
+    "mentor_id": "MTR-0001",
+    "user_type": "former_staff",
+    "role_title": "Former Aviation Security Supervisor",
+    "specialisation": "safety_security_quality",
+    "years_experience": 12.0,
+    "expertise_text": "Former Aviation Security Supervisor with 12 years in aviation, now an independent consultant. Recognised specialist in compliance audits. Solid experience with emergency response planning. Comfortable handling fatigue risk awareness. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "human_factors",
+      "quality_auditing"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0002",
+    "user_type": "current_staff",
+    "role_title": "Safety Officer",
+    "specialisation": "safety_security_quality",
+    "years_experience": 25.0,
+    "expertise_text": "25 years in aviation, currently serving as Safety Officer. Deep hands-on expertise in airport emergency exercises. Many years of experience in quality auditing. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "emergency_response",
+      "quality_auditing"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 4,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0003",
+    "user_type": "former_staff",
+    "role_title": "Former Cabin Crew Instructor",
+    "specialisation": "cabin_services",
+    "years_experience": 29.0,
+    "expertise_text": "Previously a Cabin Crew Instructor at Kenya Airways; 29 years in the industry. Many years of experience in economy cabin service. Recognised specialist in managing performance. I currently train others in senior cabin crew responsibilities. Comfortable handling Premier World service. Many years of experience in passenger medical incidents. Recognised specialist in airline recruitment processes. Solid experience with cabin evacuation drills. I care deeply about safety culture. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "cabin_leadership",
+      "inflight_first_aid",
+      "inflight_service",
+      "safety_emergency_procedures",
+      "premium_cabin_service",
+      "job_search_interviews",
+      "leadership_management"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0004",
+    "user_type": "former_staff",
+    "role_title": "Former Cabin Services Manager",
+    "specialisation": "cabin_services",
+    "years_experience": 12.0,
+    "expertise_text": "Previously a Cabin Services Manager at Kenya Airways; 12 years in the industry. Comfortable handling passenger medical incidents. Recognised specialist in premium cabin hospitality. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "premium_cabin_service"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0005",
+    "user_type": "former_staff",
+    "role_title": "Former Pharma Cargo Coordinator",
+    "specialisation": "cargo",
+    "years_experience": 26.0,
+    "expertise_text": "I spent 26 years in aviation and left Kenya Airways as a Pharma Cargo Coordinator. Many years of experience in 737-300F freighter loading. I currently train others in CEIV Pharma handling. I have worked on hazardous materials acceptance regularly.",
+    "can_mentor_in": [
+      "dangerous_goods",
+      "pharma_cool_chain",
+      "perishables"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0006",
+    "user_type": "current_staff",
+    "role_title": "Passenger Services Supervisor",
+    "specialisation": null,
+    "years_experience": 7.0,
+    "expertise_text": "7 years in aviation, currently serving as Passenger Services Supervisor. I have occasionally supported preparing load sheets. Some exposure to entrepreneurship. I currently train others in aircraft turnaround on the apron. I prefer structured, goal-based mentoring sessions. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [
+      "load_control",
+      "passenger_handling",
+      "special_assistance"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0007",
+    "user_type": "current_staff",
+    "role_title": "Safety Officer",
+    "specialisation": "safety_security_quality",
+    "years_experience": 19.0,
+    "expertise_text": "Safety Officer at Kenya Airways with 19 years of experience. Comfortable handling occurrence investigation. Some exposure to stakeholder communication. Recognised specialist in human performance and error management. Deep hands-on expertise in CV writing for airline jobs. Basic familiarity with airport emergency exercises. I believe good mentoring builds confidence and teamwork. I care deeply about safety culture.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 4,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0008",
+    "user_type": "current_staff",
+    "role_title": "First Officer",
+    "specialisation": "flight_operations",
+    "years_experience": 16.0,
+    "expertise_text": "First Officer at Kenya Airways with 16 years of experience. Basic familiarity with leadership and people management. I have worked on operational flight planning regularly. Recognised specialist in weight limits and runway analysis. Recognised specialist in building flying hours. Worked on the E190. Comfortable handling crew resource management. Deep hands-on expertise in interpreting METAR and TAF reports. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "flight_dispatch",
+      "aircraft_performance",
+      "aviation_meteorology",
+      "crew_resource_management",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0009",
+    "user_type": "current_staff",
+    "role_title": "Flight Dispatcher",
+    "specialisation": "flight_operations",
+    "years_experience": 16.0,
+    "expertise_text": "Flight Dispatcher at Kenya Airways with 16 years of experience. Solid experience with threat and error management. Many years of experience in leading teams. Extensive type experience on the B777. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "pilot_career_pathway",
+      "aircraft_performance",
+      "type_rating_preparation",
+      "crew_resource_management",
+      "fleet_b777"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0010",
+    "user_type": "current_staff",
+    "role_title": "Purser",
+    "specialisation": "cabin_services",
+    "years_experience": 19.0,
+    "expertise_text": "I work as a Purser and have been in aviation for 19 years. Basic familiarity with handling medical emergencies onboard. Recognised specialist in Premier World service. Solid experience with professional growth. Deep hands-on expertise in CV writing for airline jobs.",
+    "can_mentor_in": [
+      "premium_cabin_service",
+      "job_search_interviews"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0011",
+    "user_type": "former_staff",
+    "role_title": "Former Cabin Crew Instructor",
+    "specialisation": "cabin_services",
+    "years_experience": 10.0,
+    "expertise_text": "I spent 10 years in aviation and left Kenya Airways as a Cabin Crew Instructor. I have worked on 737-300F freighter loading regularly. I have worked on Premier World service regularly. Comfortable handling senior cabin crew responsibilities. Type experience on the Boeing 787-8. Many years of experience in ditching and fire drills. Some exposure to handling medical emergencies onboard. I have occasionally supported onboard meal and beverage service. Happy to share practical lessons from the Pride of Africa. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "inflight_first_aid",
+      "safety_emergency_procedures",
+      "freighter_operations",
+      "public_speaking",
+      "fleet_b787"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0012",
+    "user_type": "current_staff",
+    "role_title": "First Officer",
+    "specialisation": "flight_operations",
+    "years_experience": 29.0,
+    "expertise_text": "29 years in aviation, currently serving as First Officer. Deep hands-on expertise in flight dispatch. Many years of experience in threat and error management. Deep hands-on expertise in building flying hours. Many years of experience in type rating preparation. Many years of experience in weight limits and runway analysis. I believe good mentoring builds confidence and teamwork. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "crew_resource_management",
+      "aircraft_performance",
+      "pilot_career_pathway",
+      "flight_dispatch",
+      "fleet_b777"
+    ],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0013",
+    "user_type": "current_staff",
+    "role_title": "Safety Officer",
+    "specialisation": "safety_security_quality",
+    "years_experience": 29.0,
+    "expertise_text": "Safety Officer at Kenya Airways with 29 years of experience. I have occasionally supported professional growth. Solid experience with NDT inspection techniques. Deep hands-on expertise in aviation security. Solid experience with crisis management drills.",
+    "can_mentor_in": [
+      "aviation_security",
+      "emergency_response",
+      "ndt_inspection"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": false
+  },
+  {
+    "mentor_id": "MTR-0014",
+    "user_type": "current_staff",
+    "role_title": "Passenger Services Supervisor",
+    "specialisation": "ground_operations",
+    "years_experience": 8.0,
+    "expertise_text": "Passenger Services Supervisor at Kenya Airways with 8 years of experience. I have worked on pushback and towing regularly. Comfortable handling carbon reduction initiatives.",
+    "can_mentor_in": [
+      "passenger_handling",
+      "ramp_operations",
+      "sustainability"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0015",
+    "user_type": "current_staff",
+    "role_title": "Dangerous Goods Specialist",
+    "specialisation": "cargo",
+    "years_experience": 19.0,
+    "expertise_text": "Dangerous Goods Specialist at Kenya Airways with 19 years of experience. I have worked on leadership and people management regularly. Many years of experience in fresh produce exports. Recognised specialist in shipping lithium batteries safely. Solid experience with cargo sales. I have occasionally supported civil aviation regulations. I prefer structured, goal-based mentoring sessions. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "freighter_operations",
+      "dangerous_goods",
+      "cargo_acceptance",
+      "perishables",
+      "aviation_security",
+      "leadership_management"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0016",
+    "user_type": "former_staff",
+    "role_title": "Former Aviation Security Supervisor",
+    "specialisation": null,
+    "years_experience": 13.0,
+    "expertise_text": "I spent 13 years in aviation and left Kenya Airways as a Aviation Security Supervisor. Solid experience with IOSA audit preparation. Solid experience with fatigue risk awareness. Recognised specialist in SMS hazard reporting. Solid experience with starting an aviation business. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "human_factors",
+      "safety_management",
+      "quality_auditing",
+      "entrepreneurship_consulting"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0017",
+    "user_type": "current_staff",
+    "role_title": "Cabin Crew Instructor",
+    "specialisation": "cabin_services",
+    "years_experience": 30.0,
+    "expertise_text": "Cabin Crew Instructor at Kenya Airways with 30 years of experience. Solid experience with business class service. I currently train others in CV writing for airline jobs. Some time on the Embraer E190. Many years of experience in in-flight first aid. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "premium_cabin_service",
+      "inflight_service",
+      "safety_emergency_procedures",
+      "fleet_e190"
+    ],
+    "is_available": false,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0018",
+    "user_type": "current_staff",
+    "role_title": "Ramp Supervisor",
+    "specialisation": "ground_operations",
+    "years_experience": 5.0,
+    "expertise_text": "5 years in aviation, currently serving as Ramp Supervisor. Some exposure to passenger handling. Some exposure to aircraft loading instructions. Solid experience with professional growth. Comfortable handling ISAGO audits. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "ground_safety_audits",
+      "special_assistance",
+      "career_progression"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0019",
+    "user_type": "current_staff",
+    "role_title": "Powerplant Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 18.0,
+    "expertise_text": "Powerplant Engineer at Kenya Airways with 18 years of experience. Many years of experience in wiring and instrument faults. Type experience on the Embraer 190 jets. Deep hands-on expertise in eddy current and ultrasonic inspection. Recognised specialist in getting aircraft back into service quickly.",
+    "can_mentor_in": [
+      "avionics_cabin_systems",
+      "line_maintenance",
+      "fleet_b737",
+      "fleet_e190",
+      "component_repair"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0020",
+    "user_type": "former_staff",
+    "role_title": "Former Ground Operations Duty Manager",
+    "specialisation": "ground_operations",
+    "years_experience": 34.0,
+    "expertise_text": "Former Ground Operations Duty Manager with 34 years in aviation, now an independent consultant. Deep hands-on expertise in career progression. I have worked on aircraft turnaround on the apron regularly. I have worked on station management regularly. Many years of experience in wheelchair assistance coordination. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "special_assistance",
+      "career_progression"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0021",
+    "user_type": "former_staff",
+    "role_title": "Former Cabin Services Manager",
+    "specialisation": "cabin_services",
+    "years_experience": 20.0,
+    "expertise_text": "Previously a Cabin Services Manager at Kenya Airways; 20 years in the industry. Recognised specialist in economy cabin service. Comfortable handling handling medical emergencies onboard. I enjoy helping young professionals grow. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "inflight_service",
+      "job_search_interviews"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0022",
+    "user_type": "current_staff",
+    "role_title": "Load Controller",
+    "specialisation": "ground_operations",
+    "years_experience": 21.0,
+    "expertise_text": "21 years in aviation, currently serving as Load Controller. Solid experience with starting an aviation business. Deep hands-on expertise in running airport station operations. Recognised specialist in airport passenger services. Happy to share practical lessons from the Pride of Africa. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "passenger_handling",
+      "station_management"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0023",
+    "user_type": "former_staff",
+    "role_title": "Former Licensed Aircraft Maintenance Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 21.0,
+    "expertise_text": "I spent 21 years in aviation and left Kenya Airways as a Licensed Aircraft Maintenance Engineer. Comfortable handling EASA Part-145 procedures. Deep hands-on expertise in maintenance planning. Many years of experience in managing performance. I have worked on NDT inspection techniques regularly. Extensive type experience on the 777 wide-body.",
+    "can_mentor_in": [
+      "component_repair",
+      "licensing_part145",
+      "leadership_management",
+      "fleet_e190",
+      "fleet_b777"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0024",
+    "user_type": "former_staff",
+    "role_title": "Former Load Controller",
+    "specialisation": "ground_operations",
+    "years_experience": 33.0,
+    "expertise_text": "Previously a Load Controller at Kenya Airways; 33 years in the industry. Deep hands-on expertise in airline recruitment processes. Deep hands-on expertise in career progression. Comfortable handling passengers with reduced mobility. Many years of experience in ground handling supervision. I currently train others in load control. Recognised specialist in ISAGO audits. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "load_control",
+      "passenger_handling",
+      "special_assistance",
+      "ground_safety_audits",
+      "station_management",
+      "job_search_interviews",
+      "career_progression"
+    ],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0025",
+    "user_type": "current_staff",
+    "role_title": "Loyalty Programme Manager",
+    "specialisation": "commercial",
+    "years_experience": 7.0,
+    "expertise_text": "I work as a Loyalty Programme Manager and have been in aviation for 7 years. Many years of experience in advertising campaigns. Solid experience with moving between departments. Comfortable handling customer experience. Recognised specialist in NDC distribution. I have worked on yield management regularly.",
+    "can_mentor_in": [
+      "revenue_management",
+      "customer_experience",
+      "sales_distribution"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0026",
+    "user_type": "former_staff",
+    "role_title": "Former Cargo Sales Executive",
+    "specialisation": "cargo",
+    "years_experience": 27.0,
+    "expertise_text": "Former Cargo Sales Executive with 27 years in aviation, now an independent consultant. Solid experience with pharmaceutical cool chain. I currently train others in 737-300F freighter loading. Solid experience with ground handling audit preparation. Many years working on the 737-300F. I have worked on flower and horticulture shipments regularly. Solid experience with running airport station operations. Some exposure to leading teams. I have worked on aviation consulting regularly.",
+    "can_mentor_in": [
+      "pharma_cool_chain",
+      "ground_safety_audits",
+      "station_management",
+      "entrepreneurship_consulting",
+      "fleet_b737f"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0027",
+    "user_type": "current_staff",
+    "role_title": "Licensed Aircraft Maintenance Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 27.0,
+    "expertise_text": "27 years in aviation, currently serving as Licensed Aircraft Maintenance Engineer. I currently train others in avionics systems. Comfortable handling component repair. Many years of experience in planning hangar slots. Many years working on the Boeing 787-8. I currently train others in borescope inspections.",
+    "can_mentor_in": [
+      "avionics_cabin_systems",
+      "engine_maintenance",
+      "maintenance_planning",
+      "drone_operations",
+      "fleet_b787",
+      "licensing_part145"
+    ],
+    "is_available": false,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0028",
+    "user_type": "current_staff",
+    "role_title": "Cargo Operations Supervisor",
+    "specialisation": null,
+    "years_experience": 16.0,
+    "expertise_text": "I work as a Cargo Operations Supervisor and have been in aviation for 16 years. Extensive type experience on the Boeing 737 freighter. Deep hands-on expertise in hazardous materials acceptance. I have worked on cargo sales regularly. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "fleet_b737f"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0029",
+    "user_type": "former_staff",
+    "role_title": "Former Cargo Sales Executive",
+    "specialisation": "cargo",
+    "years_experience": 17.0,
+    "expertise_text": "Former Cargo Sales Executive with 17 years in aviation, now an independent consultant. Basic familiarity with temperature-controlled cargo. I have occasionally supported freighter operations. Some exposure to AOG troubleshooting. I currently train others in freight forwarder relationships. Deep hands-on expertise in flower and horticulture shipments.",
+    "can_mentor_in": [
+      "perishables",
+      "cargo_sales"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0030",
+    "user_type": "current_staff",
+    "role_title": "Safety Officer",
+    "specialisation": "safety_security_quality",
+    "years_experience": 16.0,
+    "expertise_text": "Safety Officer at Kenya Airways with 16 years of experience. Comfortable handling SMS hazard reporting. Recognised specialist in crisis management drills. I care deeply about safety culture. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "safety_management",
+      "emergency_response"
+    ],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0031",
+    "user_type": "current_staff",
+    "role_title": "IT Systems Analyst",
+    "specialisation": "digital_innovation",
+    "years_experience": 22.0,
+    "expertise_text": "IT Systems Analyst at Kenya Airways with 22 years of experience. Solid experience with in-flight first aid. Solid experience with airline IT systems. Many years of experience in airline recruitment processes. Deep hands-on expertise in unmanned aircraft systems. Solid experience with operational dashboards and reporting. Happy to share practical lessons from the Pride of Africa. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "drone_operations",
+      "job_search_interviews"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0032",
+    "user_type": "current_staff",
+    "role_title": "Licensed Aircraft Maintenance Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 7.0,
+    "expertise_text": "Licensed Aircraft Maintenance Engineer at Kenya Airways with 7 years of experience. Extensive type experience on the B777. Solid experience with AOG troubleshooting. I have worked on eddy current and ultrasonic inspection regularly. Worked on the B737.",
+    "can_mentor_in": [
+      "line_maintenance",
+      "fleet_b777",
+      "fleet_b737"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0033",
+    "user_type": "current_staff",
+    "role_title": "Cabin Crew Instructor",
+    "specialisation": "cabin_services",
+    "years_experience": 18.0,
+    "expertise_text": "",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0034",
+    "user_type": "current_staff",
+    "role_title": "Flight Operations Officer",
+    "specialisation": "flight_operations",
+    "years_experience": 8.0,
+    "expertise_text": "8 years in aviation, currently serving as Flight Operations Officer. Solid experience with weight limits and runway analysis. Solid experience with managing performance. Some exposure to building flying hours. Extensive type experience on the B737. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "aircraft_performance",
+      "entrepreneurship_consulting",
+      "leadership_management",
+      "fleet_b737"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0035",
+    "user_type": "current_staff",
+    "role_title": "Cargo Sales Executive",
+    "specialisation": "cargo",
+    "years_experience": 22.0,
+    "expertise_text": "Cargo Sales Executive at Kenya Airways with 22 years of experience. Comfortable handling dangerous goods regulations. Solid experience with fresh produce exports. I currently train others in cargo acceptance and documentation. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "dangerous_goods",
+      "perishables",
+      "cargo_acceptance"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0036",
+    "user_type": "current_staff",
+    "role_title": "Aviation Security Supervisor",
+    "specialisation": "safety_security_quality",
+    "years_experience": 17.0,
+    "expertise_text": "Aviation Security Supervisor at Kenya Airways with 17 years of experience. Deep hands-on expertise in managing performance. I have occasionally supported fatigue risk awareness. Solid experience with SMS hazard reporting. I currently train others in public speaking. Deep hands-on expertise in crisis management drills.",
+    "can_mentor_in": [
+      "emergency_response",
+      "safety_management",
+      "leadership_management"
+    ],
+    "is_available": false,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0037",
+    "user_type": "current_staff",
+    "role_title": "Passenger Services Supervisor",
+    "specialisation": "ground_operations",
+    "years_experience": 5.0,
+    "expertise_text": "I work as a Passenger Services Supervisor and have been in aviation for 5 years. I currently train others in pushback and towing. Comfortable handling passenger handling.",
+    "can_mentor_in": [
+      "ramp_operations",
+      "load_control"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0038",
+    "user_type": "current_staff",
+    "role_title": "Cargo Operations Supervisor",
+    "specialisation": "cargo",
+    "years_experience": 23.0,
+    "expertise_text": "23 years in aviation, currently serving as Cargo Operations Supervisor. Many years of experience in 737-300F freighter loading. Deep hands-on expertise in planning promotions. Comfortable handling pharmaceutical cool chain. Recognised specialist in cargo sales. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0039",
+    "user_type": "former_staff",
+    "role_title": "Former Passenger Services Supervisor",
+    "specialisation": "ground_operations",
+    "years_experience": 21.0,
+    "expertise_text": "Former Passenger Services Supervisor with 21 years in aviation, now an independent consultant. I have worked on ground support equipment operations regularly. Comfortable handling aviation consulting. Deep hands-on expertise in managing departure gates. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0040",
+    "user_type": "former_staff",
+    "role_title": "Former Pharma Cargo Coordinator",
+    "specialisation": "cargo",
+    "years_experience": 38.0,
+    "expertise_text": "I spent 38 years in aviation and left Kenya Airways as a Pharma Cargo Coordinator. Many years of experience in flower and horticulture shipments. Basic familiarity with stakeholder communication. Recognised specialist in temperature-controlled cargo. Solid experience with cargo acceptance and documentation.",
+    "can_mentor_in": [
+      "perishables",
+      "cargo_sales"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0041",
+    "user_type": "former_staff",
+    "role_title": "Former Purser",
+    "specialisation": "cabin_services",
+    "years_experience": 11.0,
+    "expertise_text": "Former Purser with 11 years in aviation, now an independent consultant. Deep hands-on expertise in passenger medical incidents. Deep hands-on expertise in business class service. Recognised specialist in in-flight service delivery. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [
+      "inflight_first_aid",
+      "safety_emergency_procedures",
+      "cabin_leadership",
+      "inflight_service",
+      "premium_cabin_service",
+      "entrepreneurship_consulting"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0042",
+    "user_type": "former_staff",
+    "role_title": "Former Quality Auditor",
+    "specialisation": "safety_security_quality",
+    "years_experience": 29.0,
+    "expertise_text": "Previously a Quality Auditor at Kenya Airways; 29 years in the industry. I currently train others in safety management systems. I have occasionally supported AVSEC screening. Recognised specialist in entrepreneurship.",
+    "can_mentor_in": [
+      "entrepreneurship_consulting"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0043",
+    "user_type": "former_staff",
+    "role_title": "Former Senior Cabin Crew",
+    "specialisation": "cabin_services",
+    "years_experience": 17.0,
+    "expertise_text": "Previously a Senior Cabin Crew at Kenya Airways; 17 years in the industry. Recognised specialist in CV writing for airline jobs. Recognised specialist in in-flight service delivery. I care deeply about safety culture. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0044",
+    "user_type": "current_staff",
+    "role_title": "NDT Inspector",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 16.0,
+    "expertise_text": "NDT Inspector at Kenya Airways with 16 years of experience. Worked on the 737 Next Generation. Many years of experience in component repair. Deep hands-on expertise in borescope inspections. Solid experience with structural crack detection.",
+    "can_mentor_in": [
+      "licensing_part145",
+      "component_repair",
+      "fleet_b737"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0045",
+    "user_type": "current_staff",
+    "role_title": "Hangar Supervisor",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 12.0,
+    "expertise_text": "Hangar Supervisor at Kenya Airways with 12 years of experience. Many years working on the Boeing 737-800. Some exposure to interview preparation. Deep hands-on expertise in aircraft maintenance engineer licence preparation. Recognised specialist in cabin and IFE systems maintenance. Many years working on the Embraer E190. Comfortable handling eddy current and ultrasonic inspection. I have worked on ground operations safety standards regularly. Available for monthly virtual meetings. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "licensing_part145",
+      "avionics_cabin_systems",
+      "ground_safety_audits",
+      "fleet_e190",
+      "fleet_b737"
+    ],
+    "is_available": false,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0046",
+    "user_type": "current_staff",
+    "role_title": "Ground Operations Duty Manager",
+    "specialisation": "ground_operations",
+    "years_experience": 27.0,
+    "expertise_text": "Ground Operations Duty Manager at Kenya Airways with 27 years of experience. I currently train others in ground operations safety standards. Comfortable handling professional growth. Solid experience with ground support equipment operations.",
+    "can_mentor_in": [
+      "ground_safety_audits",
+      "ramp_operations",
+      "career_progression"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0047",
+    "user_type": "former_staff",
+    "role_title": "Former Cabin Crew Instructor",
+    "specialisation": "cabin_services",
+    "years_experience": 27.0,
+    "expertise_text": "Former Cabin Crew Instructor with 27 years in aviation, now an independent consultant. Deep hands-on expertise in public speaking. Comfortable handling ditching and fire drills. Recognised specialist in premium cabin hospitality. I currently train others in in-flight first aid.",
+    "can_mentor_in": [
+      "cabin_leadership",
+      "safety_emergency_procedures",
+      "inflight_first_aid",
+      "premium_cabin_service",
+      "public_speaking"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0048",
+    "user_type": "current_staff",
+    "role_title": "NDT Inspector",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 19.0,
+    "expertise_text": "NDT Inspector at Kenya Airways with 19 years of experience. Solid experience with shipping lithium batteries safely. Type experience on the B787. Many years of experience in stakeholder communication. Many years of experience in turbofan engine troubleshooting. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "dangerous_goods",
+      "public_speaking",
+      "fleet_b787"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0049",
+    "user_type": "current_staff",
+    "role_title": "Maintenance Planner",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 27.0,
+    "expertise_text": "Maintenance Planner at Kenya Airways with 27 years of experience. Deep hands-on expertise in planning promotions. Some exposure to load control. I currently train others in overhauling aircraft components in the workshop. Type experience on the Boeing 777-300ER. Solid experience with powerplant maintenance. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0050",
+    "user_type": "current_staff",
+    "role_title": "Ramp Supervisor",
+    "specialisation": "ground_operations",
+    "years_experience": 5.0,
+    "expertise_text": "Ramp Supervisor at Kenya Airways with 5 years of experience. Some exposure to VIP meet and assist. Basic familiarity with aircraft turnaround on the apron. I have worked on ISAGO audits regularly. Some exposure to passenger handling. Available for monthly virtual meetings. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0051",
+    "user_type": "former_staff",
+    "role_title": "Former Sales Manager",
+    "specialisation": "commercial",
+    "years_experience": 25.0,
+    "expertise_text": "Previously a Sales Manager at Kenya Airways; 25 years in the industry. Comfortable handling hazardous materials acceptance. Comfortable handling route development. Recognised specialist in pricing and inventory control. I have worked on airline recruitment processes regularly.",
+    "can_mentor_in": [
+      "revenue_management",
+      "customer_experience",
+      "marketing_communications",
+      "dangerous_goods"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0052",
+    "user_type": "current_staff",
+    "role_title": "Flight Dispatcher",
+    "specialisation": "flight_operations",
+    "years_experience": 26.0,
+    "expertise_text": "Flight Dispatcher at Kenya Airways with 26 years of experience. Extensive type experience on the 777 wide-body. Deep hands-on expertise in interpreting METAR and TAF reports. Solid experience with operational flight planning.",
+    "can_mentor_in": [
+      "flight_dispatch",
+      "fleet_b777"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 4,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0053",
+    "user_type": "former_staff",
+    "role_title": "Former Pharma Cargo Coordinator",
+    "specialisation": "cargo",
+    "years_experience": 14.0,
+    "expertise_text": "Former Pharma Cargo Coordinator with 14 years in aviation, now an independent consultant. I currently train others in shipping lithium batteries safely. I have worked on flower and horticulture shipments regularly. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "dangerous_goods"
+    ],
+    "is_available": false,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0054",
+    "user_type": "former_staff",
+    "role_title": "Former Hangar Supervisor",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 15.0,
+    "expertise_text": "I spent 15 years in aviation and left Kenya Airways as a Hangar Supervisor. Solid experience with engine on-wing support. I currently train others in C-check planning and execution. Worked on the Boeing 787-8. Solid experience with NDT inspection techniques. Extensive type experience on the E190.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0055",
+    "user_type": "current_staff",
+    "role_title": "First Officer",
+    "specialisation": "flight_operations",
+    "years_experience": 20.0,
+    "expertise_text": "20 years in aviation, currently serving as First Officer. Deep hands-on expertise in type rating preparation. Extensive type experience on the Dreamliner operations. Comfortable handling commercial pilot licence progression. I currently train others in interpreting METAR and TAF reports. Type experience on the B777. I have worked on flight dispatch regularly. Deep hands-on expertise in entrepreneurship. I have worked on leading teams regularly. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "flight_dispatch",
+      "type_rating_preparation",
+      "aviation_meteorology",
+      "pilot_career_pathway",
+      "entrepreneurship_consulting",
+      "fleet_b787",
+      "fleet_b777"
+    ],
+    "is_available": false,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0056",
+    "user_type": "current_staff",
+    "role_title": "Pharma Cargo Coordinator",
+    "specialisation": "cargo",
+    "years_experience": 29.0,
+    "expertise_text": "I work as a Pharma Cargo Coordinator and have been in aviation for 29 years. Comfortable handling fresh produce exports. Deep hands-on expertise in main deck cargo loading. I have worked on premium cabin hospitality regularly. I currently train others in hazardous materials acceptance. Solid experience with selling cargo capacity. I enjoy helping young professionals grow. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "freighter_operations",
+      "dangerous_goods",
+      "cargo_sales",
+      "premium_cabin_service"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0057",
+    "user_type": "former_staff",
+    "role_title": "Former Ramp Supervisor",
+    "specialisation": "ground_operations",
+    "years_experience": 36.0,
+    "expertise_text": "Previously a Ramp Supervisor at Kenya Airways; 36 years in the industry. Comfortable handling check-in and boarding. I have worked on schedule planning regularly. I currently train others in mobility assistance. Deep hands-on expertise in preparing load sheets. I believe good mentoring builds confidence and teamwork. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "special_assistance",
+      "ramp_operations",
+      "load_control",
+      "ground_safety_audits",
+      "passenger_handling"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0058",
+    "user_type": "current_staff",
+    "role_title": "Customer Experience Lead",
+    "specialisation": "commercial",
+    "years_experience": 13.0,
+    "expertise_text": "I work as a Customer Experience Lead and have been in aviation for 13 years. Deep hands-on expertise in network planning. I have occasionally supported leadership and people management. Solid experience with lounge and premium customer care. I have worked on social media marketing regularly. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "customer_experience",
+      "network_planning"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0059",
+    "user_type": "current_staff",
+    "role_title": "Compliance Manager",
+    "specialisation": "safety_security_quality",
+    "years_experience": 16.0,
+    "expertise_text": "Compliance Manager at Kenya Airways with 16 years of experience. I have worked on CV writing for airline jobs regularly. Deep hands-on expertise in leading teams. Deep hands-on expertise in SMS hazard reporting. Solid experience with KCAA requirements.",
+    "can_mentor_in": [
+      "safety_management",
+      "job_search_interviews",
+      "leadership_management"
+    ],
+    "is_available": false,
+    "max_mentees": 4,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0060",
+    "user_type": "former_staff",
+    "role_title": "Former Powerplant Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 18.0,
+    "expertise_text": "Previously a Powerplant Engineer at Kenya Airways; 18 years in the industry. Solid experience with leading teams. Type experience on the Boeing 737-800. Worked on the Embraer 190 jets. I have occasionally supported operational flight planning. Deep hands-on expertise in aircraft maintenance engineer licence preparation. I have occasionally supported cabin and IFE systems maintenance. Recognised specialist in planning hangar slots. Available for monthly virtual meetings.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0061",
+    "user_type": "current_staff",
+    "role_title": "Licensed Aircraft Maintenance Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 10.0,
+    "expertise_text": "I work as a Licensed Aircraft Maintenance Engineer and have been in aviation for 10 years. Type experience on the B737. I have worked on presentation skills regularly. Many years of experience in structural crack detection. I currently train others in engine on-wing support. I enjoy helping young professionals grow. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0062",
+    "user_type": "current_staff",
+    "role_title": "Customer Experience Lead",
+    "specialisation": "commercial",
+    "years_experience": 15.0,
+    "expertise_text": "15 years in aviation, currently serving as Customer Experience Lead. I currently train others in marketing and public relations. Basic familiarity with presentation skills. Some exposure to fresh produce exports. Recognised specialist in network planning. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "network_planning",
+      "marketing_communications",
+      "perishables"
+    ],
+    "is_available": false,
+    "max_mentees": 4,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0063",
+    "user_type": "current_staff",
+    "role_title": "Load Controller",
+    "specialisation": "ground_operations",
+    "years_experience": 24.0,
+    "expertise_text": "24 years in aviation, currently serving as Load Controller. I have worked on wheelchair assistance coordination regularly. Many years of experience in weight and balance. Solid experience with ground operations safety standards. I care deeply about safety culture. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "load_control"
+    ],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0064",
+    "user_type": "current_staff",
+    "role_title": "NDT Inspector",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 8.0,
+    "expertise_text": "NDT Inspector at Kenya Airways with 8 years of experience. Solid experience with public speaking. I have worked on getting aircraft back into service quickly regularly. Some exposure to airline recruitment processes. Extensive type experience on the Dreamliner operations. Available for monthly virtual meetings. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "line_maintenance",
+      "avionics_cabin_systems",
+      "fleet_b787",
+      "fleet_b777"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0065",
+    "user_type": "current_staff",
+    "role_title": "Maintenance Planner",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 16.0,
+    "expertise_text": "I work as a Maintenance Planner and have been in aviation for 16 years. Worked on the E190. Many years working on the Boeing 737-800. I currently train others in transit checks on the line. Many years of experience in EASA Part-145 procedures. Recognised specialist in specialised repair shops. Many years of experience in starting an aviation business.",
+    "can_mentor_in": [
+      "line_maintenance",
+      "component_repair",
+      "licensing_part145",
+      "entrepreneurship_consulting",
+      "fleet_b737",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0066",
+    "user_type": "current_staff",
+    "role_title": "Purser",
+    "specialisation": "cabin_services",
+    "years_experience": 8.0,
+    "expertise_text": "I work as a Purser and have been in aviation for 8 years. Solid experience with leading a cabin crew team. Type experience on the E190. Comfortable handling SEP training. Comfortable handling dangerous goods regulations. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "safety_emergency_procedures",
+      "dangerous_goods",
+      "entrepreneurship_consulting",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0067",
+    "user_type": "former_staff",
+    "role_title": "Former Marketing Officer",
+    "specialisation": "commercial",
+    "years_experience": 23.0,
+    "expertise_text": "Previously a Marketing Officer at Kenya Airways; 23 years in the industry. I have worked on interview preparation regularly. Many years of experience in managing performance. Deep hands-on expertise in frequent flyer engagement. Many years of experience in NDC distribution. I have worked on advertising campaigns regularly. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "loyalty_programmes",
+      "marketing_communications",
+      "sales_distribution",
+      "job_search_interviews",
+      "leadership_management"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0068",
+    "user_type": "current_staff",
+    "role_title": "Cargo Operations Supervisor",
+    "specialisation": "cargo",
+    "years_experience": 28.0,
+    "expertise_text": "I work as a Cargo Operations Supervisor and have been in aviation for 28 years. I currently train others in professional growth. Comfortable handling public speaking. I currently train others in cargo skills and procedures. I enjoy helping young professionals grow. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "freighter_operations",
+      "dangerous_goods",
+      "public_speaking",
+      "career_progression",
+      "pharma_cool_chain"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0069",
+    "user_type": "current_staff",
+    "role_title": "NDT Inspector",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 11.0,
+    "expertise_text": "11 years in aviation, currently serving as NDT Inspector. Basic familiarity with analysing performance data. Extensive type experience on the Boeing 787-8. Comfortable handling heavy maintenance. I currently train others in working in an approved maintenance organisation. Many years working on the 737 Next Generation. Solid experience with eddy current and ultrasonic inspection.",
+    "can_mentor_in": [
+      "heavy_maintenance",
+      "ndt_inspection",
+      "licensing_part145",
+      "fleet_b787",
+      "fleet_b737",
+      "line_maintenance"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0070",
+    "user_type": "current_staff",
+    "role_title": "Cargo Operations Supervisor",
+    "specialisation": "cargo",
+    "years_experience": 22.0,
+    "expertise_text": "22 years in aviation, currently serving as Cargo Operations Supervisor. Deep hands-on expertise in perishables handling. I have worked on premium cabin hospitality regularly. Comfortable handling cargo acceptance and documentation. I have worked on main deck cargo loading regularly. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "perishables",
+      "freighter_operations",
+      "premium_cabin_service"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0071",
+    "user_type": "former_staff",
+    "role_title": "Former Quality Auditor",
+    "specialisation": "safety_security_quality",
+    "years_experience": 36.0,
+    "expertise_text": "Former Quality Auditor with 36 years in aviation, now an independent consultant. I currently train others in quality auditing. I have worked on human performance and error management regularly. Happy to share practical lessons from the Pride of Africa. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "human_factors",
+      "quality_auditing"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0072",
+    "user_type": "former_staff",
+    "role_title": "Former Training Captain",
+    "specialisation": "flight_operations",
+    "years_experience": 21.0,
+    "expertise_text": "Previously a Training Captain at Kenya Airways; 21 years in the industry. Recognised specialist in building flying hours. I currently train others in stakeholder communication. Basic familiarity with interpreting METAR and TAF reports. Many years working on the Boeing 787-8. Worked on the 777 wide-body. I currently train others in dispatcher duties. Happy to share practical lessons from the Pride of Africa. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0073",
+    "user_type": "current_staff",
+    "role_title": "Network Planner",
+    "specialisation": "commercial",
+    "years_experience": 29.0,
+    "expertise_text": "I work as a Network Planner and have been in aviation for 29 years. I currently train others in NDC distribution. I currently train others in complaint handling.",
+    "can_mentor_in": [
+      "customer_experience",
+      "sales_distribution"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0074",
+    "user_type": "current_staff",
+    "role_title": "Purser",
+    "specialisation": "cabin_services",
+    "years_experience": 26.0,
+    "expertise_text": "Purser at Kenya Airways with 26 years of experience. I currently train others in senior cabin crew responsibilities. I believe good mentoring builds confidence and teamwork. I enjoy helping young professionals grow.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0075",
+    "user_type": "current_staff",
+    "role_title": "First Officer",
+    "specialisation": "flight_operations",
+    "years_experience": 9.0,
+    "expertise_text": "9 years in aviation, currently serving as First Officer. Recognised specialist in interpreting METAR and TAF reports. I currently train others in crew resource management.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0076",
+    "user_type": "former_staff",
+    "role_title": "Former Cabin Services Manager",
+    "specialisation": "cabin_services",
+    "years_experience": 14.0,
+    "expertise_text": "Former Cabin Services Manager with 14 years in aviation, now an independent consultant. Comfortable handling safety and emergency procedures. I currently train others in in-flight service delivery.",
+    "can_mentor_in": [
+      "inflight_service",
+      "leadership_management"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0077",
+    "user_type": "former_staff",
+    "role_title": "Former Licensed Aircraft Maintenance Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 22.0,
+    "expertise_text": "I spent 22 years in aviation and left Kenya Airways as a Licensed Aircraft Maintenance Engineer. Many years of experience in aircraft maintenance engineer licence preparation. Many years of experience in heavy maintenance. Solid experience with transit checks on the line. Extensive type experience on the Boeing 737-800. Solid experience with moving between departments.",
+    "can_mentor_in": [
+      "licensing_part145",
+      "career_progression",
+      "fleet_b737"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0078",
+    "user_type": "current_staff",
+    "role_title": "Load Controller",
+    "specialisation": "ground_operations",
+    "years_experience": 12.0,
+    "expertise_text": "I work as a Load Controller and have been in aviation for 12 years. Recognised specialist in running airport station operations. Comfortable handling managing performance. Basic familiarity with public speaking. Some exposure to pushback and towing. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "station_management",
+      "ramp_operations",
+      "leadership_management"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0079",
+    "user_type": "current_staff",
+    "role_title": "Licensed Aircraft Maintenance Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 30.0,
+    "expertise_text": "Licensed Aircraft Maintenance Engineer at Kenya Airways with 30 years of experience. I currently train others in aircraft maintenance engineer licence preparation. Some exposure to presentation skills. Comfortable handling aircraft electrical and avionics troubleshooting. Recognised specialist in major airframe inspections. I currently train others in maintenance records and reliability. Comfortable handling getting aircraft back into service quickly. Type experience on the Embraer E190. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [],
+    "is_available": false,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0080",
+    "user_type": "current_staff",
+    "role_title": "Ground Operations Duty Manager",
+    "specialisation": "ground_operations",
+    "years_experience": 11.0,
+    "expertise_text": "I work as a Ground Operations Duty Manager and have been in aviation for 11 years. Solid experience with moving between departments. Comfortable handling CV writing for airline jobs. Comfortable handling passenger handling. Happy to share practical lessons from the Pride of Africa. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "station_management",
+      "passenger_handling",
+      "job_search_interviews"
+    ],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0081",
+    "user_type": "former_staff",
+    "role_title": "Former Licensed Aircraft Maintenance Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 32.0,
+    "expertise_text": "Previously a Licensed Aircraft Maintenance Engineer at Kenya Airways; 32 years in the industry. Worked on the Dreamliner operations. Many years of experience in public speaking. Comfortable handling transitioning onto a new aircraft type. I currently train others in powerplant maintenance. Many years of experience in AME licence modules. Comfortable handling wiring and instrument faults.",
+    "can_mentor_in": [
+      "licensing_part145",
+      "engine_maintenance",
+      "type_rating_preparation",
+      "public_speaking",
+      "fleet_b787"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0082",
+    "user_type": "current_staff",
+    "role_title": "Powerplant Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 27.0,
+    "expertise_text": "I work as a Powerplant Engineer and have been in aviation for 27 years. Solid experience with AOG troubleshooting. Recognised specialist in specialised repair shops. Many years working on the Boeing 777-300ER. I have occasionally supported AVSEC screening. I have occasionally supported KCAA requirements. I currently train others in starting an aviation business. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "component_repair",
+      "heavy_maintenance",
+      "entrepreneurship_consulting",
+      "fleet_b777"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0083",
+    "user_type": "former_staff",
+    "role_title": "Former Safety Officer",
+    "specialisation": null,
+    "years_experience": 31.0,
+    "expertise_text": "Former Safety Officer with 31 years in aviation, now an independent consultant. Deep hands-on expertise in aviation security. Many years of experience in career progression. Deep hands-on expertise in safety risk assessment. Recognised specialist in quality auditing. Happy to share practical lessons from the Pride of Africa. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "safety_management",
+      "quality_auditing",
+      "aviation_security",
+      "career_progression"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0084",
+    "user_type": "current_staff",
+    "role_title": "Cabin Crew Instructor",
+    "specialisation": "cabin_services",
+    "years_experience": 14.0,
+    "expertise_text": "14 years in aviation, currently serving as Cabin Crew Instructor. Comfortable handling passenger medical incidents. I have worked on cabin evacuation drills regularly. I have worked on Premier World service regularly. Recognised specialist in purser leadership. Happy to share practical lessons from the Pride of Africa. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "cabin_leadership",
+      "premium_cabin_service",
+      "inflight_first_aid",
+      "safety_emergency_procedures"
+    ],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0085",
+    "user_type": "current_staff",
+    "role_title": "Customer Experience Lead",
+    "specialisation": "commercial",
+    "years_experience": 11.0,
+    "expertise_text": "11 years in aviation, currently serving as Customer Experience Lead. Comfortable handling frequent flyer engagement. I have worked on NDC distribution regularly. Many years of experience in marketing and public relations.",
+    "can_mentor_in": [
+      "marketing_communications",
+      "loyalty_programmes",
+      "job_search_interviews"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0086",
+    "user_type": "current_staff",
+    "role_title": "Cabin Services Manager",
+    "specialisation": "cabin_services",
+    "years_experience": 24.0,
+    "expertise_text": "24 years in aviation, currently serving as Cabin Services Manager. Deep hands-on expertise in leading a cabin crew team. I have worked on travel agency sales regularly. I have occasionally supported onboard meal and beverage service. Recognised specialist in premium cabin hospitality. Comfortable handling handling medical emergencies onboard. Worked on the 787 Dreamliner. Some exposure to leading teams. Deep hands-on expertise in cabin evacuation drills.",
+    "can_mentor_in": [
+      "premium_cabin_service",
+      "inflight_service",
+      "safety_emergency_procedures",
+      "inflight_first_aid",
+      "cabin_leadership",
+      "marketing_communications",
+      "sales_distribution",
+      "leadership_management",
+      "fleet_b787"
+    ],
+    "is_available": false,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0087",
+    "user_type": "current_staff",
+    "role_title": "Powerplant Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 16.0,
+    "expertise_text": "Powerplant Engineer at Kenya Airways with 16 years of experience. Extensive type experience on the 777 wide-body. Recognised specialist in avionics systems. Solid experience with AME licence modules. Extensive type experience on the Dreamliner operations. Recognised specialist in engine on-wing support. Many years of experience in non-destructive testing. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "avionics_cabin_systems",
+      "licensing_part145",
+      "component_repair",
+      "ndt_inspection",
+      "engine_maintenance",
+      "fleet_b787",
+      "fleet_b777"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0088",
+    "user_type": "current_staff",
+    "role_title": "Cabin Crew Instructor",
+    "specialisation": "cabin_services",
+    "years_experience": 25.0,
+    "expertise_text": "",
+    "can_mentor_in": [
+      "premium_cabin_service",
+      "passenger_handling",
+      "ramp_operations",
+      "fleet_b787"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0089",
+    "user_type": "current_staff",
+    "role_title": "Marketing Officer",
+    "specialisation": "commercial",
+    "years_experience": 18.0,
+    "expertise_text": "18 years in aviation, currently serving as Marketing Officer. Deep hands-on expertise in planning promotions. Basic familiarity with lounge and premium customer care. I have occasionally supported SAF. Many years of experience in corporate sales accounts. Solid experience with pricing and inventory control.",
+    "can_mentor_in": [
+      "sales_distribution",
+      "revenue_management",
+      "career_progression"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0090",
+    "user_type": "former_staff",
+    "role_title": "Former Drone Operations Pilot",
+    "specialisation": "digital_innovation",
+    "years_experience": 22.0,
+    "expertise_text": "I spent 22 years in aviation and left Kenya Airways as a Drone Operations Pilot. Comfortable handling digital products for airlines. Many years of experience in unmanned aircraft systems. Solid experience with presentation skills. I have occasionally supported airline data analytics. Available for monthly virtual meetings. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "drone_operations",
+      "aviation_it_systems",
+      "sustainability",
+      "data_analytics",
+      "public_speaking"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0091",
+    "user_type": "former_staff",
+    "role_title": "Former Pharma Cargo Coordinator",
+    "specialisation": "cargo",
+    "years_experience": 11.0,
+    "expertise_text": "I spent 11 years in aviation and left Kenya Airways as a Pharma Cargo Coordinator. I currently train others in cargo sales. I have worked on CV writing for airline jobs regularly. Comfortable handling managing performance. Many years working on the Boeing 737 freighter. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "cargo_acceptance",
+      "cargo_sales",
+      "job_search_interviews",
+      "leadership_management",
+      "fleet_b737f"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0092",
+    "user_type": "current_staff",
+    "role_title": "Maintenance Planner",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 16.0,
+    "expertise_text": "I work as a Maintenance Planner and have been in aviation for 16 years. Many years of experience in specialised repair shops. Many years of experience in C-check planning and execution. I have worked on career progression regularly. Extensive type experience on the E190. Recognised specialist in AME licence modules. Many years of experience in maintenance planning. I believe good mentoring builds confidence and teamwork. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "maintenance_planning",
+      "component_repair",
+      "heavy_maintenance",
+      "licensing_part145",
+      "line_maintenance",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0093",
+    "user_type": "current_staff",
+    "role_title": "Cabin Crew Instructor",
+    "specialisation": "cabin_services",
+    "years_experience": 17.0,
+    "expertise_text": "I work as a Cabin Crew Instructor and have been in aviation for 17 years. Some time on the Embraer E190. Recognised specialist in onboard meal and beverage service. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [
+      "inflight_service",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0094",
+    "user_type": "current_staff",
+    "role_title": "Drone Operations Pilot",
+    "specialisation": "digital_innovation",
+    "years_experience": 21.0,
+    "expertise_text": "21 years in aviation, currently serving as Drone Operations Pilot. I have worked on drone operations regularly. Comfortable handling airline IT systems. I have worked on commercial pilot licence progression regularly. Deep hands-on expertise in operational dashboards and reporting.",
+    "can_mentor_in": [
+      "data_analytics",
+      "sustainability",
+      "drone_operations"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0095",
+    "user_type": "current_staff",
+    "role_title": "Flight Operations Officer",
+    "specialisation": "flight_operations",
+    "years_experience": 21.0,
+    "expertise_text": "I work as a Flight Operations Officer and have been in aviation for 21 years. Many years working on the 737 Next Generation. Comfortable handling crew resource management. I have worked on type rating preparation regularly. Comfortable handling preparing flight plans and fuel figures. I currently train others in pilot career pathway. Many years of experience in interpreting METAR and TAF reports. Solid experience with supervisory skills. Happy to share practical lessons from the Pride of Africa. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "aviation_meteorology",
+      "flight_dispatch",
+      "pilot_career_pathway",
+      "type_rating_preparation",
+      "crew_resource_management",
+      "fleet_b737"
+    ],
+    "is_available": false,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0096",
+    "user_type": "former_staff",
+    "role_title": "Former Cargo Sales Executive",
+    "specialisation": "cargo",
+    "years_experience": 32.0,
+    "expertise_text": "Former Cargo Sales Executive with 32 years in aviation, now an independent consultant. Recognised specialist in CV writing for airline jobs. I currently train others in main deck cargo loading. Recognised specialist in dangerous goods regulations.",
+    "can_mentor_in": [
+      "dangerous_goods",
+      "pilot_career_pathway",
+      "job_search_interviews",
+      "fleet_b737f"
+    ],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0097",
+    "user_type": "current_staff",
+    "role_title": "Load Controller",
+    "specialisation": "ground_operations",
+    "years_experience": 21.0,
+    "expertise_text": "Load Controller at Kenya Airways with 21 years of experience. I have worked on travel agency sales regularly. Deep hands-on expertise in VIP meet and assist. I have worked on social media marketing regularly. Some exposure to check-in and boarding. Comfortable handling entrepreneurship. Recognised specialist in ground operations safety standards. Recognised specialist in weight and balance. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "special_assistance",
+      "load_control",
+      "sales_distribution",
+      "marketing_communications"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0098",
+    "user_type": "former_staff",
+    "role_title": "Former Cabin Crew Instructor",
+    "specialisation": null,
+    "years_experience": 37.0,
+    "expertise_text": "I spent 37 years in aviation and left Kenya Airways as a Cabin Crew Instructor. Comfortable handling in-flight first aid. Many years of experience in onboard meal and beverage service.",
+    "can_mentor_in": [
+      "inflight_first_aid",
+      "inflight_service",
+      "safety_emergency_procedures",
+      "entrepreneurship_consulting",
+      "fleet_b737"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0099",
+    "user_type": "current_staff",
+    "role_title": "Data Analyst",
+    "specialisation": "digital_innovation",
+    "years_experience": 14.0,
+    "expertise_text": "14 years in aviation, currently serving as Data Analyst. Recognised specialist in unmanned aircraft systems. Some exposure to airline IT systems. Some exposure to powerplant maintenance. I have worked on starting an aviation business regularly. I enjoy helping young professionals grow. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [
+      "drone_operations",
+      "sustainability",
+      "avionics_cabin_systems",
+      "engine_maintenance",
+      "entrepreneurship_consulting"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0100",
+    "user_type": "former_staff",
+    "role_title": "Former Pharma Cargo Coordinator",
+    "specialisation": null,
+    "years_experience": 23.0,
+    "expertise_text": "Previously a Pharma Cargo Coordinator at Kenya Airways; 23 years in the industry. Comfortable handling main deck cargo loading. I have worked on cargo skills and procedures regularly. Worked on the Boeing 737 freighter. Many years of experience in CEIV Pharma handling. Comfortable handling DGR compliance. I believe good mentoring builds confidence and teamwork. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "freighter_operations",
+      "cargo_acceptance",
+      "dangerous_goods",
+      "fleet_b737f"
+    ],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0101",
+    "user_type": "current_staff",
+    "role_title": "Powerplant Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 11.0,
+    "expertise_text": "I work as a Powerplant Engineer and have been in aviation for 11 years. Many years of experience in heavy maintenance. I currently train others in work package preparation. Extensive type experience on the 737 Next Generation. Comfortable handling turbofan engine troubleshooting. Worked on the Embraer 190 jets. Comfortable handling aircraft electrical and avionics troubleshooting. Recognised specialist in non-destructive testing. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "avionics_cabin_systems",
+      "maintenance_planning",
+      "ndt_inspection",
+      "engine_maintenance",
+      "heavy_maintenance",
+      "fleet_b737",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0102",
+    "user_type": "current_staff",
+    "role_title": "Maintenance Planner",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 17.0,
+    "expertise_text": "Maintenance Planner at Kenya Airways with 17 years of experience. I have worked on planning hangar slots regularly. Extensive type experience on the E190. Many years of experience in borescope inspections. Type experience on the B777. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 4,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0103",
+    "user_type": "current_staff",
+    "role_title": "Flight Dispatcher",
+    "specialisation": "flight_operations",
+    "years_experience": 28.0,
+    "expertise_text": "28 years in aviation, currently serving as Flight Dispatcher. I currently train others in weight limits and runway analysis. Extensive type experience on the E190. Comfortable handling pilot career pathway. Comfortable handling threat and error management. Comfortable handling aviation meteorology. Happy to share practical lessons from the Pride of Africa. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "aviation_meteorology",
+      "crew_resource_management",
+      "pilot_career_pathway"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0104",
+    "user_type": "current_staff",
+    "role_title": "NDT Inspector",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 9.0,
+    "expertise_text": "NDT Inspector at Kenya Airways with 9 years of experience. Recognised specialist in turbofan engine troubleshooting. Solid experience with component repair. Type experience on the E190. Extensive type experience on the 777 wide-body.",
+    "can_mentor_in": [
+      "engine_maintenance",
+      "avionics_cabin_systems",
+      "public_speaking",
+      "fleet_b777",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0105",
+    "user_type": "current_staff",
+    "role_title": "Ramp Supervisor",
+    "specialisation": "ground_operations",
+    "years_experience": 9.0,
+    "expertise_text": "I work as a Ramp Supervisor and have been in aviation for 9 years.",
+    "can_mentor_in": [
+      "station_management"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0106",
+    "user_type": "current_staff",
+    "role_title": "Senior Cabin Crew",
+    "specialisation": "cabin_services",
+    "years_experience": 19.0,
+    "expertise_text": "19 years in aviation, currently serving as Senior Cabin Crew. Many years of experience in in-flight first aid. Solid experience with leading a cabin crew team. Deep hands-on expertise in onboard meal and beverage service. I have occasionally supported sales and distribution. I have worked on loyalty programmes regularly.",
+    "can_mentor_in": [
+      "inflight_first_aid",
+      "cabin_leadership",
+      "loyalty_programmes",
+      "fleet_b737"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0107",
+    "user_type": "current_staff",
+    "role_title": "First Officer",
+    "specialisation": "flight_operations",
+    "years_experience": 10.0,
+    "expertise_text": "10 years in aviation, currently serving as First Officer. I currently train others in flight dispatch. I have occasionally supported threat and error management. Worked on the Boeing 737-800. Basic familiarity with cargo acceptance and documentation. I have occasionally supported DGR compliance.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0108",
+    "user_type": "current_staff",
+    "role_title": "Cargo Operations Supervisor",
+    "specialisation": "cargo",
+    "years_experience": 8.0,
+    "expertise_text": "I work as a Cargo Operations Supervisor and have been in aviation for 8 years. Some exposure to cargo sales. Some exposure to freighter operations. Extensive type experience on the 737-300F. Recognised specialist in flower and horticulture shipments. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "cargo_sales",
+      "perishables",
+      "entrepreneurship_consulting",
+      "fleet_b737f"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0109",
+    "user_type": "former_staff",
+    "role_title": "Former Quality Auditor",
+    "specialisation": "safety_security_quality",
+    "years_experience": 38.0,
+    "expertise_text": "Former Quality Auditor with 38 years in aviation, now an independent consultant. I have worked on regulatory compliance regularly. I currently train others in access control at the airport. I have worked on planning promotions regularly. I currently train others in safety management systems. I prefer structured, goal-based mentoring sessions. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [
+      "safety_management",
+      "regulatory_compliance",
+      "career_progression"
+    ],
+    "is_available": false,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0110",
+    "user_type": "current_staff",
+    "role_title": "Compliance Manager",
+    "specialisation": "safety_security_quality",
+    "years_experience": 14.0,
+    "expertise_text": "14 years in aviation, currently serving as Compliance Manager. I currently train others in quality auditing. Recognised specialist in access control at the airport. Recognised specialist in occurrence investigation. Comfortable handling regulatory compliance. Many years of experience in fatigue risk awareness. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "human_factors",
+      "quality_auditing",
+      "aviation_security",
+      "regulatory_compliance"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0111",
+    "user_type": "current_staff",
+    "role_title": "Ground Operations Duty Manager",
+    "specialisation": "ground_operations",
+    "years_experience": 20.0,
+    "expertise_text": "Ground Operations Duty Manager at Kenya Airways with 20 years of experience. Many years of experience in load control. Recognised specialist in mobility assistance. I have worked on leading teams regularly. I care deeply about safety culture. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [
+      "passenger_handling",
+      "special_assistance",
+      "load_control",
+      "leadership_management"
+    ],
+    "is_available": false,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0112",
+    "user_type": "former_staff",
+    "role_title": "Former Maintenance Planner",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 19.0,
+    "expertise_text": "Former Maintenance Planner with 19 years in aviation, now an independent consultant. Type experience on the 737 Next Generation. I have occasionally supported component repair. Solid experience with schedule planning. I currently train others in transit checks on the line. Basic familiarity with borescope inspections. I have worked on lounge and premium customer care regularly. I care deeply about safety culture. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0113",
+    "user_type": "current_staff",
+    "role_title": "Ramp Supervisor",
+    "specialisation": "ground_operations",
+    "years_experience": 25.0,
+    "expertise_text": "25 years in aviation, currently serving as Ramp Supervisor. I currently train others in aircraft loading instructions. Recognised specialist in airport passenger services. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [
+      "passenger_handling",
+      "load_control",
+      "station_management"
+    ],
+    "is_available": false,
+    "max_mentees": 4,
+    "current_mentees": 0,
+    "consent_given": false
+  },
+  {
+    "mentor_id": "MTR-0114",
+    "user_type": "current_staff",
+    "role_title": "Load Controller",
+    "specialisation": "ground_operations",
+    "years_experience": 29.0,
+    "expertise_text": "I work as a Load Controller and have been in aviation for 29 years. Deep hands-on expertise in ground handling supervision. Recognised specialist in ground support equipment operations. I have worked on interview preparation regularly.",
+    "can_mentor_in": [
+      "ramp_operations",
+      "station_management",
+      "leadership_management",
+      "job_search_interviews"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0115",
+    "user_type": "current_staff",
+    "role_title": "Cabin Services Manager",
+    "specialisation": "cabin_services",
+    "years_experience": 9.0,
+    "expertise_text": "Cabin Services Manager at Kenya Airways with 9 years of experience. Comfortable handling managing departure gates. Some exposure to SEP training. Deep hands-on expertise in in-flight service delivery. I have occasionally supported aviation consulting.",
+    "can_mentor_in": [
+      "inflight_service",
+      "passenger_handling"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0116",
+    "user_type": "former_staff",
+    "role_title": "Former Cargo Operations Supervisor",
+    "specialisation": "cargo",
+    "years_experience": 28.0,
+    "expertise_text": "Former Cargo Operations Supervisor with 28 years in aviation, now an independent consultant. Comfortable handling air waybill processing. Many years of experience in leadership and people management. I have worked on flower and horticulture shipments regularly. I have worked on starting an aviation business regularly. Extensive type experience on the 737-300F. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "pharma_cool_chain",
+      "cargo_acceptance",
+      "leadership_management",
+      "entrepreneurship_consulting",
+      "fleet_b737f"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0117",
+    "user_type": "current_staff",
+    "role_title": "Safety Officer",
+    "specialisation": "safety_security_quality",
+    "years_experience": 16.0,
+    "expertise_text": "Safety Officer at Kenya Airways with 16 years of experience. Many years of experience in access control at the airport. Comfortable handling professional growth. Solid experience with emergency response planning. I have worked on safety risk assessment regularly. I enjoy helping young professionals grow. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "aviation_security",
+      "safety_management",
+      "human_factors",
+      "emergency_response",
+      "career_progression"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0118",
+    "user_type": "current_staff",
+    "role_title": "Cargo Operations Supervisor",
+    "specialisation": "cargo",
+    "years_experience": 16.0,
+    "expertise_text": "16 years in aviation, currently serving as Cargo Operations Supervisor. I have occasionally supported managing performance. Recognised specialist in hazardous materials acceptance. Comfortable handling cargo acceptance and documentation. I have worked on Asante Rewards regularly. Many years of experience in freighter operations. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "loyalty_programmes",
+      "career_progression"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0119",
+    "user_type": "current_staff",
+    "role_title": "Dangerous Goods Specialist",
+    "specialisation": "cargo",
+    "years_experience": 17.0,
+    "expertise_text": "Dangerous Goods Specialist at Kenya Airways with 17 years of experience. Solid experience with SEP training. Basic familiarity with perishables handling. Many years of experience in cold chain logistics. Comfortable handling main deck cargo loading. Many years of experience in interview preparation. I have worked on handling medical emergencies onboard regularly.",
+    "can_mentor_in": [
+      "pharma_cool_chain",
+      "perishables",
+      "freighter_operations",
+      "inflight_first_aid",
+      "safety_emergency_procedures",
+      "job_search_interviews"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 4,
+    "consent_given": false
+  },
+  {
+    "mentor_id": "MTR-0120",
+    "user_type": "current_staff",
+    "role_title": "Hangar Supervisor",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 14.0,
+    "expertise_text": "14 years in aviation, currently serving as Hangar Supervisor. Recognised specialist in heavy maintenance. I have occasionally supported professional growth. Many years of experience in maintenance planning. I have worked on component repair regularly. I currently train others in aircraft maintenance engineer licence preparation. Comfortable handling airline recruitment processes. I enjoy helping young professionals grow. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0121",
+    "user_type": "current_staff",
+    "role_title": "Data Analyst",
+    "specialisation": "digital_innovation",
+    "years_experience": 13.0,
+    "expertise_text": "I work as a Data Analyst and have been in aviation for 13 years. Solid experience with net zero planning. I have worked on drone operations regularly. Comfortable handling digital products for airlines. I currently train others in operational dashboards and reporting. Available for monthly virtual meetings. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "aviation_it_systems",
+      "data_analytics",
+      "drone_operations"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0122",
+    "user_type": "former_staff",
+    "role_title": "Former Data Analyst",
+    "specialisation": "digital_innovation",
+    "years_experience": 37.0,
+    "expertise_text": "Previously a Data Analyst at Kenya Airways; 37 years in the industry. Comfortable handling analysing performance data. Deep hands-on expertise in precision farming with drones. Many years of experience in SAF. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "sustainability",
+      "drone_operations",
+      "data_analytics",
+      "aviation_it_systems"
+    ],
+    "is_available": false,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0123",
+    "user_type": "current_staff",
+    "role_title": "Cabin Services Manager",
+    "specialisation": "cabin_services",
+    "years_experience": 19.0,
+    "expertise_text": "I work as a Cabin Services Manager and have been in aviation for 19 years. I have worked on business class service regularly. Deep hands-on expertise in cabin evacuation drills. Solid experience with supervisory skills. Some time on the E190. Comfortable handling senior cabin crew responsibilities. I currently train others in moving between departments.",
+    "can_mentor_in": [
+      "safety_emergency_procedures",
+      "cabin_leadership",
+      "leadership_management",
+      "career_progression"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0124",
+    "user_type": "current_staff",
+    "role_title": "Licensed Aircraft Maintenance Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 19.0,
+    "expertise_text": "Licensed Aircraft Maintenance Engineer at Kenya Airways with 19 years of experience. I have occasionally supported wiring and instrument faults. Extensive type experience on the E190. Solid experience with C-check planning and execution. Many years of experience in engine on-wing support. Deep hands-on expertise in maintenance records and reliability. I believe good mentoring builds confidence and teamwork. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "maintenance_planning",
+      "engine_maintenance",
+      "heavy_maintenance"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0125",
+    "user_type": "former_staff",
+    "role_title": "Former First Officer",
+    "specialisation": "flight_operations",
+    "years_experience": 14.0,
+    "expertise_text": "Previously a First Officer at Kenya Airways; 14 years in the industry. I have occasionally supported planning promotions. I currently train others in type rating preparation. Type experience on the 737 Next Generation. Solid experience with aviation consulting. Available for monthly virtual meetings. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "type_rating_preparation",
+      "pilot_career_pathway",
+      "career_progression",
+      "fleet_b737"
+    ],
+    "is_available": false,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0126",
+    "user_type": "current_staff",
+    "role_title": "Maintenance Planner",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 23.0,
+    "expertise_text": "23 years in aviation, currently serving as Maintenance Planner. Many years of experience in avionics systems. Recognised specialist in starting an aviation business. Type experience on the E190. Worked on the Boeing 787-8. Deep hands-on expertise in professional growth. Recognised specialist in eddy current and ultrasonic inspection.",
+    "can_mentor_in": [
+      "ndt_inspection",
+      "avionics_cabin_systems",
+      "career_progression",
+      "entrepreneurship_consulting",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0127",
+    "user_type": "former_staff",
+    "role_title": "Former Avionics Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 22.0,
+    "expertise_text": "Previously a Avionics Engineer at Kenya Airways; 22 years in the industry. Many years of experience in working in an approved maintenance organisation. Type experience on the Boeing 777-300ER.",
+    "can_mentor_in": [],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0128",
+    "user_type": "former_staff",
+    "role_title": "Former Ground Operations Duty Manager",
+    "specialisation": "ground_operations",
+    "years_experience": 11.0,
+    "expertise_text": "Former Ground Operations Duty Manager with 11 years in aviation, now an independent consultant. Comfortable handling stakeholder communication. Recognised specialist in weight and balance. Recognised specialist in wheelchair assistance coordination. I currently train others in station management. Comfortable handling analysing performance data. I care deeply about safety culture. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": false
+  },
+  {
+    "mentor_id": "MTR-0129",
+    "user_type": "current_staff",
+    "role_title": "Cargo Sales Executive",
+    "specialisation": "cargo",
+    "years_experience": 14.0,
+    "expertise_text": "",
+    "can_mentor_in": [
+      "perishables",
+      "fleet_b737f"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0130",
+    "user_type": "former_staff",
+    "role_title": "Former Marketing Officer",
+    "specialisation": "commercial",
+    "years_experience": 27.0,
+    "expertise_text": "Former Marketing Officer with 27 years in aviation, now an independent consultant. Comfortable handling DGR compliance. Comfortable handling yield management. Recognised specialist in supervisory skills. Many years of experience in schedule planning. Happy to share practical lessons from the Pride of Africa. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "network_planning",
+      "dangerous_goods",
+      "leadership_management",
+      "loyalty_programmes"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0131",
+    "user_type": "former_staff",
+    "role_title": "Former Compliance Manager",
+    "specialisation": "safety_security_quality",
+    "years_experience": 19.0,
+    "expertise_text": "Previously a Compliance Manager at Kenya Airways; 19 years in the industry. Comfortable handling fatigue risk awareness. Recognised specialist in SMS hazard reporting. Some exposure to access control at the airport. Recognised specialist in civil aviation regulations. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "safety_management",
+      "regulatory_compliance",
+      "human_factors"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0132",
+    "user_type": "current_staff",
+    "role_title": "Licensed Aircraft Maintenance Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 7.0,
+    "expertise_text": "7 years in aviation, currently serving as Licensed Aircraft Maintenance Engineer. Comfortable handling specialised repair shops. Solid experience with AME licence modules. Extensive type experience on the Boeing 787-8. Solid experience with work package preparation. Type experience on the 737 Next Generation.",
+    "can_mentor_in": [
+      "maintenance_planning",
+      "component_repair",
+      "licensing_part145",
+      "career_progression",
+      "fleet_b737"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0133",
+    "user_type": "current_staff",
+    "role_title": "NDT Inspector",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 20.0,
+    "expertise_text": "I work as a NDT Inspector and have been in aviation for 20 years. Many years of experience in transit checks on the line. Comfortable handling turbofan engine troubleshooting. Deep hands-on expertise in EASA Part-145 procedures. Recognised specialist in maintenance records and reliability. I have worked on major airframe inspections regularly. Type experience on the E190.",
+    "can_mentor_in": [
+      "line_maintenance",
+      "heavy_maintenance",
+      "maintenance_planning",
+      "licensing_part145",
+      "fleet_b777",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0134",
+    "user_type": "former_staff",
+    "role_title": "Former Station Manager",
+    "specialisation": "ground_operations",
+    "years_experience": 19.0,
+    "expertise_text": "I spent 19 years in aviation and left Kenya Airways as a Station Manager. Comfortable handling sales and distribution. Deep hands-on expertise in ground operations safety standards. Comfortable handling check-in and boarding.",
+    "can_mentor_in": [
+      "ground_safety_audits",
+      "sales_distribution"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0135",
+    "user_type": "current_staff",
+    "role_title": "IT Systems Analyst",
+    "specialisation": null,
+    "years_experience": 17.0,
+    "expertise_text": "IT Systems Analyst at Kenya Airways with 17 years of experience. Comfortable handling drone operations. Solid experience with access control at the airport. Solid experience with carbon reduction initiatives. Comfortable handling airline data analytics. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "drone_operations",
+      "sustainability",
+      "aviation_it_systems"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0136",
+    "user_type": "current_staff",
+    "role_title": "Avionics Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 27.0,
+    "expertise_text": "I work as a Avionics Engineer and have been in aviation for 27 years. Worked on the Embraer 190 jets. Solid experience with heavy maintenance. Solid experience with specialised repair shops. Deep hands-on expertise in turbofan engine troubleshooting. Happy to share practical lessons from the Pride of Africa. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "engine_maintenance",
+      "heavy_maintenance",
+      "career_progression",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0137",
+    "user_type": "current_staff",
+    "role_title": "Sales Manager",
+    "specialisation": "commercial",
+    "years_experience": 5.0,
+    "expertise_text": "",
+    "can_mentor_in": [
+      "customer_experience",
+      "revenue_management",
+      "loyalty_programmes",
+      "sales_distribution",
+      "marketing_communications"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0138",
+    "user_type": "current_staff",
+    "role_title": "Cargo Operations Supervisor",
+    "specialisation": "cargo",
+    "years_experience": 10.0,
+    "expertise_text": "Cargo Operations Supervisor at Kenya Airways with 10 years of experience. Basic familiarity with entrepreneurship. Worked on the Boeing 737 freighter. Recognised specialist in freighter operations.",
+    "can_mentor_in": [
+      "perishables",
+      "freighter_operations",
+      "pharma_cool_chain",
+      "fleet_b737f"
+    ],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0139",
+    "user_type": "current_staff",
+    "role_title": "Hangar Supervisor",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 11.0,
+    "expertise_text": "11 years in aviation, currently serving as Hangar Supervisor. Many years of experience in avionics systems. I currently train others in non-destructive testing. I currently train others in transit checks on the line. Type experience on the Embraer 190 jets. Many years working on the 777 wide-body. Solid experience with base maintenance in the hangar. I enjoy helping young professionals grow.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0140",
+    "user_type": "current_staff",
+    "role_title": "Quality Auditor",
+    "specialisation": "safety_security_quality",
+    "years_experience": 15.0,
+    "expertise_text": "15 years in aviation, currently serving as Quality Auditor. Many years of experience in IOSA audit preparation. Recognised specialist in regulatory compliance. I currently train others in aviation consulting.",
+    "can_mentor_in": [
+      "quality_auditing",
+      "regulatory_compliance",
+      "entrepreneurship_consulting"
+    ],
+    "is_available": false,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0141",
+    "user_type": "current_staff",
+    "role_title": "Quality Auditor",
+    "specialisation": "safety_security_quality",
+    "years_experience": 18.0,
+    "expertise_text": "I work as a Quality Auditor and have been in aviation for 18 years. Comfortable handling human performance and error management. I have worked on security threat awareness regularly. Many years of experience in SMS hazard reporting. I have worked on emergency response planning regularly. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "emergency_response",
+      "quality_auditing",
+      "aviation_security",
+      "safety_management"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0142",
+    "user_type": "current_staff",
+    "role_title": "Cabin Services Manager",
+    "specialisation": "cabin_services",
+    "years_experience": 16.0,
+    "expertise_text": "16 years in aviation, currently serving as Cabin Services Manager. Some exposure to in-flight service delivery. I have worked on stakeholder communication regularly. I have occasionally supported interview preparation. Many years of experience in premium cabin hospitality.",
+    "can_mentor_in": [
+      "premium_cabin_service",
+      "inflight_service",
+      "job_search_interviews",
+      "inflight_first_aid"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0143",
+    "user_type": "current_staff",
+    "role_title": "Data Analyst",
+    "specialisation": "digital_innovation",
+    "years_experience": 29.0,
+    "expertise_text": "I work as a Data Analyst and have been in aviation for 29 years. Comfortable handling airline data analytics. Many years of experience in airline IT systems. I have worked on unmanned aircraft systems regularly.",
+    "can_mentor_in": [
+      "data_analytics",
+      "aviation_it_systems",
+      "drone_operations",
+      "sustainability"
+    ],
+    "is_available": false,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": false
+  },
+  {
+    "mentor_id": "MTR-0144",
+    "user_type": "former_staff",
+    "role_title": "Former Licensed Aircraft Maintenance Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 10.0,
+    "expertise_text": "Former Licensed Aircraft Maintenance Engineer with 10 years in aviation, now an independent consultant. I have occasionally supported borescope inspections. Many years of experience in structural crack detection. Extensive type experience on the 737 Next Generation. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "engine_maintenance",
+      "fleet_b737"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0145",
+    "user_type": "current_staff",
+    "role_title": "NDT Inspector",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 13.0,
+    "expertise_text": "",
+    "can_mentor_in": [
+      "heavy_maintenance",
+      "avionics_cabin_systems",
+      "component_repair",
+      "engine_maintenance",
+      "entrepreneurship_consulting",
+      "leadership_management",
+      "fleet_b777"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0146",
+    "user_type": "former_staff",
+    "role_title": "Former Cabin Services Manager",
+    "specialisation": "cabin_services",
+    "years_experience": 34.0,
+    "expertise_text": "I spent 34 years in aviation and left Kenya Airways as a Cabin Services Manager. Deep hands-on expertise in passenger medical incidents. Comfortable handling cold chain logistics. Comfortable handling premium cabin hospitality. Many years of experience in onboard meal and beverage service. I care deeply about safety culture. Happy to share practical lessons from the Pride of Africa.",
+    "can_mentor_in": [
+      "inflight_first_aid",
+      "premium_cabin_service",
+      "inflight_service"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0147",
+    "user_type": "current_staff",
+    "role_title": "Hangar Supervisor",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 6.0,
+    "expertise_text": "I work as a Hangar Supervisor and have been in aviation for 6 years. Basic familiarity with cabin and IFE systems maintenance. I have worked on major airframe inspections regularly. I have occasionally supported airline recruitment processes. I have worked on line maintenance regularly. Type experience on the E190. Happy to share practical lessons from the Pride of Africa. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "line_maintenance",
+      "heavy_maintenance",
+      "job_search_interviews",
+      "fleet_e190"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 3,
+    "consent_given": false
+  },
+  {
+    "mentor_id": "MTR-0148",
+    "user_type": "former_staff",
+    "role_title": "Former Ramp Supervisor",
+    "specialisation": "ground_operations",
+    "years_experience": 38.0,
+    "expertise_text": "I spent 38 years in aviation and left Kenya Airways as a Ramp Supervisor. Solid experience with load control. I have worked on ground handling supervision regularly. Recognised specialist in passenger handling. I enjoy helping young professionals grow.",
+    "can_mentor_in": [
+      "passenger_handling",
+      "station_management",
+      "load_control",
+      "leadership_management"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0149",
+    "user_type": "current_staff",
+    "role_title": "Cargo Sales Executive",
+    "specialisation": "cargo",
+    "years_experience": 17.0,
+    "expertise_text": "Cargo Sales Executive at Kenya Airways with 17 years of experience. Solid experience with CEIV Pharma handling. Deep hands-on expertise in moving between departments. Comfortable handling selling cargo capacity. Deep hands-on expertise in entrepreneurship. Deep hands-on expertise in cargo acceptance and documentation. Comfortable handling flower and horticulture shipments. I enjoy helping young professionals grow.",
+    "can_mentor_in": [],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0150",
+    "user_type": "former_staff",
+    "role_title": "Former Safety Officer",
+    "specialisation": "safety_security_quality",
+    "years_experience": 18.0,
+    "expertise_text": "I spent 18 years in aviation and left Kenya Airways as a Safety Officer. Many years of experience in human factors. Some exposure to operational flight planning. Available for monthly virtual meetings. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "human_factors",
+      "flight_dispatch",
+      "pilot_career_pathway"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0151",
+    "user_type": "current_staff",
+    "role_title": "IT Systems Analyst",
+    "specialisation": "digital_innovation",
+    "years_experience": 10.0,
+    "expertise_text": "",
+    "can_mentor_in": [
+      "drone_operations",
+      "data_analytics",
+      "aviation_it_systems",
+      "sustainability"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0152",
+    "user_type": "current_staff",
+    "role_title": "NDT Inspector",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 18.0,
+    "expertise_text": "I work as a NDT Inspector and have been in aviation for 18 years. Recognised specialist in public speaking. Type experience on the Dreamliner operations. Recognised specialist in getting aircraft back into service quickly. Some exposure to major airframe inspections.",
+    "can_mentor_in": [
+      "line_maintenance",
+      "avionics_cabin_systems",
+      "maintenance_planning",
+      "public_speaking",
+      "ndt_inspection"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0153",
+    "user_type": "current_staff",
+    "role_title": "Ground Operations Duty Manager",
+    "specialisation": "ground_operations",
+    "years_experience": 19.0,
+    "expertise_text": "Ground Operations Duty Manager at Kenya Airways with 19 years of experience. Many years of experience in professional growth. Deep hands-on expertise in running airport station operations. I currently train others in ground support equipment operations. Solid experience with leading teams.",
+    "can_mentor_in": [
+      "ramp_operations",
+      "station_management",
+      "passenger_handling",
+      "career_progression",
+      "leadership_management"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 0,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0154",
+    "user_type": "former_staff",
+    "role_title": "Former Dangerous Goods Specialist",
+    "specialisation": "cargo",
+    "years_experience": 30.0,
+    "expertise_text": "Former Dangerous Goods Specialist with 30 years in aviation, now an independent consultant. Recognised specialist in cargo sales. Basic familiarity with leading a cabin crew team. Deep hands-on expertise in shipping lithium batteries safely. Comfortable handling temperature-controlled cargo. Deep hands-on expertise in 737-300F freighter loading. Many years working on the 737-300F. Available for monthly virtual meetings.",
+    "can_mentor_in": [
+      "cargo_sales",
+      "freighter_operations",
+      "cargo_acceptance",
+      "dangerous_goods",
+      "fleet_b737f"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0155",
+    "user_type": "former_staff",
+    "role_title": "Former Ramp Supervisor",
+    "specialisation": "ground_operations",
+    "years_experience": 36.0,
+    "expertise_text": "Former Ramp Supervisor with 36 years in aviation, now an independent consultant. Recognised specialist in wheelchair assistance coordination. Solid experience with leading teams. Solid experience with ground handling audit preparation. I have worked on ramp handling regularly. Recognised specialist in public speaking. Happy to share practical lessons from the Pride of Africa. I prefer structured, goal-based mentoring sessions.",
+    "can_mentor_in": [
+      "special_assistance",
+      "ramp_operations",
+      "load_control",
+      "leadership_management",
+      "public_speaking"
+    ],
+    "is_available": true,
+    "max_mentees": 4,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0156",
+    "user_type": "current_staff",
+    "role_title": "Cargo Sales Executive",
+    "specialisation": "cargo",
+    "years_experience": 15.0,
+    "expertise_text": "I work as a Cargo Sales Executive and have been in aviation for 15 years. Many years of experience in dangerous goods regulations. Many years of experience in pharmaceutical cool chain. I currently train others in moving between departments.",
+    "can_mentor_in": [
+      "dangerous_goods",
+      "pharma_cool_chain",
+      "career_progression"
+    ],
+    "is_available": true,
+    "max_mentees": 1,
+    "current_mentees": 1,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0157",
+    "user_type": "current_staff",
+    "role_title": "Safety Officer",
+    "specialisation": "safety_security_quality",
+    "years_experience": 24.0,
+    "expertise_text": "Safety Officer at Kenya Airways with 24 years of experience. I have worked on crisis management drills regularly. Deep hands-on expertise in access control at the airport. Comfortable handling quality auditing. Some exposure to entrepreneurship.",
+    "can_mentor_in": [
+      "aviation_security",
+      "quality_auditing",
+      "emergency_response"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0158",
+    "user_type": "current_staff",
+    "role_title": "Quality Auditor",
+    "specialisation": "safety_security_quality",
+    "years_experience": 24.0,
+    "expertise_text": "24 years in aviation, currently serving as Quality Auditor. Comfortable handling airline data analytics. Solid experience with emergency response planning. I currently train others in human factors. Deep hands-on expertise in stakeholder communication. I have worked on SMS hazard reporting regularly. Available for monthly virtual meetings. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "human_factors",
+      "emergency_response",
+      "public_speaking"
+    ],
+    "is_available": true,
+    "max_mentees": 2,
+    "current_mentees": 2,
+    "consent_given": false
+  },
+  {
+    "mentor_id": "MTR-0159",
+    "user_type": "current_staff",
+    "role_title": "Powerplant Engineer",
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 29.0,
+    "expertise_text": "29 years in aviation, currently serving as Powerplant Engineer. I have worked on maintenance planning regularly. Recognised specialist in working in an approved maintenance organisation. Type experience on the Boeing 777-300ER. I believe good mentoring builds confidence and teamwork.",
+    "can_mentor_in": [
+      "maintenance_planning"
+    ],
+    "is_available": true,
+    "max_mentees": 3,
+    "current_mentees": 3,
+    "consent_given": true
+  },
+  {
+    "mentor_id": "MTR-0160",
+    "user_type": "current_staff",
+    "role_title": "Dangerous Goods Specialist",
+    "specialisation": "cargo",
+    "years_experience": 26.0,
+    "expertise_text": "26 years in aviation, currently serving as Dangerous Goods Specialist. Comfortable handling CV writing for airline jobs. I have worked on cargo acceptance and documentation regularly. I have worked on flower and horticulture shipments regularly. Recognised specialist in leading teams. I currently train others in 737-300F freighter loading. Comfortable handling shipping lithium batteries safely. Recognised specialist in freight forwarder relationships. I care deeply about safety culture.",
+    "can_mentor_in": [
+      "freighter_operations",
+      "cargo_sales",
+      "perishables",
+      "cargo_acceptance",
+      "leadership_management",
+      "job_search_interviews"
+    ],
+    "is_available": false,
+    "max_mentees": 3,
+    "current_mentees": 0,
+    "consent_given": true
+  }
+]

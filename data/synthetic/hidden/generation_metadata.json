@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-09-17T10:44:24+00:00",
+  "warning": "SIMULATED data and labels. Suitable for testing the pipeline and comparing methods under stated assumptions; NOT evidence of real-world mentorship relevance.",
+  "config": {
+    "n_mentors": 160,
+    "n_mentees": 300,
+    "seed": 42,
+    "validation_fraction": 0.4,
+    "reference_year": 2026,
+    "mentor_text_missing": 0.05,
+    "mentor_tags_missing": 0.08,
+    "mentor_spec_missing": 0.04,
+    "mentee_text_missing": 0.08,
+    "mentee_tags_missing": 0.12,
+    "mentee_spec_missing": 0.1,
+    "mentee_career_switch": 0.25,
+    "mentor_available": 0.85,
+    "mentor_consent": 0.95,
+    "phrase_split": false,
+    "utility_weights": {
+      "coverage": 0.65,
+      "domain_fit": 0.2,
+      "seniority_fit": 0.15
+    },
+    "utility_noise_sd": 0.04,
+    "grade_thresholds": {
+      "somewhat_relevant": 0.4,
+      "highly_relevant": 0.62
+    }
+  },
+  "counts": {
+    "mentors": 160,
+    "mentees": 300,
+    "pairs": 48000,
+    "validation_mentees": 120,
+    "test_mentees": 180
+  },
+  "label_distribution": {
+    "0": 42577,
+    "1": 2787,
+    "2": 2636
+  },
+  "per_mentee": {
+    "mean_grade2_mentors": 8.786666666666667,
+    "mean_grade_ge1_mentors": 18.076666666666668,
+    "mentees_without_grade2": 0
+  },
+  "observable_missingness": {
+    "mentor_text_missing": 6,
+    "mentor_tags_missing": 22,
+    "mentor_spec_missing": 7,
+    "mentee_text_missing": 25,
+    "mentee_tags_missing": 47,
+    "mentee_spec_missing": 33,
+    "mentee_text_and_tags_missing": 7
+  },
+  "mentor_eligibility": {
+    "unavailable": 31,
+    "no_consent": 7,
+    "at_capacity": 50
+  }
+}

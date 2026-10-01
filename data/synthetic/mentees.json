@@ -1,0 +1,4160 @@
+[
+  {
+    "mentee_id": "MTE-0001",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2016,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 8.0,
+    "goals_text": "Pride Centre graduate (Short Course in Cargo Skills and Procedures) hoping to transition into Aircraft Maintenance & Engineering. I have 8 years of work experience. I want to build strong skills in specialised repair shops. Some support with C-check planning and execution would help. Some support with leadership and people management would help.",
+    "wants_to_learn": [
+      "component_repair",
+      "heavy_maintenance",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0002",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2020,
+    "specialisation": "ground_operations",
+    "years_experience": 4.0,
+    "goals_text": "I completed the Certificate in Weight and Balance at the Pride Centre. I have 4 years of work experience. I want to build strong skills in station management. I would also like to learn about passenger handling. I would also like to learn about interview preparation. I value honest feedback.",
+    "wants_to_learn": [
+      "station_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0003",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2024,
+    "specialisation": "cargo",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Short Course in Dangerous Goods Regulations at the Pride Centre. I have 2 years of work experience. I most need guidance on selling cargo capacity. I would also like to learn about 737-300F freighter loading. Interested in public speaking as well.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0004",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_passenger_services",
+    "graduation_year": 2024,
+    "specialisation": "ground_operations",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Airline Passenger Services programme. I have 1 year of work experience. My main goal is to master mobility assistance. I would also like to learn about ISAGO audits. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "special_assistance",
+      "passenger_handling"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0005",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2019,
+    "specialisation": "commercial",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Certificate in Public Relations, Advertising & Marketing at the Pride Centre. I have 5 years of work experience. My main goal is to master schedule planning. Some support with yield management would help. Some support with presentation skills would help. Open to virtual or in-person sessions. I value honest feedback.",
+    "wants_to_learn": [
+      "revenue_management",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0006",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_passenger_services",
+    "graduation_year": 2020,
+    "specialisation": "ground_operations",
+    "years_experience": 5.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Airline Passenger Services programme. I have 5 years of work experience. My main goal is to master ground handling audit preparation. Interested in managing departure gates as well. Some support with weight and balance would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "ground_safety_audits",
+      "passenger_handling",
+      "load_control"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0007",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2020,
+    "specialisation": "cabin_services",
+    "years_experience": 6.0,
+    "goals_text": "Pride Centre graduate (Short Course in Dangerous Goods Regulations) hoping to transition into Cabin Services. I have 6 years of work experience. My main goal is to master in-flight service delivery. Some support with handling medical emergencies onboard would help. I would also like to learn about leading a cabin crew team. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "inflight_service",
+      "inflight_first_aid"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0008",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2022,
+    "specialisation": "commercial",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Business Administration). I have 4 years of work experience. I want to build strong skills in advertising campaigns. I would also like to learn about pricing and inventory control. Interested in sales and distribution as well. Some support with aviation consulting would help. I value honest feedback.",
+    "wants_to_learn": [
+      "marketing_communications",
+      "sales_distribution",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0009",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2020,
+    "specialisation": "ground_operations",
+    "years_experience": 4.0,
+    "goals_text": "",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0010",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2026,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) at the Pride Centre. I am starting my career. I want to build strong skills in wheelchair assistance coordination. I would also like to learn about load control. Interested in leadership and people management as well.",
+    "wants_to_learn": [
+      "special_assistance",
+      "load_control",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0011",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2024,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Aircraft maintenance engineering training (KQ MRO) at the Pride Centre. I have 2 years of work experience. My main goal is to master EASA Part-145 procedures. Interested in base maintenance in the hangar as well. I would also like to learn about aircraft electrical and avionics troubleshooting. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "licensing_part145",
+      "heavy_maintenance",
+      "avionics_cabin_systems"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0012",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2025,
+    "specialisation": "cabin_services",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Postgraduate Diploma in Computer Science but want to move into Cabin Services. I have 1 year of work experience. I want to build strong skills in leading a cabin crew team. I would also like to learn about safety and emergency procedures. I would also like to learn about public speaking.",
+    "wants_to_learn": [
+      "safety_emergency_procedures",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0013",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2025,
+    "specialisation": "cabin_services",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Airline Cabin Crew Training). I am starting my career. I most need guidance on premium cabin hospitality. Some support with leading a cabin crew team would help.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0014",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2025,
+    "specialisation": "cargo",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Airline Cabin Crew Training) hoping to transition into Cargo & Logistics. I have 1 year of work experience. My main goal is to master temperature-controlled cargo. I would also like to learn about air waybill processing. I am eager to grow my career.",
+    "wants_to_learn": [
+      "cargo_acceptance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0015",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_air_safety",
+    "graduation_year": 2025,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Short Course in Air Safety). I have 1 year of work experience. My main goal is to master access control at the airport. Interested in safety management systems as well. Interested in presentation skills as well.",
+    "wants_to_learn": [
+      "aviation_security",
+      "safety_management",
+      "public_speaking",
+      "heavy_maintenance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0016",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2026,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Diploma in Airline Passenger Services programme. I am starting my career. I most need guidance on aircraft turnaround on the apron. I would also like to learn about ISAGO audits. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "ramp_operations",
+      "ground_safety_audits"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0017",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2021,
+    "specialisation": "cabin_services",
+    "years_experience": 4.0,
+    "goals_text": "",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0018",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2026,
+    "specialisation": "commercial",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Certificate in Public Relations, Advertising & Marketing at the Pride Centre. I am starting my career. My main goal is to master route development. Interested in service recovery as well. I would also like to learn about NDC distribution. I would also like to learn about starting an aviation business. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "network_planning",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0019",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2021,
+    "specialisation": null,
+    "years_experience": 3.0,
+    "goals_text": "I completed the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) but want to move into Commercial, Sales & Customer Experience. I have 3 years of work experience. My main goal is to master social media marketing. Some support with revenue management would help. Some support with supervisory skills would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "marketing_communications",
+      "revenue_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0020",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2020,
+    "specialisation": "safety_security_quality",
+    "years_experience": 4.0,
+    "goals_text": "Recent Pride Centre alumnus from the Aviation Lead Auditor (IATA course at the Pride Centre) programme. I have 4 years of work experience. My main goal is to master compliance audits. Interested in KCAA requirements as well. Some support with fatigue risk awareness would help. I am eager to grow my career. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "aviation_security"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0021",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2022,
+    "specialisation": "safety_security_quality",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Certificate in Aviation Security for Flight Crew). I have 3 years of work experience. My main goal is to master lead auditor skills. Interested in civil aviation regulations as well. Interested in human factors as well. Interested in entrepreneurship as well. Looking for a mentor with practical experience. I am eager to grow my career.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "regulatory_compliance",
+      "human_factors"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0022",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2025,
+    "specialisation": "commercial",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Human Factors in Aviation (IATA course at the Pride Centre)) hoping to transition into Commercial, Sales & Customer Experience. I have 1 year of work experience. I most need guidance on NDC distribution. I would also like to learn about frequent flyer engagement. I would also like to learn about complaint handling. Some support with airline recruitment processes would help.",
+    "wants_to_learn": [
+      "sales_distribution",
+      "loyalty_programmes",
+      "customer_experience",
+      "job_search_interviews"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0023",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2025,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Human Factors in Aviation (IATA course at the Pride Centre)). I have 1 year of work experience. My main goal is to master compliance audits. Interested in crisis management drills as well. Some support with civil aviation regulations would help. Some support with starting an aviation business would help. I am eager to grow my career.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "emergency_response",
+      "entrepreneurship_consulting",
+      "type_rating_preparation"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0024",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_air_safety",
+    "graduation_year": 2025,
+    "specialisation": "safety_security_quality",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Air Safety programme. I am starting my career. I want to build strong skills in access control at the airport. I value honest feedback.",
+    "wants_to_learn": [
+      "quality_auditing"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0025",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2020,
+    "specialisation": null,
+    "years_experience": 5.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Arts in Business Management programme. I have 5 years of work experience. My main goal is to master NDC distribution. Interested in route development as well. Interested in fare structures as well. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "network_planning",
+      "revenue_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0026",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2024,
+    "specialisation": "ground_operations",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Aircraft Handling and Loading programme. I have 2 years of work experience. I most need guidance on ground handling supervision. I would also like to learn about check-in and boarding. Interested in ground support equipment operations as well. Open to virtual or in-person sessions. I am eager to grow my career.",
+    "wants_to_learn": [
+      "station_management",
+      "ramp_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0027",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2025,
+    "specialisation": "ground_operations",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Station Management and Ground Handling Supervision (IATA course at the Pride Centre)). I have 1 year of work experience. I want to build strong skills in check-in and boarding. Some support with weight and balance would help.",
+    "wants_to_learn": [
+      "passenger_handling",
+      "load_control"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0028",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2017,
+    "specialisation": null,
+    "years_experience": 8.0,
+    "goals_text": "Recent Pride Centre alumnus from the Aviation Lead Auditor (IATA course at the Pride Centre) programme. I have 8 years of work experience. I most need guidance on emergency response planning. Interested in access control at the airport as well. I value honest feedback.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0029",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2023,
+    "specialisation": "ground_operations",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Short Course in Dangerous Goods Regulations but want to move into Ground Handling & Airport Services. I have 3 years of work experience. I most need guidance on ground operations safety standards. Interested in airport passenger services as well. I would also like to learn about stakeholder communication. I am eager to grow my career.",
+    "wants_to_learn": [
+      "passenger_handling",
+      "ramp_operations",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0030",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2019,
+    "specialisation": "flight_operations",
+    "years_experience": 5.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "type_rating_preparation",
+      "aircraft_performance",
+      "pilot_career_pathway",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0031",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2025,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Short Course in Aircraft Handling and Loading). I am starting my career. My main goal is to master passenger handling. Some support with preparing load sheets would help. I would also like to learn about moving between departments.",
+    "wants_to_learn": [
+      "passenger_handling"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0032",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2022,
+    "specialisation": "ground_operations",
+    "years_experience": 3.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Weight and Balance programme. I have 3 years of work experience. My main goal is to master running airport station operations. Interested in load control as well. I would also like to learn about ground operations safety standards.",
+    "wants_to_learn": [
+      "station_management",
+      "load_control",
+      "ground_safety_audits"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0033",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2024,
+    "specialisation": "cargo",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Short Course in Dangerous Goods Regulations at the Pride Centre. I am starting my career. I most need guidance on fresh produce exports. Interested in freighter operations as well. Some support with entrepreneurship would help. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "perishables",
+      "freighter_operations",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0034",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2026,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Certificate in Weight and Balance at the Pride Centre. I am starting my career. I want to build strong skills in check-in and boarding. Interested in ground handling audit preparation as well. I would also like to learn about station management. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0035",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2024,
+    "specialisation": "flight_operations",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Certificate in Flight Dispatch at the Pride Centre. I have 2 years of work experience. I want to build strong skills in threat and error management. I would also like to learn about take-off and landing performance. Some support with Boeing 787-8 would help.",
+    "wants_to_learn": [
+      "crew_resource_management",
+      "fleet_b787"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0036",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2024,
+    "specialisation": "digital_innovation",
+    "years_experience": 0.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "data_analytics",
+      "aviation_it_systems"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0037",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2018,
+    "specialisation": "flight_operations",
+    "years_experience": 6.0,
+    "goals_text": "Pride Centre graduate (Diploma in Airline Passenger Services) hoping to transition into Flight Operations. I have 6 years of work experience. I most need guidance on commercial pilot licence progression. I would also like to learn about take-off and landing performance. I value honest feedback. Looking for a mentor with practical experience.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0038",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2024,
+    "specialisation": "commercial",
+    "years_experience": 2.0,
+    "goals_text": "",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0039",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2022,
+    "specialisation": "safety_security_quality",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Aviation Lead Auditor (IATA course at the Pride Centre) programme. I have 2 years of work experience. I want to build strong skills in security threat awareness. I would also like to learn about human performance and error management. Some support with safety risk assessment would help. Open to virtual or in-person sessions. I value honest feedback.",
+    "wants_to_learn": [
+      "aviation_security",
+      "human_factors"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0040",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2022,
+    "specialisation": "ground_operations",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Short Course in Aircraft Handling and Loading). I have 2 years of work experience. I want to build strong skills in aircraft loading instructions. I would also like to learn about check-in and boarding. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "load_control",
+      "passenger_handling",
+      "ramp_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0041",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2022,
+    "specialisation": "flight_operations",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Certificate in Flight Dispatch). I have 4 years of work experience. I most need guidance on pilot career pathway. Interested in cockpit communication and teamwork as well.",
+    "wants_to_learn": [
+      "crew_resource_management",
+      "fleet_b737"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0042",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2022,
+    "specialisation": "commercial",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Arts in Business Management). I have 3 years of work experience. I want to build strong skills in Asante Rewards. Interested in social media marketing as well. Interested in sales and distribution as well. Interested in airline recruitment processes as well.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0043",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2024,
+    "specialisation": "cargo",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Short Course in Dangerous Goods Regulations at the Pride Centre. I have 2 years of work experience. My main goal is to master cold chain logistics. I would also like to learn about freighter operations. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "pharma_cool_chain",
+      "freighter_operations",
+      "aviation_meteorology"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0044",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2018,
+    "specialisation": null,
+    "years_experience": 8.0,
+    "goals_text": "Pride Centre graduate (Human Factors in Aviation (IATA course at the Pride Centre)). I have 8 years of work experience. My main goal is to master regulatory compliance. I would also like to learn about safety management systems. Some support with leading teams would help.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0045",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_air_safety",
+    "graduation_year": 2025,
+    "specialisation": "commercial",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Short Course in Air Safety) hoping to transition into Commercial, Sales & Customer Experience. I have 1 year of work experience. I want to build strong skills in lounge and premium customer care. I would also like to learn about frequent flyer engagement.",
+    "wants_to_learn": [
+      "customer_experience",
+      "marketing_communications",
+      "loyalty_programmes"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0046",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2018,
+    "specialisation": "cabin_services",
+    "years_experience": 6.0,
+    "goals_text": "Recent Pride Centre alumnus from the Airline Cabin Crew Training programme. I have 6 years of work experience. I most need guidance on Premier World service. Interested in onboard meal and beverage service as well.",
+    "wants_to_learn": [
+      "premium_cabin_service",
+      "inflight_service"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0047",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2020,
+    "specialisation": "cargo",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Short Course in Aircraft Handling and Loading but want to move into Cargo & Logistics. I have 5 years of work experience. I want to build strong skills in dangerous goods regulations. I would also like to learn about pharmaceutical cool chain. Some support with 737-300F freighter loading would help.",
+    "wants_to_learn": [
+      "dangerous_goods",
+      "pharma_cool_chain",
+      "freighter_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0048",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2023,
+    "specialisation": "cabin_services",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Airline Cabin Crew Training programme. I have 2 years of work experience. I most need guidance on safety and emergency procedures. Some support with in-flight first aid would help. Looking for a mentor with practical experience. Open to virtual or in-person sessions.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0049",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2020,
+    "specialisation": "flight_operations",
+    "years_experience": 6.0,
+    "goals_text": "Pride Centre graduate (Certificate in Flight Dispatch). I have 6 years of work experience. I want to build strong skills in building flying hours. Some support with transitioning onto a new aircraft type would help. Some support with Boeing 737-800 would help. Some support with starting an aviation business would help.",
+    "wants_to_learn": [
+      "pilot_career_pathway",
+      "type_rating_preparation"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0050",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2024,
+    "specialisation": "commercial",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Business Administration programme. I have 1 year of work experience. I most need guidance on advertising campaigns. I would also like to learn about route development. I would also like to learn about stakeholder communication.",
+    "wants_to_learn": [
+      "marketing_communications",
+      "network_planning",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0051",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2025,
+    "specialisation": "commercial",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Certificate in Public Relations, Advertising & Marketing at the Pride Centre. I am starting my career. I most need guidance on network planning. Interested in customer experience as well. Interested in fare structures as well. Interested in planning promotions as well. I am eager to grow my career.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0052",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2018,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 6.0,
+    "goals_text": "Pride Centre graduate (Diploma in Airline Passenger Services) hoping to transition into Aircraft Maintenance & Engineering. I have 6 years of work experience. I most need guidance on aircraft maintenance engineer licence preparation. Interested in line maintenance as well. Interested in career progression as well.",
+    "wants_to_learn": [
+      "licensing_part145",
+      "line_maintenance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0053",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2022,
+    "specialisation": null,
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Certificate in Aviation Security for Flight Crew) hoping to transition into Ground Handling & Airport Services. I have 3 years of work experience. I want to build strong skills in ground operations safety standards. Interested in load control as well. I would also like to learn about station management. Some support with interview preparation would help.",
+    "wants_to_learn": [
+      "load_control",
+      "station_management",
+      "crew_resource_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0054",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2024,
+    "specialisation": "cabin_services",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Airline Cabin Crew Training at the Pride Centre. I am starting my career. I want to build strong skills in passenger medical incidents. I would also like to learn about economy cabin service. Interested in entrepreneurship as well. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "inflight_first_aid",
+      "inflight_service",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0055",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2022,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Aircraft maintenance engineering training (KQ MRO) at the Pride Centre. I have 2 years of work experience. My main goal is to master line maintenance. Interested in work package preparation as well. Some support with stakeholder communication would help. Open to virtual or in-person sessions. Looking for a mentor with practical experience.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0056",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2021,
+    "specialisation": "digital_innovation",
+    "years_experience": 3.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Science (Information Systems & Technology) programme. I have 3 years of work experience. My main goal is to master airline data analytics. I would also like to learn about precision farming with drones. Interested in career progression as well. I am eager to grow my career.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0057",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2024,
+    "specialisation": "flight_operations",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Postgraduate Diploma in Computer Science) hoping to transition into Flight Operations. I am starting my career. My main goal is to master weight limits and runway analysis. I would also like to learn about transitioning onto a new aircraft type. I would also like to learn about operational flight planning. Some support with starting an aviation business would help. I value honest feedback. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "type_rating_preparation",
+      "flight_dispatch"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0058",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2023,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Aviation Security for Flight Crew programme. I have 1 year of work experience. I most need guidance on lead auditor skills. I would also like to learn about fatigue risk awareness. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "human_factors"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0059",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2024,
+    "specialisation": "ground_operations",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) at the Pride Centre. I have 2 years of work experience. I want to build strong skills in aircraft turnaround on the apron. I would also like to learn about ground handling audit preparation. I would also like to learn about ground handling supervision. I value honest feedback.",
+    "wants_to_learn": [
+      "ground_safety_audits",
+      "station_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0060",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2019,
+    "specialisation": "commercial",
+    "years_experience": 6.0,
+    "goals_text": "I completed the Bachelor of Arts in Business Management at the Pride Centre. I have 6 years of work experience. I most need guidance on revenue management. I would also like to learn about frequent flyer engagement. I would also like to learn about schedule planning.",
+    "wants_to_learn": [
+      "network_planning"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0061",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2022,
+    "specialisation": "commercial",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Business Administration programme. I have 2 years of work experience. I most need guidance on loyalty programmes. I would also like to learn about NDC distribution.",
+    "wants_to_learn": [
+      "network_planning",
+      "sales_distribution",
+      "leadership_management",
+      "human_factors"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0062",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2017,
+    "specialisation": "safety_security_quality",
+    "years_experience": 8.0,
+    "goals_text": "Pride Centre graduate (Certificate in Aviation Security for Flight Crew). I have 8 years of work experience. My main goal is to master IOSA audit preparation. Some support with emergency response planning would help.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "safety_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0063",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2020,
+    "specialisation": "commercial",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Certificate in Public Relations, Advertising & Marketing). I have 4 years of work experience. My main goal is to master customer experience. Some support with marketing and public relations would help. Some support with stakeholder communication would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "customer_experience",
+      "marketing_communications",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0064",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2024,
+    "specialisation": null,
+    "years_experience": 2.0,
+    "goals_text": "I completed the Certificate in Weight and Balance at the Pride Centre. I have 2 years of work experience. I most need guidance on pushback and towing. Interested in aircraft loading instructions as well. I would also like to learn about running airport station operations.",
+    "wants_to_learn": [
+      "ramp_operations",
+      "load_control",
+      "station_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0065",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2022,
+    "specialisation": "safety_security_quality",
+    "years_experience": 4.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "human_factors",
+      "emergency_response",
+      "regulatory_compliance",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0066",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2022,
+    "specialisation": "safety_security_quality",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Human Factors in Aviation (IATA course at the Pride Centre) programme. I have 2 years of work experience. My main goal is to master crisis management drills. I would also like to learn about safety management systems. Some support with KCAA requirements would help. I am eager to grow my career.",
+    "wants_to_learn": [
+      "emergency_response",
+      "safety_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0067",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2025,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Short Course in Aircraft Handling and Loading). I am starting my career. I want to build strong skills in passengers with reduced mobility. I would also like to learn about preparing load sheets. Interested in ground handling audit preparation as well.",
+    "wants_to_learn": [
+      "special_assistance",
+      "load_control",
+      "ground_safety_audits"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0068",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2022,
+    "specialisation": "cargo",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Diploma in Airline Passenger Services but want to move into Cargo & Logistics. I have 3 years of work experience. My main goal is to master fresh produce exports. Interested in cold chain logistics as well. Interested in freighter operations as well. Interested in presentation skills as well. I am eager to grow my career. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "pharma_cool_chain",
+      "freighter_operations",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0069",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2025,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Aircraft maintenance engineering training (KQ MRO) at the Pride Centre. I am starting my career. I want to build strong skills in non-destructive testing. Some support with planning hangar slots would help. Interested in heavy maintenance as well.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0070",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2021,
+    "specialisation": "flight_operations",
+    "years_experience": 4.0,
+    "goals_text": "I completed the Crew Resource Management Course at the Pride Centre. I have 4 years of work experience. My main goal is to master pilot career pathway. I would also like to learn about weight limits and runway analysis. Interested in threat and error management as well. Interested in Embraer 190 jets as well. Some support with CV writing for airline jobs would help. I value honest feedback.",
+    "wants_to_learn": [
+      "aircraft_performance",
+      "crew_resource_management",
+      "fleet_e190"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0071",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2020,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 6.0,
+    "goals_text": "I completed the Certificate in Flight Dispatch but want to move into Aircraft Maintenance & Engineering. I have 6 years of work experience. I most need guidance on major airframe inspections. Open to virtual or in-person sessions. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "heavy_maintenance",
+      "pharma_cool_chain"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0072",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2021,
+    "specialisation": "digital_innovation",
+    "years_experience": 5.0,
+    "goals_text": "Pride Centre graduate (Postgraduate Diploma in Computer Science). I have 5 years of work experience. I most need guidance on net zero planning. Interested in airline data analytics as well. Some support with booking and departure control systems would help. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "sustainability",
+      "aviation_it_systems"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0073",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_passenger_services",
+    "graduation_year": 2023,
+    "specialisation": "ground_operations",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Certificate in Airline Passenger Services at the Pride Centre. I have 2 years of work experience. My main goal is to master mobility assistance. Some support with ground handling supervision would help.",
+    "wants_to_learn": [
+      "special_assistance",
+      "passenger_handling",
+      "station_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0074",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2024,
+    "specialisation": "digital_innovation",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Crew Resource Management Course but want to move into Digital, Innovation & Sustainability. I am starting my career. I most need guidance on net zero planning. I would also like to learn about operational dashboards and reporting. Some support with drone operations would help. Interested in public speaking as well. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "sustainability",
+      "data_analytics",
+      "drone_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0075",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2022,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Certificate in Aviation Security for Flight Crew but want to move into Aircraft Maintenance & Engineering. I have 3 years of work experience. I most need guidance on engine on-wing support. Interested in avionics systems as well. Interested in aircraft maintenance engineer licence preparation as well. I would also like to learn about Embraer 190 jets. Looking for a mentor with practical experience. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "licensing_part145"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0076",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2023,
+    "specialisation": "cabin_services",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Airline Cabin Crew Training programme. I have 1 year of work experience. My main goal is to master handling medical emergencies onboard. Some support with moving between departments would help.",
+    "wants_to_learn": [
+      "inflight_first_aid",
+      "inflight_service",
+      "cabin_leadership",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0077",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2023,
+    "specialisation": "cargo",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Diploma in Airline Passenger Services) hoping to transition into Cargo & Logistics. I have 3 years of work experience. I most need guidance on hazardous materials acceptance. Some support with freight forwarder relationships would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "dangerous_goods",
+      "regulatory_compliance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0078",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2021,
+    "specialisation": null,
+    "years_experience": 4.0,
+    "goals_text": "I completed the Bachelor of Science (Information Systems & Technology) at the Pride Centre. I have 4 years of work experience. My main goal is to master digital products for airlines. Some support with precision farming with drones would help. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "aviation_it_systems",
+      "leadership_management",
+      "sustainability"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0079",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2024,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Aircraft maintenance engineering training (KQ MRO)). I have 2 years of work experience. I most need guidance on component repair. I would also like to learn about engine on-wing support. I would also like to learn about Boeing 777-300ER. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "component_repair",
+      "fleet_b777",
+      "perishables"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0080",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2026,
+    "specialisation": null,
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Aviation Security for Flight Crew programme. I am starting my career. I most need guidance on compliance audits. I would also like to learn about AVSEC screening. Interested in stakeholder communication as well. I value honest feedback.",
+    "wants_to_learn": [
+      "aviation_security",
+      "public_speaking",
+      "emergency_response"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0081",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2025,
+    "specialisation": "safety_security_quality",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Aviation Lead Auditor (IATA course at the Pride Centre)). I am starting my career. I most need guidance on aviation security. Some support with crisis management drills would help. Interested in human performance and error management as well. I would also like to learn about managing performance. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "emergency_response",
+      "human_factors",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0082",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2018,
+    "specialisation": "cabin_services",
+    "years_experience": 6.0,
+    "goals_text": "Recent Pride Centre alumnus from the Airline Cabin Crew Training programme. I have 6 years of work experience. My main goal is to master in-flight first aid. Some support with in-flight service delivery would help. Interested in cabin evacuation drills as well. I would also like to learn about starting an aviation business.",
+    "wants_to_learn": [
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0083",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2020,
+    "specialisation": "commercial",
+    "years_experience": 5.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Business Administration programme. I have 5 years of work experience. I most need guidance on network planning.",
+    "wants_to_learn": [
+      "network_planning",
+      "sales_distribution"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0084",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2020,
+    "specialisation": "flight_operations",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Diploma in Airline Passenger Services but want to move into Flight Operations. I have 5 years of work experience. I most need guidance on threat and error management. I would also like to learn about weather briefing for flights. Some support with simulator check preparation would help. I value honest feedback. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "crew_resource_management",
+      "type_rating_preparation"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0085",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2023,
+    "specialisation": "ground_operations",
+    "years_experience": 1.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "ground_safety_audits",
+      "passenger_handling"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0086",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2021,
+    "specialisation": "digital_innovation",
+    "years_experience": 4.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Science (Information Systems & Technology) programme. I have 4 years of work experience. I most need guidance on precision farming with drones. Interested in analysing performance data as well. Interested in airline IT systems as well. I would also like to learn about airline recruitment processes. I value honest feedback.",
+    "wants_to_learn": [
+      "data_analytics",
+      "aviation_it_systems",
+      "job_search_interviews",
+      "fleet_b737f"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0087",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2024,
+    "specialisation": "cabin_services",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Certificate in Flight Dispatch) hoping to transition into Cabin Services. I have 1 year of work experience. My main goal is to master passenger medical incidents. Interested in ditching and fire drills as well. Interested in premium cabin hospitality as well. Interested in professional growth as well. I am eager to grow my career.",
+    "wants_to_learn": [
+      "inflight_first_aid",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0088",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2022,
+    "specialisation": null,
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Crew Resource Management Course). I have 3 years of work experience. I most need guidance on simulator check preparation.",
+    "wants_to_learn": [
+      "type_rating_preparation"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0089",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2021,
+    "specialisation": "digital_innovation",
+    "years_experience": 5.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Science (Information Systems & Technology) programme. I have 5 years of work experience. My main goal is to master net zero planning. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "aviation_it_systems",
+      "data_analytics",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0090",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2025,
+    "specialisation": null,
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Weight and Balance programme. I am starting my career. I most need guidance on VIP meet and assist. Interested in pushback and towing as well. Some support with station management would help. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "special_assistance",
+      "ramp_operations",
+      "station_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0091",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2024,
+    "specialisation": "ground_operations",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Weight and Balance programme. I have 2 years of work experience. I most need guidance on weight and balance. I would also like to learn about ground handling supervision. I would also like to learn about ramp handling. I am eager to grow my career.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0092",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2025,
+    "specialisation": null,
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Aviation Lead Auditor (IATA course at the Pride Centre) programme. I have 1 year of work experience. My main goal is to master quality auditing. Some support with KCAA requirements would help. Some support with supervisory skills would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0093",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2023,
+    "specialisation": "safety_security_quality",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Certificate in Weight and Balance but want to move into Safety, Security & Quality. I have 2 years of work experience. My main goal is to master human factors. Interested in occurrence investigation as well. I would also like to learn about entrepreneurship.",
+    "wants_to_learn": [
+      "human_factors",
+      "safety_management",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0094",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2025,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Human Factors in Aviation (IATA course at the Pride Centre) programme. I have 1 year of work experience. I want to build strong skills in human performance and error management. I would also like to learn about compliance audits. I value honest feedback.",
+    "wants_to_learn": [
+      "human_factors",
+      "quality_auditing"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0095",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2016,
+    "specialisation": "ground_operations",
+    "years_experience": 8.0,
+    "goals_text": "Recent Pride Centre alumnus from the Diploma in Airline Passenger Services programme. I have 8 years of work experience. I most need guidance on preparing load sheets. Interested in station management as well. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "ground_safety_audits",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0096",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2023,
+    "specialisation": "digital_innovation",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Bachelor of Science (Information Systems & Technology) at the Pride Centre. I have 1 year of work experience. My main goal is to master unmanned aircraft systems. Interested in sustainable aviation fuel as well. I am eager to grow my career.",
+    "wants_to_learn": [
+      "drone_operations",
+      "sustainability",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0097",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2020,
+    "specialisation": "commercial",
+    "years_experience": 6.0,
+    "goals_text": "I completed the Certificate in Public Relations, Advertising & Marketing at the Pride Centre. I have 6 years of work experience. I want to build strong skills in NDC distribution. I would also like to learn about advertising campaigns. Some support with airline recruitment processes would help.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0098",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2021,
+    "specialisation": "flight_operations",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Certificate in Aviation Security for Flight Crew but want to move into Flight Operations. I have 3 years of work experience. I want to build strong skills in operational flight planning. I would also like to learn about CRM. Some support with aircraft performance calculations would help. Some support with B737 would help. I would also like to learn about public speaking.",
+    "wants_to_learn": [
+      "flight_dispatch",
+      "crew_resource_management",
+      "aircraft_performance",
+      "fleet_b737",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0099",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2025,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 1.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "maintenance_planning",
+      "heavy_maintenance",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0100",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2023,
+    "specialisation": "flight_operations",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Certificate in Flight Dispatch at the Pride Centre. I have 1 year of work experience. I want to build strong skills in crew resource management. I would also like to learn about operational flight planning. Interested in interpreting METAR and TAF reports as well. Some support with entrepreneurship would help.",
+    "wants_to_learn": [
+      "crew_resource_management",
+      "flight_dispatch",
+      "aviation_meteorology",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0101",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2019,
+    "specialisation": "commercial",
+    "years_experience": 5.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Public Relations, Advertising & Marketing programme. I have 5 years of work experience. I want to build strong skills in Asante Rewards. Some support with customer experience would help. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "loyalty_programmes"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0102",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2023,
+    "specialisation": "ground_operations",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Weight and Balance programme. I have 2 years of work experience. I most need guidance on ISAGO audits. Some support with passengers with reduced mobility would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "ground_safety_audits",
+      "special_assistance",
+      "ramp_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0103",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2022,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Aircraft maintenance engineering training (KQ MRO) at the Pride Centre. I have 3 years of work experience. I most need guidance on AME licence modules. Interested in AOG troubleshooting as well. I value honest feedback.",
+    "wants_to_learn": [
+      "licensing_part145",
+      "line_maintenance",
+      "fleet_b737"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0104",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2023,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Aircraft maintenance engineering training (KQ MRO)). I have 3 years of work experience. I most need guidance on maintenance planning. I would also like to learn about aircraft electrical and avionics troubleshooting. I would also like to learn about aviation consulting. I value honest feedback.",
+    "wants_to_learn": [
+      "maintenance_planning",
+      "engine_maintenance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0105",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_passenger_services",
+    "graduation_year": 2025,
+    "specialisation": "flight_operations",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Certificate in Airline Passenger Services but want to move into Flight Operations. I have 1 year of work experience. I most need guidance on aviation meteorology. Interested in starting an aviation business as well. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "aviation_meteorology",
+      "type_rating_preparation",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0106",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2023,
+    "specialisation": "flight_operations",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Crew Resource Management Course programme. I have 1 year of work experience. My main goal is to master aviation meteorology. Interested in threat and error management as well. Some support with weight limits and runway analysis would help. Interested in Embraer 190 jets as well. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "crew_resource_management",
+      "aircraft_performance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0107",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2022,
+    "specialisation": "ground_operations",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Short Course in Aircraft Handling and Loading). I have 2 years of work experience. I most need guidance on aircraft loading instructions. Interested in ground handling audit preparation as well. Interested in VIP meet and assist as well. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "load_control",
+      "ground_safety_audits",
+      "special_assistance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0108",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2021,
+    "specialisation": "cabin_services",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Airline Cabin Crew Training at the Pride Centre. I have 5 years of work experience. My main goal is to master cabin evacuation drills. Some support with premium cabin hospitality would help.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0109",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2021,
+    "specialisation": "commercial",
+    "years_experience": 3.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "loyalty_programmes",
+      "sales_distribution",
+      "customer_experience"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0110",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2024,
+    "specialisation": null,
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Human Factors in Aviation (IATA course at the Pride Centre)). I am starting my career. My main goal is to master quality auditing. I would also like to learn about airport emergency exercises. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "emergency_response"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0111",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2020,
+    "specialisation": "ground_operations",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Short Course in Aircraft Handling and Loading at the Pride Centre. I have 5 years of work experience. My main goal is to master station management. Some support with wheelchair assistance coordination would help.",
+    "wants_to_learn": [
+      "special_assistance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0112",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2022,
+    "specialisation": "digital_innovation",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Crew Resource Management Course but want to move into Digital, Innovation & Sustainability. I have 3 years of work experience. My main goal is to master booking and departure control systems. I would also like to learn about SAF. I value honest feedback. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "aviation_it_systems",
+      "sustainability"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0113",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2024,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Short Course in Aircraft Handling and Loading at the Pride Centre. I am starting my career. I want to build strong skills in ground handling audit preparation. Interested in wheelchair assistance coordination as well. Some support with airport passenger services would help. Some support with professional growth would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0114",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2022,
+    "specialisation": "commercial",
+    "years_experience": 4.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "revenue_management",
+      "loyalty_programmes"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0115",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2020,
+    "specialisation": "cabin_services",
+    "years_experience": 6.0,
+    "goals_text": "I completed the Airline Cabin Crew Training at the Pride Centre. I have 6 years of work experience. I most need guidance on leading a cabin crew team. I would also like to learn about handling medical emergencies onboard. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "cabin_leadership",
+      "inflight_first_aid"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0116",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2025,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Human Factors in Aviation (IATA course at the Pride Centre)). I have 1 year of work experience. I want to build strong skills in aviation security. Interested in civil aviation regulations as well.",
+    "wants_to_learn": [
+      "aviation_security",
+      "regulatory_compliance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0117",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2020,
+    "specialisation": "cabin_services",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Airline Cabin Crew Training). I have 4 years of work experience. My main goal is to master cabin evacuation drills. I would also like to learn about in-flight first aid. Open to virtual or in-person sessions.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0118",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2019,
+    "specialisation": "ground_operations",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Diploma in Airline Passenger Services at the Pride Centre. I have 5 years of work experience. I most need guidance on preparing load sheets. Interested in passengers with reduced mobility as well. I am eager to grow my career. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "load_control"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0119",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2025,
+    "specialisation": "commercial",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Certificate in Aviation Security for Flight Crew) hoping to transition into Commercial, Sales & Customer Experience. I am starting my career. My main goal is to master fare structures. Interested in marketing and public relations as well. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "revenue_management",
+      "marketing_communications",
+      "network_planning",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0120",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2026,
+    "specialisation": "digital_innovation",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Bachelor of Science (Information Systems & Technology) at the Pride Centre. I am starting my career. I want to build strong skills in operational dashboards and reporting. Interested in digital products for airlines as well. Some support with drone operations would help. I would also like to learn about airline recruitment processes. Looking for a mentor with practical experience. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "data_analytics",
+      "aviation_it_systems"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0121",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2023,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 2.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "avionics_cabin_systems",
+      "leadership_management",
+      "pharma_cool_chain"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0122",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2024,
+    "specialisation": "ground_operations",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Certificate in Weight and Balance at the Pride Centre. I have 1 year of work experience. I most need guidance on aircraft loading instructions. Interested in VIP meet and assist as well.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0123",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2022,
+    "specialisation": "commercial",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Certificate in Public Relations, Advertising & Marketing). I have 3 years of work experience. I want to build strong skills in sales and distribution. Some support with complaint handling would help. I value honest feedback. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "sales_distribution",
+      "customer_experience",
+      "crew_resource_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0124",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2023,
+    "specialisation": "cabin_services",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Airline Cabin Crew Training at the Pride Centre. I have 1 year of work experience. I want to build strong skills in purser leadership. Some support with safety and emergency procedures would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "safety_emergency_procedures"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0125",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2025,
+    "specialisation": "flight_operations",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Crew Resource Management Course). I have 1 year of work experience. My main goal is to master operational flight planning. Some support with CRM would help. Some support with Dreamliner operations would help. I am eager to grow my career.",
+    "wants_to_learn": [
+      "crew_resource_management",
+      "fleet_b787"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0126",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2024,
+    "specialisation": "commercial",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Arts in Business Management). I have 2 years of work experience. My main goal is to master customer experience. I would also like to learn about network planning. I would also like to learn about frequent flyer engagement. Looking for a mentor with practical experience. I am eager to grow my career.",
+    "wants_to_learn": [
+      "customer_experience",
+      "network_planning"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0127",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2020,
+    "specialisation": null,
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Certificate in Weight and Balance). I have 4 years of work experience. I want to build strong skills in passengers with reduced mobility. Interested in station management as well. Interested in aircraft turnaround on the apron as well. Interested in public speaking as well.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0128",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_passenger_services",
+    "graduation_year": 2019,
+    "specialisation": "ground_operations",
+    "years_experience": 6.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Airline Passenger Services programme. I have 6 years of work experience. I want to build strong skills in ramp handling. Some support with station management would help. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "ramp_operations",
+      "station_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0129",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2026,
+    "specialisation": "flight_operations",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Certificate in Flight Dispatch at the Pride Centre. I am starting my career. I most need guidance on interpreting METAR and TAF reports. Some support with dispatcher duties would help. Interested in 737 Next Generation as well. Interested in entrepreneurship as well. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "aviation_meteorology",
+      "flight_dispatch",
+      "pilot_career_pathway",
+      "fleet_b737"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0130",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2024,
+    "specialisation": null,
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Short Course in Aircraft Handling and Loading). I am starting my career. I most need guidance on managing departure gates. I would also like to learn about passengers with reduced mobility. I would also like to learn about ground support equipment operations. Some support with CV writing for airline jobs would help.",
+    "wants_to_learn": [
+      "special_assistance",
+      "ramp_operations",
+      "job_search_interviews"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0131",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2025,
+    "specialisation": "digital_innovation",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Crew Resource Management Course) hoping to transition into Digital, Innovation & Sustainability. I am starting my career. I most need guidance on sustainable aviation fuel. Interested in precision farming with drones as well. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "sustainability",
+      "drone_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0132",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2022,
+    "specialisation": null,
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Science (Information Systems & Technology) programme. I have 2 years of work experience. My main goal is to master SAF. Some support with airline IT systems would help. Some support with drone operations would help. I am eager to grow my career.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0133",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2022,
+    "specialisation": "ground_operations",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Short Course in Aircraft Handling and Loading at the Pride Centre. I have 2 years of work experience. I want to build strong skills in aircraft turnaround on the apron. Interested in running airport station operations as well. Open to virtual or in-person sessions. I value honest feedback.",
+    "wants_to_learn": [
+      "ramp_operations",
+      "station_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0134",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2023,
+    "specialisation": "flight_operations",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Crew Resource Management Course at the Pride Centre. I have 3 years of work experience. I most need guidance on becoming a first officer. I would also like to learn about weather briefing for flights. I would also like to learn about flight dispatch. I would also like to learn about B787. Open to virtual or in-person sessions.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0135",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2023,
+    "specialisation": "commercial",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Certificate in Public Relations, Advertising & Marketing). I have 1 year of work experience. My main goal is to master advertising campaigns. Interested in lounge and premium customer care as well. Some support with supervisory skills would help. Open to virtual or in-person sessions. I am eager to grow my career.",
+    "wants_to_learn": [
+      "marketing_communications",
+      "customer_experience",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0136",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2023,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Airline Cabin Crew Training) hoping to transition into Aircraft Maintenance & Engineering. I have 2 years of work experience. I want to build strong skills in cabin and IFE systems maintenance. Interested in leadership and people management as well.",
+    "wants_to_learn": [
+      "avionics_cabin_systems",
+      "heavy_maintenance",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0137",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_air_safety",
+    "graduation_year": 2021,
+    "specialisation": "safety_security_quality",
+    "years_experience": 5.0,
+    "goals_text": "Pride Centre graduate (Short Course in Air Safety). I have 5 years of work experience. I want to build strong skills in compliance audits. Some support with human factors would help. I would also like to learn about KCAA requirements. Some support with leadership and people management would help. I value honest feedback. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "regulatory_compliance",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0138",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2023,
+    "specialisation": "ground_operations",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Short Course in Cargo Skills and Procedures) hoping to transition into Ground Handling & Airport Services. I have 1 year of work experience. My main goal is to master aircraft turnaround on the apron. Some support with aircraft loading instructions would help. Open to virtual or in-person sessions. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "load_control"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0139",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2026,
+    "specialisation": "digital_innovation",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Science (Information Systems & Technology) programme. I am starting my career. I most need guidance on booking and departure control systems. Some support with analysing performance data would help. I would also like to learn about unmanned aircraft systems. I would also like to learn about aviation consulting.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0140",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2024,
+    "specialisation": "commercial",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Certificate in Public Relations, Advertising & Marketing at the Pride Centre. I have 1 year of work experience. I want to build strong skills in network planning. Interested in Asante Rewards as well. I am eager to grow my career.",
+    "wants_to_learn": [
+      "network_planning"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0141",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2021,
+    "specialisation": "cargo",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Short Course in Cargo Skills and Procedures at the Pride Centre. I have 3 years of work experience. My main goal is to master fresh produce exports. I would also like to learn about CEIV Pharma handling. I would also like to learn about freighter operations. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "perishables",
+      "pharma_cool_chain"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0142",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2024,
+    "specialisation": "safety_security_quality",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Certificate in Aviation Security for Flight Crew). I am starting my career. I want to build strong skills in lead auditor skills. Interested in stakeholder communication as well. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "emergency_response"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0143",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2019,
+    "specialisation": "flight_operations",
+    "years_experience": 5.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Arts in Business Management) hoping to transition into Flight Operations. I have 5 years of work experience. I want to build strong skills in pilot career pathway. Some support with transitioning onto a new aircraft type would help. Some support with presentation skills would help. Open to virtual or in-person sessions. I value honest feedback.",
+    "wants_to_learn": [
+      "pilot_career_pathway",
+      "type_rating_preparation",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0144",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2022,
+    "specialisation": "cargo",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Short Course in Dangerous Goods Regulations). I have 3 years of work experience. I most need guidance on cargo sales. Interested in cold chain logistics as well. I would also like to learn about career progression.",
+    "wants_to_learn": [
+      "pharma_cool_chain",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0145",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2018,
+    "specialisation": "safety_security_quality",
+    "years_experience": 6.0,
+    "goals_text": "Pride Centre graduate (Aviation Lead Auditor (IATA course at the Pride Centre)). I have 6 years of work experience. I want to build strong skills in quality auditing. Some support with occurrence investigation would help. I would also like to learn about supervisory skills. I value honest feedback. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0146",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2025,
+    "specialisation": "digital_innovation",
+    "years_experience": 0.0,
+    "goals_text": "",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0147",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2026,
+    "specialisation": "cargo",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Cargo Skills and Procedures programme. I am starting my career. I most need guidance on dangerous goods regulations. I would also like to learn about freighter operations. Interested in freight forwarder relationships as well. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "dangerous_goods",
+      "freighter_operations",
+      "cargo_sales"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0148",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_air_safety",
+    "graduation_year": 2026,
+    "specialisation": "safety_security_quality",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Air Safety programme. I am starting my career. My main goal is to master IOSA audit preparation. I would also like to learn about fatigue risk awareness. I would also like to learn about career progression. I value honest feedback.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "human_factors"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0149",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2021,
+    "specialisation": "cargo",
+    "years_experience": 4.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "freighter_operations",
+      "cargo_sales"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0150",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2021,
+    "specialisation": "flight_operations",
+    "years_experience": 3.0,
+    "goals_text": "Recent Pride Centre alumnus from the Crew Resource Management Course programme. I have 3 years of work experience. I most need guidance on dispatcher duties. I would also like to learn about CRM. I would also like to learn about weather briefing for flights.",
+    "wants_to_learn": [
+      "flight_dispatch",
+      "aviation_meteorology",
+      "regulatory_compliance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0151",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2022,
+    "specialisation": "digital_innovation",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Science (Information Systems & Technology)). I have 2 years of work experience. My main goal is to master net zero planning. I would also like to learn about unmanned aircraft systems. Interested in operational dashboards and reporting as well. I am eager to grow my career.",
+    "wants_to_learn": [
+      "sustainability",
+      "data_analytics",
+      "aviation_security"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0152",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2023,
+    "specialisation": "flight_operations",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Aviation Lead Auditor (IATA course at the Pride Centre) but want to move into Flight Operations. I have 1 year of work experience. I most need guidance on weather briefing for flights. I would also like to learn about weight limits and runway analysis. I would also like to learn about commercial pilot licence progression. Some support with Embraer 190 jets would help. Interested in managing performance as well.",
+    "wants_to_learn": [
+      "aviation_meteorology",
+      "aircraft_performance",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0153",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2025,
+    "specialisation": null,
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Diploma in Airline Passenger Services) hoping to transition into Cabin Services. I have 1 year of work experience. My main goal is to master Premier World service. I would also like to learn about senior cabin crew responsibilities. Interested in in-flight first aid as well. I would also like to learn about moving between departments. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "cabin_leadership",
+      "inflight_first_aid",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0154",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2023,
+    "specialisation": "ground_operations",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Certificate in Weight and Balance at the Pride Centre. I have 2 years of work experience. I want to build strong skills in ground handling supervision. Some support with pushback and towing would help. I value honest feedback.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0155",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2025,
+    "specialisation": "safety_security_quality",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Aviation Lead Auditor (IATA course at the Pride Centre)). I am starting my career. I most need guidance on occurrence investigation. I would also like to learn about AVSEC screening. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "safety_management",
+      "aviation_security"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0156",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2023,
+    "specialisation": "flight_operations",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Crew Resource Management Course programme. I have 1 year of work experience. My main goal is to master flight dispatch. I would also like to learn about weight limits and runway analysis. Interested in weather briefing for flights as well. I would also like to learn about Embraer E190. Looking for a mentor with practical experience. I am eager to grow my career.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0157",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_air_safety",
+    "graduation_year": 2020,
+    "specialisation": "safety_security_quality",
+    "years_experience": 6.0,
+    "goals_text": "I completed the Short Course in Air Safety at the Pride Centre. I have 6 years of work experience. I want to build strong skills in AVSEC screening. I would also like to learn about occurrence investigation. Some support with managing performance would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "aviation_security",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0158",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2026,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Certificate in Weight and Balance at the Pride Centre. I am starting my career. I most need guidance on preparing load sheets. I would also like to learn about managing departure gates.",
+    "wants_to_learn": [
+      "ground_safety_audits",
+      "passenger_handling"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0159",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2024,
+    "specialisation": "digital_innovation",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Airline Cabin Crew Training) hoping to transition into Digital, Innovation & Sustainability. I have 1 year of work experience. I most need guidance on drone operations. Interested in carbon reduction initiatives as well. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "sustainability"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0160",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2024,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Arts in Business Management) hoping to transition into Aircraft Maintenance & Engineering. I have 2 years of work experience. I most need guidance on C-check planning and execution. Some support with cabin and IFE systems maintenance would help. Interested in B777 as well. I am eager to grow my career.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0161",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2026,
+    "specialisation": "digital_innovation",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Postgraduate Diploma in Computer Science at the Pride Centre. I am starting my career. I most need guidance on analysing performance data. Some support with SAF would help. Interested in airline IT systems as well. Interested in aviation consulting as well. I value honest feedback.",
+    "wants_to_learn": [
+      "data_analytics",
+      "sustainability",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0162",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2019,
+    "specialisation": "safety_security_quality",
+    "years_experience": 5.0,
+    "goals_text": "",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0163",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2023,
+    "specialisation": "digital_innovation",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Bachelor of Science (Information Systems & Technology) at the Pride Centre. I have 3 years of work experience. I want to build strong skills in analysing performance data. Open to virtual or in-person sessions. I value honest feedback.",
+    "wants_to_learn": [
+      "drone_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0164",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2017,
+    "specialisation": "cargo",
+    "years_experience": 8.0,
+    "goals_text": "I completed the Short Course in Cargo Skills and Procedures at the Pride Centre. I have 8 years of work experience. I most need guidance on flower and horticulture shipments. Interested in DGR compliance as well. Some support with cold chain logistics would help. I value honest feedback.",
+    "wants_to_learn": [
+      "perishables",
+      "dangerous_goods",
+      "pharma_cool_chain"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0165",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_air_safety",
+    "graduation_year": 2020,
+    "specialisation": "safety_security_quality",
+    "years_experience": 4.0,
+    "goals_text": "I completed the Short Course in Air Safety at the Pride Centre. I have 4 years of work experience. I want to build strong skills in IOSA audit preparation. I would also like to learn about human performance and error management. Interested in stakeholder communication as well.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "human_factors"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0166",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2020,
+    "specialisation": "ground_operations",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Station Management and Ground Handling Supervision (IATA course at the Pride Centre)). I have 4 years of work experience. My main goal is to master running airport station operations. Some support with ISAGO audits would help. I would also like to learn about professional growth. Looking for a mentor with practical experience. I am eager to grow my career.",
+    "wants_to_learn": [
+      "station_management",
+      "ground_safety_audits",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0167",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2024,
+    "specialisation": "cargo",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Science (Information Systems & Technology)) hoping to transition into Cargo & Logistics. I have 2 years of work experience. My main goal is to master DGR compliance. Open to virtual or in-person sessions. I am eager to grow my career.",
+    "wants_to_learn": [
+      "dangerous_goods",
+      "cargo_acceptance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0168",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2023,
+    "specialisation": "cabin_services",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Aviation Lead Auditor (IATA course at the Pride Centre)) hoping to transition into Cabin Services. I have 2 years of work experience. I want to build strong skills in economy cabin service. I would also like to learn about business class service. Interested in purser leadership as well. Some support with CV writing for airline jobs would help.",
+    "wants_to_learn": [
+      "inflight_service"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0169",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2018,
+    "specialisation": "digital_innovation",
+    "years_experience": 6.0,
+    "goals_text": "I completed the Bachelor of Science (Information Systems & Technology) at the Pride Centre. I have 6 years of work experience. I want to build strong skills in operational dashboards and reporting. I value honest feedback.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0170",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2022,
+    "specialisation": "digital_innovation",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Science (Information Systems & Technology)). I have 4 years of work experience. I most need guidance on operational dashboards and reporting. Some support with precision farming with drones would help. I would also like to learn about digital products for airlines. I would also like to learn about leadership and people management. I value honest feedback.",
+    "wants_to_learn": [
+      "data_analytics",
+      "aviation_it_systems",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0171",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2021,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 5.0,
+    "goals_text": "Recent Pride Centre alumnus from the Aircraft maintenance engineering training (KQ MRO) programme. I have 5 years of work experience. I want to build strong skills in heavy maintenance. Interested in aircraft electrical and avionics troubleshooting as well. Some support with Embraer 190 jets would help. Some support with professional growth would help.",
+    "wants_to_learn": [
+      "heavy_maintenance",
+      "avionics_cabin_systems"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0172",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2021,
+    "specialisation": "digital_innovation",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Postgraduate Diploma in Computer Science). I have 4 years of work experience. I want to build strong skills in unmanned aircraft systems. Some support with airline IT systems would help. Open to virtual or in-person sessions. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "drone_operations",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0173",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2018,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 6.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "heavy_maintenance",
+      "job_search_interviews"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0174",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2017,
+    "specialisation": "commercial",
+    "years_experience": 8.0,
+    "goals_text": "I completed the Bachelor of Business Administration at the Pride Centre. I have 8 years of work experience. My main goal is to master pricing and inventory control. Some support with customer experience would help. Some support with planning promotions would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0175",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2025,
+    "specialisation": "cargo",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Short Course in Dangerous Goods Regulations). I have 1 year of work experience. My main goal is to master perishables handling. Some support with selling cargo capacity would help. I would also like to learn about export documentation.",
+    "wants_to_learn": [
+      "perishables",
+      "cargo_sales",
+      "cargo_acceptance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0176",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2021,
+    "specialisation": "commercial",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Bachelor of Arts in Business Management at the Pride Centre. I have 5 years of work experience. I want to build strong skills in loyalty programmes. Some support with fare structures would help. Some support with lounge and premium customer care would help.",
+    "wants_to_learn": [
+      "customer_experience",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0177",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2024,
+    "specialisation": "cargo",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Dangerous Goods Regulations programme. I have 2 years of work experience. I most need guidance on freight forwarder relationships. Interested in DGR compliance as well. Some support with presentation skills would help.",
+    "wants_to_learn": [
+      "dangerous_goods",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0178",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2024,
+    "specialisation": "cabin_services",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Diploma in Airline Passenger Services but want to move into Cabin Services. I have 1 year of work experience. My main goal is to master in-flight first aid. Some support with in-flight service delivery would help. Some support with CV writing for airline jobs would help. I am eager to grow my career. Open to virtual or in-person sessions.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0179",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2022,
+    "specialisation": null,
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Crew Resource Management Course). I have 3 years of work experience. My main goal is to master aviation meteorology. Interested in dispatcher duties as well. I would also like to learn about type rating preparation. Interested in 787 Dreamliner as well. Some support with professional growth would help.",
+    "wants_to_learn": [
+      "aviation_meteorology",
+      "type_rating_preparation",
+      "fleet_b787",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0180",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2022,
+    "specialisation": "commercial",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Arts in Business Management). I have 4 years of work experience. I want to build strong skills in lounge and premium customer care. I would also like to learn about brand communications. Interested in network planning as well. I would also like to learn about leadership and people management.",
+    "wants_to_learn": [
+      "marketing_communications",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0181",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2020,
+    "specialisation": "safety_security_quality",
+    "years_experience": 4.0,
+    "goals_text": "I completed the Certificate in Aviation Security for Flight Crew at the Pride Centre. I have 4 years of work experience. I most need guidance on airport emergency exercises. I would also like to learn about compliance audits.",
+    "wants_to_learn": [
+      "emergency_response",
+      "quality_auditing"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0182",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2021,
+    "specialisation": "ground_operations",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Certificate in Weight and Balance at the Pride Centre. I have 5 years of work experience. I most need guidance on VIP meet and assist. I would also like to learn about load control. I would also like to learn about managing performance. Looking for a mentor with practical experience. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "special_assistance",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0183",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2023,
+    "specialisation": "cargo",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Aviation Lead Auditor (IATA course at the Pride Centre) but want to move into Cargo & Logistics. I have 3 years of work experience. I want to build strong skills in cold chain logistics. I would also like to learn about hazardous materials acceptance. Looking for a mentor with practical experience. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "cargo_acceptance",
+      "dangerous_goods"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0184",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2022,
+    "specialisation": "safety_security_quality",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Certificate in Aviation Security for Flight Crew). I have 2 years of work experience. I most need guidance on aviation security. Open to virtual or in-person sessions. Looking for a mentor with practical experience.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0185",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2019,
+    "specialisation": "cargo",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Short Course in Cargo Skills and Procedures at the Pride Centre. I have 5 years of work experience. My main goal is to master flower and horticulture shipments. Some support with export documentation would help. I would also like to learn about 737-300F freighter loading. Looking for a mentor with practical experience. I am eager to grow my career.",
+    "wants_to_learn": [
+      "cargo_acceptance",
+      "freighter_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0186",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2019,
+    "specialisation": "safety_security_quality",
+    "years_experience": 5.0,
+    "goals_text": "Recent Pride Centre alumnus from the Human Factors in Aviation (IATA course at the Pride Centre) programme. I have 5 years of work experience. I most need guidance on civil aviation regulations. Some support with emergency response planning would help. I would also like to learn about occurrence investigation. I am eager to grow my career.",
+    "wants_to_learn": [
+      "regulatory_compliance",
+      "emergency_response",
+      "safety_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0187",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2020,
+    "specialisation": "safety_security_quality",
+    "years_experience": 6.0,
+    "goals_text": "Pride Centre graduate (Aviation Lead Auditor (IATA course at the Pride Centre)). I have 6 years of work experience. My main goal is to master compliance audits. Interested in emergency response planning as well. Some support with access control at the airport would help.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "emergency_response"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0188",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2024,
+    "specialisation": "ground_operations",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) programme. I have 1 year of work experience. I most need guidance on pushback and towing. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "ramp_operations",
+      "station_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0189",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2018,
+    "specialisation": "ground_operations",
+    "years_experience": 8.0,
+    "goals_text": "Recent Pride Centre alumnus from the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) programme. I have 8 years of work experience. My main goal is to master wheelchair assistance coordination. I would also like to learn about weight and balance. Interested in leadership and people management as well. I value honest feedback. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "special_assistance",
+      "load_control",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0190",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2022,
+    "specialisation": "commercial",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Bachelor of Arts in Business Management at the Pride Centre. I have 2 years of work experience. I want to build strong skills in route development. Some support with service recovery would help. Interested in sales and distribution as well. I value honest feedback.",
+    "wants_to_learn": [
+      "network_planning",
+      "customer_experience",
+      "sales_distribution",
+      "ramp_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0191",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2025,
+    "specialisation": "ground_operations",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Diploma in Airline Passenger Services at the Pride Centre. I have 1 year of work experience. I want to build strong skills in ISAGO audits. I would also like to learn about stakeholder communication. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "load_control"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0192",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2020,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Aircraft maintenance engineering training (KQ MRO) at the Pride Centre. I have 5 years of work experience. My main goal is to master powerplant maintenance. Interested in work package preparation as well. I would also like to learn about public speaking. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "engine_maintenance",
+      "maintenance_planning",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0193",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2020,
+    "specialisation": "cargo",
+    "years_experience": 4.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Cargo Skills and Procedures programme. I have 4 years of work experience. I most need guidance on cargo acceptance and documentation. I would also like to learn about selling cargo capacity. I value honest feedback.",
+    "wants_to_learn": [
+      "cargo_acceptance",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0194",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2024,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Certificate in Weight and Balance but want to move into Safety, Security & Quality. I have 1 year of work experience. I most need guidance on AVSEC screening. I would also like to learn about quality auditing. Open to virtual or in-person sessions. I am eager to grow my career.",
+    "wants_to_learn": [
+      "aviation_security"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0195",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2020,
+    "specialisation": "commercial",
+    "years_experience": 6.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Arts in Business Management programme. I have 6 years of work experience. I most need guidance on yield management. Interested in marketing and public relations as well. I value honest feedback.",
+    "wants_to_learn": [
+      "revenue_management",
+      "marketing_communications"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0196",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2024,
+    "specialisation": "commercial",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Business Administration). I have 1 year of work experience. My main goal is to master Asante Rewards. Interested in revenue management as well. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "loyalty_programmes",
+      "revenue_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0197",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2021,
+    "specialisation": "commercial",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Arts in Business Management). I have 3 years of work experience. I most need guidance on route development. Some support with customer experience would help. Looking for a mentor with practical experience. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "network_planning",
+      "sales_distribution",
+      "customer_experience"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0198",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2025,
+    "specialisation": "commercial",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Business Administration programme. I am starting my career. My main goal is to master travel agency sales. Interested in lounge and premium customer care as well. I am eager to grow my career. I value honest feedback.",
+    "wants_to_learn": [
+      "sales_distribution",
+      "customer_experience"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0199",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_passenger_services",
+    "graduation_year": 2024,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Certificate in Airline Passenger Services at the Pride Centre. I am starting my career. My main goal is to master running airport station operations. Interested in preparing load sheets as well. Interested in moving between departments as well. I value honest feedback.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0200",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2021,
+    "specialisation": "ground_operations",
+    "years_experience": 4.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Weight and Balance programme. I have 4 years of work experience. I want to build strong skills in ramp handling. I would also like to learn about ISAGO audits. Some support with starting an aviation business would help. I am eager to grow my career.",
+    "wants_to_learn": [
+      "ramp_operations",
+      "ground_safety_audits",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0201",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2024,
+    "specialisation": "flight_operations",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Certificate in Flight Dispatch). I am starting my career. I most need guidance on threat and error management. Interested in Boeing 737-800 as well. I am eager to grow my career. I value honest feedback.",
+    "wants_to_learn": [
+      "crew_resource_management",
+      "flight_dispatch",
+      "fleet_b737"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0202",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2019,
+    "specialisation": "ground_operations",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Diploma in Airline Passenger Services at the Pride Centre. I have 5 years of work experience. My main goal is to master ISAGO audits. Interested in load control as well. Open to virtual or in-person sessions. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "ground_safety_audits",
+      "load_control",
+      "pharma_cool_chain"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0203",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2020,
+    "specialisation": "cabin_services",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Postgraduate Diploma in Computer Science but want to move into Cabin Services. I have 5 years of work experience. I want to build strong skills in safety and emergency procedures. Some support with passenger medical incidents would help. Some support with starting an aviation business would help. I am eager to grow my career.",
+    "wants_to_learn": [
+      "safety_emergency_procedures",
+      "inflight_first_aid"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0204",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2020,
+    "specialisation": "commercial",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Arts in Business Management). I have 4 years of work experience. My main goal is to master travel agency sales. Interested in frequent flyer engagement as well. Interested in supervisory skills as well. I am eager to grow my career. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "loyalty_programmes"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0205",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2025,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) programme. I am starting my career. I want to build strong skills in ground operations safety standards. I would also like to learn about managing departure gates. I would also like to learn about station management. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "ground_safety_audits",
+      "passenger_handling"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0206",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2020,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 4.0,
+    "goals_text": "I completed the Certificate in Flight Dispatch but want to move into Aircraft Maintenance & Engineering. I have 4 years of work experience. I most need guidance on maintenance planning. I would also like to learn about transit checks on the line. I would also like to learn about eddy current and ultrasonic inspection. I would also like to learn about Boeing 737-800. I would also like to learn about starting an aviation business. I am eager to grow my career. I value honest feedback.",
+    "wants_to_learn": [
+      "maintenance_planning",
+      "line_maintenance",
+      "ndt_inspection",
+      "fleet_b737",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0207",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2024,
+    "specialisation": null,
+    "years_experience": 1.0,
+    "goals_text": "I completed the Bachelor of Science (Information Systems & Technology) but want to move into Cargo & Logistics. I have 1 year of work experience. I want to build strong skills in cargo sales. I would also like to learn about cargo acceptance and documentation. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "cargo_sales"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0208",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2020,
+    "specialisation": null,
+    "years_experience": 6.0,
+    "goals_text": "I completed the Bachelor of Science (Information Systems & Technology) at the Pride Centre. I have 6 years of work experience. My main goal is to master airline data analytics. I would also like to learn about drone operations. I would also like to learn about aviation consulting. I value honest feedback.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0209",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2026,
+    "specialisation": "commercial",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Arts in Business Management programme. I am starting my career. I most need guidance on schedule planning. Interested in Asante Rewards as well. Interested in complaint handling as well. I am eager to grow my career.",
+    "wants_to_learn": [
+      "network_planning",
+      "loyalty_programmes",
+      "customer_experience"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0210",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2016,
+    "specialisation": "digital_innovation",
+    "years_experience": 8.0,
+    "goals_text": "I completed the Postgraduate Diploma in Computer Science at the Pride Centre. I have 8 years of work experience. I most need guidance on drone operations. Some support with booking and departure control systems would help. I would also like to learn about airline data analytics. I value honest feedback. I am eager to grow my career.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0211",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2017,
+    "specialisation": null,
+    "years_experience": 8.0,
+    "goals_text": "Pride Centre graduate (Station Management and Ground Handling Supervision (IATA course at the Pride Centre)). I have 8 years of work experience. My main goal is to master passengers with reduced mobility. Interested in managing departure gates as well. I value honest feedback.",
+    "wants_to_learn": [
+      "special_assistance",
+      "passenger_handling"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0212",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2019,
+    "specialisation": null,
+    "years_experience": 6.0,
+    "goals_text": "Recent Pride Centre alumnus from the Aviation Lead Auditor (IATA course at the Pride Centre) programme. I have 6 years of work experience. My main goal is to master AVSEC screening. I would also like to learn about IOSA audit preparation. Some support with regulatory compliance would help. Open to virtual or in-person sessions. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "aviation_security",
+      "quality_auditing",
+      "regulatory_compliance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0213",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2019,
+    "specialisation": "cargo",
+    "years_experience": 5.0,
+    "goals_text": "I completed the Short Course in Cargo Skills and Procedures at the Pride Centre. I have 5 years of work experience. I want to build strong skills in DGR compliance. I would also like to learn about starting an aviation business.",
+    "wants_to_learn": [
+      "dangerous_goods",
+      "cargo_sales",
+      "pharma_cool_chain"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0214",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2025,
+    "specialisation": "flight_operations",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Short Course in Cargo Skills and Procedures but want to move into Flight Operations. I have 1 year of work experience. I most need guidance on aviation meteorology. Some support with leadership and people management would help. I value honest feedback. I am eager to grow my career.",
+    "wants_to_learn": [
+      "aviation_meteorology",
+      "type_rating_preparation",
+      "flight_dispatch",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0215",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2024,
+    "specialisation": null,
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Airline Cabin Crew Training) hoping to transition into Flight Operations. I have 1 year of work experience. My main goal is to master pilot career pathway. Some support with aircraft performance calculations would help. Interested in B787 as well. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "aircraft_performance",
+      "fleet_b787"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0216",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2025,
+    "specialisation": "commercial",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Bachelor of Arts in Business Management programme. I have 1 year of work experience. I want to build strong skills in fare structures. Some support with corporate sales accounts would help. I am eager to grow my career.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0217",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2018,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 6.0,
+    "goals_text": "I completed the Aircraft maintenance engineering training (KQ MRO) at the Pride Centre. I have 6 years of work experience. I most need guidance on getting aircraft back into service quickly. I would also like to learn about work package preparation. I would also like to learn about NDT inspection techniques. I would also like to learn about Embraer 190 jets. Some support with interview preparation would help.",
+    "wants_to_learn": [
+      "maintenance_planning",
+      "ndt_inspection",
+      "fleet_e190",
+      "job_search_interviews"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0218",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2026,
+    "specialisation": "cabin_services",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Airline Cabin Crew Training). I am starting my career. My main goal is to master in-flight service delivery. Interested in senior cabin crew responsibilities as well. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "inflight_service"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0219",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2023,
+    "specialisation": "cargo",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Dangerous Goods Regulations programme. I have 2 years of work experience. My main goal is to master pharmaceutical cool chain. Interested in cargo sales as well. Open to virtual or in-person sessions. I am eager to grow my career.",
+    "wants_to_learn": [
+      "pharma_cool_chain",
+      "cargo_sales",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0220",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2022,
+    "specialisation": "safety_security_quality",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Short Course in Aircraft Handling and Loading but want to move into Safety, Security & Quality. I have 3 years of work experience. My main goal is to master AVSEC screening. I would also like to learn about safety management systems. Interested in regulatory compliance as well. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "aviation_security",
+      "regulatory_compliance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0221",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2024,
+    "specialisation": "safety_security_quality",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Aviation Security for Flight Crew programme. I have 2 years of work experience. I most need guidance on safety management systems. Interested in security threat awareness as well. Looking for a mentor with practical experience. I am eager to grow my career.",
+    "wants_to_learn": [
+      "safety_management",
+      "quality_auditing",
+      "aviation_security"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0222",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2025,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "human_factors"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0223",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_passenger_services",
+    "graduation_year": 2026,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Certificate in Airline Passenger Services at the Pride Centre. I am starting my career. I want to build strong skills in wheelchair assistance coordination. Interested in ground handling supervision as well. Some support with pushback and towing would help. I would also like to learn about planning promotions. I am eager to grow my career. I value honest feedback.",
+    "wants_to_learn": [
+      "special_assistance",
+      "station_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0224",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2017,
+    "specialisation": "ground_operations",
+    "years_experience": 8.0,
+    "goals_text": "I completed the Short Course in Dangerous Goods Regulations but want to move into Ground Handling & Airport Services. I have 8 years of work experience. My main goal is to master check-in and boarding. Interested in weight and balance as well. I would also like to learn about ground operations safety standards. I would also like to learn about public speaking.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0225",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2021,
+    "specialisation": null,
+    "years_experience": 3.0,
+    "goals_text": "Recent Pride Centre alumnus from the Postgraduate Diploma in Computer Science programme. I have 3 years of work experience. I most need guidance on operational dashboards and reporting. Some support with digital products for airlines would help. Open to virtual or in-person sessions. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "data_analytics",
+      "aviation_it_systems",
+      "engine_maintenance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0226",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_air_safety",
+    "graduation_year": 2022,
+    "specialisation": null,
+    "years_experience": 4.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Air Safety programme. I have 4 years of work experience. I most need guidance on airport emergency exercises. Some support with safety risk assessment would help. Interested in access control at the airport as well. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "safety_management",
+      "aviation_security",
+      "ramp_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0227",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2025,
+    "specialisation": "ground_operations",
+    "years_experience": 1.0,
+    "goals_text": "",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0228",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2022,
+    "specialisation": null,
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Airline Cabin Crew Training) hoping to transition into Ground Handling & Airport Services. I have 2 years of work experience. I want to build strong skills in ground handling audit preparation. I would also like to learn about mobility assistance. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0229",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2022,
+    "specialisation": "flight_operations",
+    "years_experience": 3.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "type_rating_preparation",
+      "crew_resource_management",
+      "aircraft_performance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0230",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2026,
+    "specialisation": "safety_security_quality",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Aviation Lead Auditor (IATA course at the Pride Centre) at the Pride Centre. I am starting my career. I want to build strong skills in AVSEC screening. Interested in IOSA audit preparation as well.",
+    "wants_to_learn": [
+      "aviation_security"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0231",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2024,
+    "specialisation": null,
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) programme. I have 1 year of work experience. I most need guidance on ISAGO audits. I would also like to learn about ground support equipment operations. I value honest feedback.",
+    "wants_to_learn": [
+      "ground_safety_audits",
+      "ramp_operations",
+      "load_control"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0232",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2019,
+    "specialisation": null,
+    "years_experience": 6.0,
+    "goals_text": "Pride Centre graduate (Aviation Lead Auditor (IATA course at the Pride Centre)). I have 6 years of work experience. I want to build strong skills in fatigue risk awareness. I would also like to learn about KCAA requirements. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0233",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2024,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Aviation Lead Auditor (IATA course at the Pride Centre)). I have 1 year of work experience. My main goal is to master emergency response planning. I would also like to learn about civil aviation regulations. I would also like to learn about compliance audits. Interested in supervisory skills as well.",
+    "wants_to_learn": [
+      "regulatory_compliance",
+      "quality_auditing",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0234",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2019,
+    "specialisation": "safety_security_quality",
+    "years_experience": 6.0,
+    "goals_text": "Pride Centre graduate (Certificate in Aviation Security for Flight Crew). I have 6 years of work experience. My main goal is to master airport emergency exercises. Interested in aviation security as well. Some support with public speaking would help. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "emergency_response",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0235",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2022,
+    "specialisation": "cabin_services",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Airline Cabin Crew Training). I have 2 years of work experience. I want to build strong skills in leading a cabin crew team. I would also like to learn about business class service. I would also like to learn about aviation consulting.",
+    "wants_to_learn": [
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0236",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2024,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Aircraft maintenance engineering training (KQ MRO) at the Pride Centre. I am starting my career. I most need guidance on C-check planning and execution. Some support with working in an approved maintenance organisation would help. I would also like to learn about turbofan engine troubleshooting. Interested in entrepreneurship as well.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0237",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2021,
+    "specialisation": null,
+    "years_experience": 5.0,
+    "goals_text": "I completed the Bachelor of Business Administration but want to move into Cargo & Logistics. I have 5 years of work experience. My main goal is to master freight forwarder relationships. Some support with fresh produce exports would help. Interested in air waybill processing as well. Interested in supervisory skills as well. I am eager to grow my career. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "cargo_sales",
+      "cargo_acceptance",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0238",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_air_safety",
+    "graduation_year": 2017,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 8.0,
+    "goals_text": "",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0239",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_air_safety",
+    "graduation_year": 2025,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Air Safety programme. I have 1 year of work experience. I want to build strong skills in safety management systems. Interested in fatigue risk awareness as well. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "safety_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0240",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2025,
+    "specialisation": "digital_innovation",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Science (Information Systems & Technology)). I am starting my career. I want to build strong skills in sustainable aviation fuel. I would also like to learn about analysing performance data. Interested in unmanned aircraft systems as well. I value honest feedback. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "sustainability",
+      "data_analytics",
+      "drone_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0241",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2019,
+    "specialisation": "commercial",
+    "years_experience": 6.0,
+    "goals_text": "Pride Centre graduate (Certificate in Public Relations, Advertising & Marketing). I have 6 years of work experience. I want to build strong skills in pricing and inventory control. Interested in customer experience as well. I am eager to grow my career.",
+    "wants_to_learn": [
+      "revenue_management",
+      "customer_experience"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0242",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2024,
+    "specialisation": "cabin_services",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Airline Cabin Crew Training at the Pride Centre. I have 1 year of work experience. I most need guidance on economy cabin service. Some support with purser leadership would help. Some support with presentation skills would help. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "inflight_service"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0243",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2024,
+    "specialisation": "commercial",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Certificate in Public Relations, Advertising & Marketing). I have 1 year of work experience. I want to build strong skills in corporate sales accounts. Some support with Asante Rewards would help. Interested in yield management as well. Open to virtual or in-person sessions. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "loyalty_programmes",
+      "revenue_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0244",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2023,
+    "specialisation": "ground_operations",
+    "years_experience": 3.0,
+    "goals_text": "Recent Pride Centre alumnus from the Diploma in Airline Passenger Services programme. I have 3 years of work experience. I most need guidance on wheelchair assistance coordination. Some support with station management would help. Interested in public speaking as well. I am eager to grow my career. I value honest feedback.",
+    "wants_to_learn": [
+      "special_assistance",
+      "station_management",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0245",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_flight_dispatch",
+    "graduation_year": 2026,
+    "specialisation": null,
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Flight Dispatch programme. I am starting my career. I want to build strong skills in weather briefing for flights. Some support with type rating preparation would help. Interested in B737 as well. Interested in moving between departments as well. I am eager to grow my career.",
+    "wants_to_learn": [
+      "aviation_meteorology",
+      "type_rating_preparation",
+      "fleet_b737",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0246",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2021,
+    "specialisation": "ground_operations",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Certificate in Weight and Balance at the Pride Centre. I have 3 years of work experience. I most need guidance on VIP meet and assist. Interested in aircraft turnaround on the apron as well. I am eager to grow my career. I value honest feedback.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0247",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2021,
+    "specialisation": "safety_security_quality",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Human Factors in Aviation (IATA course at the Pride Centre)). I have 3 years of work experience. My main goal is to master human performance and error management. I would also like to learn about airport emergency exercises. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "human_factors"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0248",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2019,
+    "specialisation": "safety_security_quality",
+    "years_experience": 5.0,
+    "goals_text": "Pride Centre graduate (Human Factors in Aviation (IATA course at the Pride Centre)). I have 5 years of work experience. I want to build strong skills in fatigue risk awareness. Interested in safety management systems as well. Interested in aviation security as well. Interested in interview preparation as well. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "human_factors",
+      "aviation_security",
+      "job_search_interviews"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0249",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2022,
+    "specialisation": "cabin_services",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Certificate in Public Relations, Advertising & Marketing but want to move into Cabin Services. I have 2 years of work experience. My main goal is to master economy cabin service. Some support with handling medical emergencies onboard would help. Open to virtual or in-person sessions. I value honest feedback.",
+    "wants_to_learn": [
+      "inflight_service",
+      "inflight_first_aid"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0250",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2016,
+    "specialisation": "flight_operations",
+    "years_experience": 8.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "aircraft_performance",
+      "job_search_interviews"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0251",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2023,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Aircraft maintenance engineering training (KQ MRO)). I have 3 years of work experience. My main goal is to master eddy current and ultrasonic inspection. Interested in specialised repair shops as well. Some support with engine on-wing support would help. I value honest feedback. I am eager to grow my career.",
+    "wants_to_learn": [
+      "component_repair",
+      "engine_maintenance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0252",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2018,
+    "specialisation": "cargo",
+    "years_experience": 6.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "freighter_operations"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0253",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2022,
+    "specialisation": "cargo",
+    "years_experience": 4.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Cargo Skills and Procedures programme. I have 4 years of work experience. I most need guidance on flower and horticulture shipments. I would also like to learn about freight forwarder relationships. Interested in dangerous goods regulations as well. I value honest feedback.",
+    "wants_to_learn": [
+      "cargo_sales"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0254",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2023,
+    "specialisation": null,
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Airline Cabin Crew Training programme. I have 1 year of work experience. I most need guidance on in-flight first aid. Some support with senior cabin crew responsibilities would help. I value honest feedback. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "inflight_first_aid",
+      "inflight_service"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0255",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2022,
+    "specialisation": "flight_operations",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Crew Resource Management Course). I have 3 years of work experience. I want to build strong skills in aviation meteorology. I would also like to learn about CRM. Some support with transitioning onto a new aircraft type would help. I would also like to learn about 777 wide-body.",
+    "wants_to_learn": [
+      "aviation_meteorology",
+      "crew_resource_management",
+      "type_rating_preparation",
+      "fleet_b777"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0256",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2018,
+    "specialisation": "commercial",
+    "years_experience": 8.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Business Administration). I have 8 years of work experience. I want to build strong skills in lounge and premium customer care. Interested in loyalty programmes as well. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "customer_experience",
+      "sales_distribution",
+      "entrepreneurship_consulting",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0257",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2022,
+    "specialisation": "safety_security_quality",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Human Factors in Aviation (IATA course at the Pride Centre) programme. I have 2 years of work experience. I want to build strong skills in human factors. I would also like to learn about KCAA requirements. I would also like to learn about SMS hazard reporting. Some support with leading teams would help. Open to virtual or in-person sessions. I value honest feedback.",
+    "wants_to_learn": [
+      "human_factors",
+      "regulatory_compliance",
+      "safety_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0258",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2024,
+    "specialisation": null,
+    "years_experience": 0.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "emergency_response",
+      "aviation_security",
+      "quality_auditing"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0259",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2018,
+    "specialisation": "flight_operations",
+    "years_experience": 6.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "aircraft_performance",
+      "fleet_b777"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0260",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2024,
+    "specialisation": "safety_security_quality",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Aviation Lead Auditor (IATA course at the Pride Centre) programme. I have 2 years of work experience. I want to build strong skills in airport emergency exercises. I would also like to learn about regulatory compliance. I would also like to learn about aviation security. I would also like to learn about supervisory skills. I value honest feedback. I am eager to grow my career.",
+    "wants_to_learn": [
+      "emergency_response",
+      "regulatory_compliance",
+      "leadership_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0261",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2024,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "Pride Centre graduate (Aviation Lead Auditor (IATA course at the Pride Centre)) hoping to transition into Ground Handling & Airport Services. I am starting my career. My main goal is to master ground operations safety standards. Interested in aircraft loading instructions as well. Interested in leadership and people management as well. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "load_control"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0262",
+    "user_type": "pride_alumni",
+    "pride_programme": "cabin_crew_training",
+    "graduation_year": 2019,
+    "specialisation": "cabin_services",
+    "years_experience": 5.0,
+    "goals_text": "Recent Pride Centre alumnus from the Airline Cabin Crew Training programme. I have 5 years of work experience. I want to build strong skills in cabin evacuation drills. Some support with passenger medical incidents would help. I value honest feedback. Open to virtual or in-person sessions.",
+    "wants_to_learn": [
+      "safety_emergency_procedures",
+      "inflight_first_aid"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0263",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2022,
+    "specialisation": "safety_security_quality",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Diploma in Airline Passenger Services but want to move into Safety, Security & Quality. I have 3 years of work experience. I want to build strong skills in AVSEC screening. Some support with SMS hazard reporting would help. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "safety_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0264",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2018,
+    "specialisation": "ground_operations",
+    "years_experience": 8.0,
+    "goals_text": "I completed the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) at the Pride Centre. I have 8 years of work experience. My main goal is to master station management. I would also like to learn about aircraft turnaround on the apron. I would also like to learn about VIP meet and assist. Some support with stakeholder communication would help. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "ramp_operations",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0265",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2021,
+    "specialisation": "cabin_services",
+    "years_experience": 4.0,
+    "goals_text": "I completed the Short Course in Dangerous Goods Regulations but want to move into Cabin Services. I have 4 years of work experience. My main goal is to master Premier World service. Interested in handling medical emergencies onboard as well. I would also like to learn about economy cabin service. I value honest feedback. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "inflight_first_aid"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0266",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2025,
+    "specialisation": "cargo",
+    "years_experience": 1.0,
+    "goals_text": "Pride Centre graduate (Short Course in Cargo Skills and Procedures). I have 1 year of work experience. My main goal is to master flower and horticulture shipments. Some support with cargo skills and procedures would help. Interested in dangerous goods regulations as well.",
+    "wants_to_learn": [
+      "perishables",
+      "cargo_acceptance",
+      "dangerous_goods"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0267",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2022,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Certificate in Public Relations, Advertising & Marketing) hoping to transition into Aircraft Maintenance & Engineering. I have 2 years of work experience. I want to build strong skills in transit checks on the line. I would also like to learn about Boeing 777-300ER.",
+    "wants_to_learn": [
+      "line_maintenance",
+      "maintenance_planning"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0268",
+    "user_type": "pride_alumni",
+    "pride_programme": "bsc_ist",
+    "graduation_year": 2025,
+    "specialisation": "digital_innovation",
+    "years_experience": 0.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "sustainability",
+      "data_analytics"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0269",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2025,
+    "specialisation": "cabin_services",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Crew Resource Management Course but want to move into Cabin Services. I have 1 year of work experience. I most need guidance on cabin evacuation drills. Interested in premium cabin hospitality as well. Interested in onboard meal and beverage service as well. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "premium_cabin_service",
+      "inflight_service"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0270",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2021,
+    "specialisation": "safety_security_quality",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Postgraduate Diploma in Computer Science) hoping to transition into Safety, Security & Quality. I have 4 years of work experience. My main goal is to master crisis management drills. Some support with fatigue risk awareness would help. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "emergency_response",
+      "human_factors"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0271",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2025,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) programme. I am starting my career. I want to build strong skills in ground operations safety standards. Some support with ground support equipment operations would help. Interested in check-in and boarding as well.",
+    "wants_to_learn": [
+      "ramp_operations",
+      "passenger_handling"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0272",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2024,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Certificate in Aviation Security for Flight Crew at the Pride Centre. I have 1 year of work experience. I most need guidance on security threat awareness. Some support with regulatory compliance would help. I would also like to learn about SMS hazard reporting. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "aviation_security",
+      "regulatory_compliance",
+      "safety_management"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0273",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2025,
+    "specialisation": "safety_security_quality",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Aviation Lead Auditor (IATA course at the Pride Centre) programme. I have 1 year of work experience. I most need guidance on quality auditing. Interested in security threat awareness as well. Open to virtual or in-person sessions. I value honest feedback.",
+    "wants_to_learn": [
+      "quality_auditing",
+      "human_factors"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0274",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_weight_balance",
+    "graduation_year": 2026,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Weight and Balance programme. I am starting my career. I most need guidance on ground handling audit preparation.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0275",
+    "user_type": "pride_alumni",
+    "pride_programme": "dip_passenger_services",
+    "graduation_year": 2025,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "",
+    "wants_to_learn": [
+      "load_control",
+      "ground_safety_audits",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0276",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_pr_marketing",
+    "graduation_year": 2024,
+    "specialisation": "commercial",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Certificate in Public Relations, Advertising & Marketing at the Pride Centre. I have 1 year of work experience. I most need guidance on marketing and public relations. Interested in loyalty programmes as well. Interested in leading teams as well. I value honest feedback.",
+    "wants_to_learn": [
+      "marketing_communications",
+      "network_planning",
+      "loyalty_programmes",
+      "leadership_management",
+      "aviation_it_systems"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0277",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2019,
+    "specialisation": "safety_security_quality",
+    "years_experience": 6.0,
+    "goals_text": "I completed the Crew Resource Management Course but want to move into Safety, Security & Quality. I have 6 years of work experience. My main goal is to master airport emergency exercises. Some support with regulatory compliance would help. Some support with compliance audits would help.",
+    "wants_to_learn": [
+      "emergency_response",
+      "quality_auditing"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0278",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2026,
+    "specialisation": "safety_security_quality",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Certificate in Aviation Security for Flight Crew programme. I am starting my career. My main goal is to master security threat awareness. Some support with KCAA requirements would help. I would also like to learn about starting an aviation business. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "regulatory_compliance",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0279",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_lead_auditor",
+    "graduation_year": 2022,
+    "specialisation": "safety_security_quality",
+    "years_experience": 2.0,
+    "goals_text": "Recent Pride Centre alumnus from the Aviation Lead Auditor (IATA course at the Pride Centre) programme. I have 2 years of work experience. I most need guidance on compliance audits. Interested in planning promotions as well. I am eager to grow my career.",
+    "wants_to_learn": [
+      "emergency_response",
+      "career_progression",
+      "dangerous_goods"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0280",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2025,
+    "specialisation": "digital_innovation",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Postgraduate Diploma in Computer Science at the Pride Centre. I am starting my career. I want to build strong skills in booking and departure control systems. I would also like to learn about sustainable aviation fuel. Interested in presentation skills as well. Open to virtual or in-person sessions. I am eager to grow my career.",
+    "wants_to_learn": [
+      "sustainability",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0281",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2022,
+    "specialisation": "cargo",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Short Course in Cargo Skills and Procedures). I have 3 years of work experience. I most need guidance on perishables handling. Some support with cargo acceptance and documentation would help. I would also like to learn about career progression. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "perishables",
+      "cargo_acceptance",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0282",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2023,
+    "specialisation": "cargo",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Short Course in Cargo Skills and Procedures at the Pride Centre. I have 3 years of work experience. I most need guidance on freight forwarder relationships. Some support with DGR compliance would help. I would also like to learn about planning promotions.",
+    "wants_to_learn": [
+      "cargo_sales",
+      "dangerous_goods",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0283",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2022,
+    "specialisation": null,
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Short Course in Aircraft Handling and Loading). I have 3 years of work experience. I most need guidance on ground handling supervision. Some support with aircraft loading instructions would help. Some support with ground support equipment operations would help.",
+    "wants_to_learn": [
+      "station_management",
+      "load_control",
+      "ramp_operations",
+      "career_progression"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0284",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_cargo_skills",
+    "graduation_year": 2025,
+    "specialisation": "cargo",
+    "years_experience": 0.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Cargo Skills and Procedures programme. I am starting my career. I want to build strong skills in CEIV Pharma handling. Some support with flower and horticulture shipments would help. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "pharma_cool_chain"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0285",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_human_factors",
+    "graduation_year": 2023,
+    "specialisation": "safety_security_quality",
+    "years_experience": 2.0,
+    "goals_text": "I completed the Human Factors in Aviation (IATA course at the Pride Centre) at the Pride Centre. I have 2 years of work experience. My main goal is to master compliance audits. I would also like to learn about KCAA requirements. I value honest feedback.",
+    "wants_to_learn": [
+      "regulatory_compliance",
+      "aviation_security"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0286",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2024,
+    "specialisation": "ground_operations",
+    "years_experience": 1.0,
+    "goals_text": "Recent Pride Centre alumnus from the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) programme. I have 1 year of work experience. My main goal is to master running airport station operations. Interested in ground operations safety standards as well. I am eager to grow my career. Looking for a mentor with practical experience.",
+    "wants_to_learn": [
+      "ground_safety_audits"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0287",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2021,
+    "specialisation": "aircraft_maintenance",
+    "years_experience": 3.0,
+    "goals_text": "I completed the Aircraft maintenance engineering training (KQ MRO) at the Pride Centre. I have 3 years of work experience. I most need guidance on specialised repair shops. I would also like to learn about working in an approved maintenance organisation. Interested in engine on-wing support as well.",
+    "wants_to_learn": [
+      "licensing_part145",
+      "engine_maintenance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0288",
+    "user_type": "pride_alumni",
+    "pride_programme": "iata_station_management",
+    "graduation_year": 2025,
+    "specialisation": "ground_operations",
+    "years_experience": 0.0,
+    "goals_text": "I completed the Station Management and Ground Handling Supervision (IATA course at the Pride Centre) at the Pride Centre. I am starting my career. I most need guidance on ramp handling. Interested in passenger handling as well.",
+    "wants_to_learn": [
+      "ramp_operations",
+      "passenger_handling"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0289",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2022,
+    "specialisation": "commercial",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Arts in Business Management). I have 3 years of work experience. My main goal is to master brand communications. Interested in Asante Rewards as well. Interested in NDC distribution as well. Open to virtual or in-person sessions.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0290",
+    "user_type": "pride_alumni",
+    "pride_programme": "mro_engineering_training",
+    "graduation_year": 2018,
+    "specialisation": "cabin_services",
+    "years_experience": 6.0,
+    "goals_text": "Pride Centre graduate (Aircraft maintenance engineering training (KQ MRO)) hoping to transition into Cabin Services. I have 6 years of work experience. My main goal is to master onboard meal and beverage service. Some support with in-flight first aid would help. I am eager to grow my career.",
+    "wants_to_learn": [
+      "inflight_service",
+      "inflight_first_aid"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0291",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2021,
+    "specialisation": "digital_innovation",
+    "years_experience": 5.0,
+    "goals_text": "Pride Centre graduate (Postgraduate Diploma in Computer Science). I have 5 years of work experience. I most need guidance on unmanned aircraft systems. I am eager to grow my career. I value honest feedback.",
+    "wants_to_learn": [
+      "drone_operations",
+      "data_analytics"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0292",
+    "user_type": "pride_alumni",
+    "pride_programme": "ba_business_management",
+    "graduation_year": 2024,
+    "specialisation": "commercial",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Arts in Business Management). I have 2 years of work experience. I most need guidance on lounge and premium customer care. I would also like to learn about social media marketing. Some support with leading teams would help. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "customer_experience",
+      "marketing_communications"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0293",
+    "user_type": "pride_alumni",
+    "pride_programme": "bba",
+    "graduation_year": 2021,
+    "specialisation": "cargo",
+    "years_experience": 5.0,
+    "goals_text": "Pride Centre graduate (Bachelor of Business Administration) hoping to transition into Cargo & Logistics. I have 5 years of work experience. I most need guidance on CEIV Pharma handling. Some support with flower and horticulture shipments would help. Some support with shipping lithium batteries safely would help.",
+    "wants_to_learn": [
+      "pharma_cool_chain",
+      "perishables",
+      "dangerous_goods"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0294",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_avsec_flight_crew",
+    "graduation_year": 2016,
+    "specialisation": "flight_operations",
+    "years_experience": 8.0,
+    "goals_text": "Pride Centre graduate (Certificate in Aviation Security for Flight Crew) hoping to transition into Flight Operations. I have 8 years of work experience. My main goal is to master aviation meteorology. I would also like to learn about aircraft performance calculations. Looking for a mentor with practical experience. I value honest feedback.",
+    "wants_to_learn": [
+      "aviation_meteorology",
+      "regulatory_compliance"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0295",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_dangerous_goods",
+    "graduation_year": 2020,
+    "specialisation": "cargo",
+    "years_experience": 5.0,
+    "goals_text": "Recent Pride Centre alumnus from the Short Course in Dangerous Goods Regulations programme. I have 5 years of work experience. My main goal is to master selling cargo capacity. I would also like to learn about flower and horticulture shipments. Open to virtual or in-person sessions. I value honest feedback.",
+    "wants_to_learn": [
+      "cargo_sales",
+      "dangerous_goods"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0296",
+    "user_type": "pride_alumni",
+    "pride_programme": "sc_aircraft_handling_loading",
+    "graduation_year": 2022,
+    "specialisation": "ground_operations",
+    "years_experience": 2.0,
+    "goals_text": "Pride Centre graduate (Short Course in Aircraft Handling and Loading). I have 2 years of work experience. My main goal is to master weight and balance. Some support with pushback and towing would help. I am eager to grow my career.",
+    "wants_to_learn": [
+      "load_control",
+      "ramp_operations",
+      "entrepreneurship_consulting"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0297",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2024,
+    "specialisation": "flight_operations",
+    "years_experience": 1.0,
+    "goals_text": "I completed the Crew Resource Management Course at the Pride Centre. I have 1 year of work experience. My main goal is to master simulator check preparation. I would also like to learn about pilot career pathway. I would also like to learn about public speaking.",
+    "wants_to_learn": [
+      "type_rating_preparation",
+      "aircraft_performance",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0298",
+    "user_type": "pride_alumni",
+    "pride_programme": "cert_passenger_services",
+    "graduation_year": 2021,
+    "specialisation": null,
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Certificate in Airline Passenger Services). I have 3 years of work experience. I most need guidance on running airport station operations. Some support with VIP meet and assist would help.",
+    "wants_to_learn": [],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0299",
+    "user_type": "pride_alumni",
+    "pride_programme": "pgd_computer_science",
+    "graduation_year": 2021,
+    "specialisation": "digital_innovation",
+    "years_experience": 4.0,
+    "goals_text": "Pride Centre graduate (Postgraduate Diploma in Computer Science). I have 4 years of work experience. My main goal is to master booking and departure control systems. Some support with precision farming with drones would help. Some support with presentation skills would help. I value honest feedback. I am eager to grow my career.",
+    "wants_to_learn": [
+      "drone_operations",
+      "public_speaking"
+    ],
+    "consent_given": true
+  },
+  {
+    "mentee_id": "MTE-0300",
+    "user_type": "pride_alumni",
+    "pride_programme": "crm_course",
+    "graduation_year": 2023,
+    "specialisation": "flight_operations",
+    "years_experience": 3.0,
+    "goals_text": "Pride Centre graduate (Crew Resource Management Course). I have 3 years of work experience. I want to build strong skills in weather briefing for flights. Interested in building flying hours as well. Interested in stakeholder communication as well. I value honest feedback.",
+    "wants_to_learn": [
+      "aviation_meteorology",
+      "flight_dispatch",
+      "pilot_career_pathway",
+      "fleet_e190",
+      "public_speaking"
+    ],
+    "consent_given": true
+  }
+]
