@@ -45,7 +45,9 @@ if (existsSync(path.join(serverDir, 'package.json'))) {
     color: 'magenta',
     cwd: serverDir,
     command: process.execPath,
-    args: ['--watch', 'src/index.js'],
+    // Watch only the API source: lazily loaded node_modules files would otherwise restart it
+    // (and wipe the in-memory database) in the middle of a session.
+    args: ['--watch-path=src', 'src/index.js'],
   });
 }
 

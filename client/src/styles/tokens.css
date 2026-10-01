@@ -1,0 +1,93 @@
+/*
+ * Daraja Connect design tokens: Terminal Wayfinding.
+ * The app reads like an airport sign system: near-black sign panels with
+ * directional yellow, a "you are here" location sign in black on yellow, and
+ * boards that list people the way a terminal lists departures.
+ */
+:root {
+  /* Ground and surfaces */
+  --floor: #ecede9; /* terrazzo terminal floor: page ground */
+  --panel: #fafaf7; /* board surface */
+  --panel-hover: #f1f2ee;
+  --panel-sunk: #e3e4df;
+
+  /* Ink */
+  --ink: #16181b; /* sign black */
+  --ink-2: #474c52; /* secondary text: 7.4:1 on floor */
+  --ink-3: #62686e; /* tertiary text: 5.2:1 on panel */
+  --rule: #cdd0ca; /* hairline between board rows */
+  --rule-strong: #80868b; /* control borders: 3.6:1 on panel */
+
+  /* Sign panels */
+  --sign: #16181b;
+  --sign-raised: #24282c;
+  --sign-rule: #343a40;
+  --sign-text: #f2f1ec;
+  --sign-text-2: #b8bcbf; /* 9.6:1 on sign */
+
+  /* Directional yellow: only on sign panels or as a panel carrying black text */
+  --yellow: #f2c230;
+  --yellow-hover: #ffd34d;
+
+  /* Meaning (always paired with a word and a pictogram) */
+  --go: #1c6a46; /* available, accepted: 6.6:1 on panel */
+  --go-wash: #deeee4;
+  --stop: #9a2c1b; /* error, declined: 7.1:1 on panel */
+  --stop-wash: #f6e2dc;
+  --wait: #6b5200; /* pending text on yellow wash: 6.1:1 */
+  --wait-wash: #fbefc6;
+
+  /* Type */
+  --font: 'Signika Variable', 'Segoe UI', system-ui, sans-serif;
+  --text-xs: 0.8125rem; /* 13 */
+  --text-sm: 0.875rem; /* 14 */
+  --text-md: 1rem; /* 16 */
+  --text-lg: 1.125rem; /* 18 */
+  --text-xl: 1.375rem; /* 22 */
+  --text-2xl: 1.75rem; /* 28 */
+  --text-3xl: 2.5rem; /* 40: location sign */
+  --text-tile: 2.25rem; /* concourse letter */
+  --leading: 1.5;
+  --leading-tight: 1.2;
+
+  /* Space (4px base) */
+  --s1: 0.25rem;
+  --s2: 0.5rem;
+  --s3: 0.75rem;
+  --s4: 1rem;
+  --s5: 1.5rem;
+  --s6: 2rem;
+  --s7: 3rem;
+  --s8: 4rem;
+
+  /* Shape */
+  --radius: 3px; /* sign corners */
+  --band-height: 4rem;
+  --tile: 3.5rem;
+  --content: 82rem;
+  --gutter: 2rem;
+
+  /* Motion: short, exponential ease-out, state only */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --fast: 160ms;
+  --medium: 240ms;
+
+  /* Depth: only for things that float above the floor */
+  --lift: 0 10px 28px rgb(22 24 27 / 0.16), 0 2px 6px rgb(22 24 27 / 0.08);
+}
+
+@media (max-width: 56rem) {
+  :root {
+    --gutter: 1rem;
+    --text-3xl: 2rem;
+    --tile: 3rem;
+    --text-tile: 1.875rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --fast: 0ms;
+    --medium: 0ms;
+  }
+}
