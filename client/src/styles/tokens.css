@@ -31,11 +31,9 @@
 
   /* Meaning (always paired with a word and a pictogram) */
   --go: #1c6a46; /* available, accepted: 6.6:1 on panel */
-  --go-wash: #deeee4;
   --stop: #9a2c1b; /* error, declined: 7.1:1 on panel */
   --stop-wash: #f6e2dc;
-  --wait: #6b5200; /* pending text on yellow wash: 6.1:1 */
-  --wait-wash: #fbefc6;
+  --wait: #6b5200; /* pending text and dashed line: 7.1:1 on panel */
 
   /* Type */
   --font: 'Signika Variable', 'Segoe UI', system-ui, sans-serif;
@@ -73,7 +71,6 @@
   --medium: 240ms;
 
   /* Depth: only for things that float above the floor */
-  --lift: 0 10px 28px rgb(22 24 27 / 0.16), 0 2px 6px rgb(22 24 27 / 0.08);
 }
 
 @media (max-width: 56rem) {

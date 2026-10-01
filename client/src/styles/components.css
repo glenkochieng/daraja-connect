@@ -693,7 +693,6 @@ button.tag:hover {
   white-space: nowrap;
 }
 .status--pending {
-  background: var(--wait-wash);
   border-style: dashed;
   border-color: var(--wait);
   color: var(--wait);
@@ -703,8 +702,9 @@ button.tag:hover {
   background: var(--go);
   color: #ffffff;
 }
-/* Published: a solid ink sign. Going: you hold a place, signed like "you are here". */
-.status--approved {
+/* Published and Completed: an ink outline. Going: you hold a place, signed like "you are here". */
+.status--approved,
+.status--completed {
   border-color: var(--ink);
   color: var(--ink);
 }
@@ -715,10 +715,6 @@ button.tag:hover {
 .board--departures .status--going {
   background: var(--yellow);
   color: var(--ink);
-}
-.status--completed {
-  border-color: var(--go);
-  color: var(--go);
 }
 .status--declined,
 .status--cancelled,
@@ -741,8 +737,8 @@ button.tag:hover {
   color: var(--yellow);
 }
 .board--departures .status--completed {
-  border-color: #6fcf97;
-  color: #8fdcae;
+  border-color: var(--sign-text-2);
+  color: var(--sign-text);
 }
 .board--departures .status--declined,
 .board--departures .status--cancelled {
@@ -829,7 +825,7 @@ button.tag:hover {
 }
 .notice--stop {
   background: var(--stop-wash);
-  box-shadow: 0 0 0 1px #e6bfb5;
+  box-shadow: 0 0 0 1px var(--stop);
 }
 .notice--stop svg {
   color: var(--stop);
@@ -1827,7 +1823,7 @@ button.tag:disabled {
   scroll-margin-top: calc(var(--band-height) + var(--s4));
 }
 .update:target {
-  background: var(--wait-wash);
+  background: var(--panel-hover);
 }
 .update__head {
   display: grid;
