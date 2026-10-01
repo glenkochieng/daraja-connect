@@ -1,0 +1,78 @@
+# ---------------------------------------------------------------- secrets
+# Real environment files hold credentials. Only the *.env.example templates are committed.
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+
+# ---------------------------------------------------------------- Node / React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# ---------------------------------------------------------------- Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Large data and model binaries never go in Git (see docs/datasets.md)
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.h5
+*.parquet
+*.zip
+*.tar.gz
+
+# Personal data: real rating sheets and real profiles (see ml-service/ratings/real/README.md)
+**/ratings/real/*
+!**/ratings/real/README.md
+**/data/real/
+
+# ---------------------------------------------------------------- OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+# Shared VS Code project settings are committed; personal ones are not
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Machine-local AI/design tool settings
+.claude/settings.local.json
+.impeccable/*.local.json
+
+# ---------------------------------------------------------------- logs
+*.log
+logs/
