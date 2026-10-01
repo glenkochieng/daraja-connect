@@ -84,7 +84,7 @@ class ContentRecommender:
         self.pool: MentorPool | None = None
 
     # ------------------------------------------------------------------ fitting
-    def fit(self, mentors: Sequence[MentorProfile]) -> "ContentRecommender":
+    def fit(self, mentors: Sequence[MentorProfile]) -> ContentRecommender:
         """Index the mentor pool: build the TF-IDF vocabulary from mentor expertise texts."""
         self.pool = MentorPool(mentors)
         use_glossary = self.config.text.use_glossary
@@ -98,7 +98,7 @@ class ContentRecommender:
             stop_words=tc.stop_words,
             norm="l2",
         )
-        corpus = [t for t, present in zip(texts, self.mentor_has_text) if present]
+        corpus = [t for t, present in zip(texts, self.mentor_has_text, strict=False) if present]
         if corpus:
             self.vectorizer.fit(corpus)
             self.mentor_text = self.vectorizer.transform(texts)

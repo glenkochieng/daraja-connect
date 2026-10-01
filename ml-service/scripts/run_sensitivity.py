@@ -42,7 +42,7 @@ SYSTEMS = ["random", "rule_based", "unweighted_cosine", "weighted_cosine", "text
 
 
 def relevance_dict(frame: pd.DataFrame) -> dict[str, dict[str, int]]:
-    return {m: dict(zip(g["mentor_id"], g["grade"])) for m, g in frame.groupby("mentee_id")}
+    return {m: dict(zip(g["mentor_id"], g["grade"], strict=False)) for m, g in frame.groupby("mentee_id")}
 
 
 def main() -> None:

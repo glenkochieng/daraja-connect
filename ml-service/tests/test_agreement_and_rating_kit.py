@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 import pytest
+from conftest import mentee
 
-from conftest import mentee, mentor
 from daraja.agreement import cohen_kappa, fleiss_kappa, percent_agreement, ratings_to_counts
 from daraja.baselines import build_systems
 from daraja.rating_kit import aggregate_labels, agreement_report, build_rating_pool, evaluate_pooled, read_ratings
@@ -51,7 +51,7 @@ def test_rating_pool_end_to_end(config, mentors):
     assert "rank_weighted_cosine" in key.columns and "rank_weighted_cosine" not in sheet.columns
     assert sheet["rating"].eq("").all()
 
-    labels = pd.Series({pid: (2 if mid == "M-DG" else 0) for pid, mid in zip(key["pair_id"], key["mentor_id"])})
+    labels = pd.Series({pid: (2 if mid == "M-DG" else 0) for pid, mid in zip(key["pair_id"], key["mentor_id"], strict=False)})
     per_query = evaluate_pooled(key, labels, k=2)
     weighted = per_query[per_query["system"] == "weighted_cosine"].iloc[0]
     assert weighted["mrr@2"] == 1.0
