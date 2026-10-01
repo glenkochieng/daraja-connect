@@ -25,6 +25,7 @@ never ranked.
 
 from __future__ import annotations
 
+import re
 from collections.abc import Iterable, Mapping, Sequence
 from dataclasses import dataclass
 
@@ -38,6 +39,50 @@ from daraja.pool import MentorPool
 from daraja.preprocess import display_term, has_content, normalise_text
 from daraja.schema import MenteeProfile, MentorProfile, Recommendation, RecommendationResult
 from daraja.vocabulary import Taxonomy, load_taxonomy
+
+# Words found in almost every goal and expertise text. They raise TF-IDF overlap a little but
+# say nothing about why two people match, so they never appear as a reason on their own.
+# Ranking is unaffected: this only shapes the explanation.
+GENERIC_REASON_WORDS = frozenset(
+    {
+        "aviation", "airline", "airlines", "airways", "kenya", "kq", "pride", "centre", "center",
+        "year", "years", "experience", "experienced", "work", "worked", "working", "job", "role",
+        "roles", "career", "careers", "skill", "skills", "learn", "learning", "learned", "want",
+        "help", "helping", "build", "strong", "good", "honest", "feedback", "value", "new",
+        "preparation", "prepare", "preparing", "staff", "team", "mentor", "mentoring", "mentee",
+        "completed", "certificate", "course", "programme", "program", "graduate", "currently",
+    }
+)
+
+
+def shared_phrases(terms: Iterable[str], limit: int, covered: Iterable[str] = ()) -> list[str]:
+    """The most specific shared terms, strongest first.
+
+    Terms made only of generic words, or of words another reason already shows (``covered``,
+    e.g. the shared topic and specialisation names), are skipped. A single word is not listed
+    when a chosen phrase already contains it ("interview", "interview preparation" -> the phrase).
+    """
+    skip = GENERIC_REASON_WORDS | {w.lower() for w in covered}
+    chosen: list[str] = []
+    for term in terms:
+        words = term.split()
+        if all(w in skip for w in words):
+            continue
+        if any(set(words) <= set(c.split()) for c in chosen):
+            continue
+        # A phrase replaces single words it contains that were chosen earlier.
+        chosen = [c for c in chosen if not set(c.split()) < set(words)]
+        chosen.append(term)
+        if len(chosen) == limit:
+            break
+    return chosen
+
+
+def join_words(items: Sequence[str]) -> str:
+    """Readable English list: "a", "a and b", "a, b and c"."""
+    if len(items) <= 1:
+        return "".join(items)
+    return ", ".join(items[:-1]) + " and " + items[-1]
 
 
 @dataclass
@@ -245,11 +290,15 @@ class ContentRecommender:
         if mentee.specialisation and mentee.specialisation == mentor.specialisation:
             domain = self.taxonomy.domains.get(mentor.specialisation, {}).get("name", mentor.specialisation)
             reasons.append(f"Same specialisation: {domain}")
+        # Words the lines above already show are not repeated as shared terms.
+        covered = re.findall(r"[a-z0-9]+", " ".join(r.split(": ", 1)[-1] for r in reasons).lower())
         if self.vectorizer is not None and self.mentor_has_text[col]:
             q = self.vectorizer.transform([normalise_text(mentee.goals_text, self.config.text.use_glossary)])
             overlap = q.multiply(self.mentor_text[col]).tocoo()
             if overlap.nnz:
-                top = overlap.col[np.argsort(-overlap.data)][:max_terms]
+                ranked = overlap.col[np.argsort(-overlap.data)]
                 names = self.vectorizer.get_feature_names_out()
-                reasons.append("Shared terms: " + ", ".join(display_term(names[i]) for i in top))
+                phrases = shared_phrases((names[i] for i in ranked), max_terms, covered)
+                if phrases:
+                    reasons.append("You both mention " + join_words([display_term(p) for p in phrases]))
         return reasons
