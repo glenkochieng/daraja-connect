@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "title": "Kenya Airways public domain vocabulary",
+    "purpose": "Organisational (non-personal) vocabulary used to make synthetic mentor and mentee profiles realistic: fleet types, business units, service areas, approvals and Pride Centre programmes.",
+    "collected_with": "scripts/fetch_kq_public_data.py (robots.txt respected, rate-limited)",
+    "verification": "Every item carries evidence quotes; `python scripts/fetch_kq_public_data.py verify` checks each quote against the saved snapshot in data/kq_public/raw/ and writes provenance_report.md.",
+    "personal_data": "None. Pages about named individuals were not collected.",
+    "caveat": "Snapshots reflect the websites on the fetch date recorded in sources_manifest.json. Pride Centre programme names from Kenyaplex are a secondary source; kqpridecentre.com disallows crawlers, so confirm the current programme list manually in a browser."
+  },
+  "fleet": [
+    {
+      "id": "b787_8",
+      "name": "Boeing 787-8 Dreamliner",
+      "aliases": ["Boeing 787", "B787", "787", "Dreamliner"],
+      "engine": "GEnx-1B",
+      "evidence": [
+        {"source": "kq_b787_8", "quote": "The Boeing 787-8 Dreamliner is a long-haul, wide-body, twin-engine commercial aircraft"},
+        {"source": "kq_b787_8", "quote": "GEnx-1B"}
+      ]
+    },
+    {
+      "id": "b737_800",
+      "name": "Boeing 737-800",
+      "aliases": ["B737-800", "737-800", "Boeing 737"],
+      "engine": "CFM56-7B26",
+      "evidence": [
+        {"source": "kq_fleet_overview", "quote": "Boeing 737-800"},
+        {"source": "kq_b737_800", "quote": "CFM 56-7B26"}
+      ]
+    },
+    {
+      "id": "b737_300f",
+      "name": "Boeing 737-300F freighter",
+      "aliases": ["737-300F", "B737 freighter"],
+      "engine": "CFM56-3B",
+      "evidence": [
+        {"source": "kq_b737_300f", "quote": "The Boeing 737-300F is a freighter aircraft"},
+        {"source": "kq_b737_300f", "quote": "large main deck cargo door"}
+      ]
+    },
+    {
+      "id": "e190",
+      "name": "Embraer E190",
+      "aliases": ["E190", "Embraer 190", "Embraer-E190"],
+      "engine": "GE CF34-10E6",
+      "evidence": [
+        {"source": "kq_e190", "quote": "The Embraer E190 is a narrow-body, twin-engine jet aircraft"},
+        {"source": "kq_e190", "quote": "CF34-10E6"}
+      ]
+    },
+    {
+      "id": "b777_300er",
+      "name": "Boeing 777-300ER",
+      "aliases": ["B777-300ER", "777-300ER", "Boeing 777"],
+      "engine": "GE90-115B",
+      "evidence": [
+        {"source": "kq_b777_300er", "quote": "Aircraft Type: B777-300ER"},
+        {"source": "kq_b777_300er", "quote": "GE90-115B"}
+      ]
+    }
+  ],
+  "business_units": [
+    {"id": "kq_cargo", "name": "KQ Cargo", "domain": "cargo", "evidence": [{"source": "kq_group_brands", "quote": "KQ Cargo"}]},
+    {"id": "kq_pride_centre", "name": "KQ Pride Centre", "domain": "career_development", "evidence": [{"source": "kq_group_brands", "quote": "KQ Pride Centre"}]},
+    {"id": "fahari_aviation", "name": "Fahari Aviation", "domain": "digital_innovation", "evidence": [{"source": "kq_group_brands", "quote": "Fahari Aviation"}, {"source": "kq_press_fahari_drones", "quote": "Fahari Aviation, the Aviation technology subsidiary of Kenya Airways PLC"}]},
+    {"id": "jambojet", "name": "JamboJet", "domain": "flight_operations", "evidence": [{"source": "kq_group_brands", "quote": "JamboJet"}]},
+    {"id": "kq_medical_centre", "name": "KQ Medical Centre", "domain": "safety_security_quality", "evidence": [{"source": "kq_group_brands", "quote": "KQ Medical Centre"}]},
+    {"id": "kq_mro", "name": "KQ Maintenance, Repair and Overhaul (MRO)", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "Kenya Airways MRO delivers world-class aircraft maintenance, repair, and overhaul services"}]},
+    {"id": "fahari_innovation_hub", "name": "Fahari Innovation Hub", "domain": "digital_innovation", "evidence": [{"source": "kq_group_brands", "quote": "Fahari Innovation Hub"}]},
+    {"id": "kq_ground_services", "name": "Kenya Airways Ground Services", "domain": "ground_operations", "evidence": [{"source": "kq_ground_handling", "quote": "Kenya Airways Ground Services"}]}
+  ],
+  "service_areas": [
+    {"id": "heavy_maintenance", "name": "Heavy maintenance (C-checks, base maintenance)", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "C-check packages and base maintenance solutions"}]},
+    {"id": "line_maintenance_aog", "name": "Line maintenance and AOG support", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "Line Maintenance & AOG Support"}, {"source": "kq_mro", "quote": "Fast-response transit checks, troubleshooting"}]},
+    {"id": "component_repair", "name": "Component repair and specialised shops", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "Component Repair & Specialized Shops"}]},
+    {"id": "engine_on_wing", "name": "Engine on-wing support and borescope inspection", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "Engine On-Wing Support"}, {"source": "kq_mro", "quote": "borescope support"}]},
+    {"id": "cabin_ife_maintenance", "name": "Cabin and IFE maintenance", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "Cabin & IFE Maintenance"}]},
+    {"id": "ndt", "name": "Non-destructive testing (NDT)", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "ISO 17020 Accredited Aviation NDT Facility"}, {"source": "kq_press_easa_part145", "quote": "Non-Destructive Testing (NDT)"}]},
+    {"id": "calibration", "name": "Calibration", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "ISO 17025 Accredited Calibration Centre"}]},
+    {"id": "engineering_training", "name": "Engineering training and workforce development", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "Engineering Training & Workforce Development"}]},
+    {"id": "check_in_passenger_handling", "name": "Check-in and passenger handling", "domain": "ground_operations", "evidence": [{"source": "kq_ground_handling", "quote": "efficient check-in process and luggage handling"}]},
+    {"id": "mobility_assistance", "name": "Mobility assistance and VIP meet-and-assist", "domain": "ground_operations", "evidence": [{"source": "kq_ground_handling", "quote": "mobility assistance, including wheelchair support"}, {"source": "kq_ground_handling", "quote": "VIP Meet and Assist service"}]},
+    {"id": "ramp_handling", "name": "Ramp handling", "domain": "ground_operations", "evidence": [{"source": "kq_ground_handling", "quote": "outstanding ramp handling services"}]},
+    {"id": "ground_support_equipment", "name": "Ground support equipment (GSE)", "domain": "ground_operations", "evidence": [{"source": "kq_ground_handling", "quote": "Ground Support Equipment (GSE)"}]},
+    {"id": "aircraft_loading", "name": "Baggage handling and aircraft loading", "domain": "ground_operations", "evidence": [{"source": "kq_press_iata_ground_handling", "quote": "baggage handling, aircraft loading, and safety protocols"}]},
+    {"id": "lounges", "name": "Premium lounges", "domain": "commercial", "evidence": [{"source": "kq_ground_handling", "quote": "Pride Lounge, Simba Lounge, Msafiri Lounge, and Asante Lounge"}]},
+    {"id": "cargo_handling", "name": "Cargo handling (perishables, valuables)", "domain": "cargo", "evidence": [{"source": "kq_ground_handling", "quote": "including delicate perishables and valuable items"}]},
+    {"id": "pharma_cool_chain", "name": "Temperature-controlled pharmaceutical cargo", "domain": "cargo", "evidence": [{"source": "kq_press_ceiv_pharma", "quote": "temperature-controlled transportation of pharmaceuticals"}, {"source": "kq_press_ceiv_pharma", "quote": "cold chain and pharmaceutical movements"}]},
+    {"id": "premier_world", "name": "Premier World (business cabin) service", "domain": "cabin_services", "evidence": [{"source": "kq_class_of_service", "quote": "Premier World"}, {"source": "kq_b787_8", "quote": "30 (Premier World)"}]},
+    {"id": "asante_rewards", "name": "Asante Rewards loyalty programme", "domain": "commercial", "evidence": [{"source": "kq_press_asante_rewards", "quote": "loyalty program dubbed Asante Rewards"}, {"source": "kq_press_asante_rewards", "quote": "Silver, Ruby, Gold, and Platinum"}]},
+    {"id": "ndc_distribution", "name": "NDC distribution through the Amadeus Travel Platform", "domain": "commercial", "evidence": [{"source": "kq_press_ndc_amadeus", "quote": "New Distribution Capability (NDC-sourced) content"}, {"source": "kq_press_ndc_amadeus", "quote": "Amadeus Travel Platform"}]},
+    {"id": "precision_farming_drones", "name": "Drone services for precision farming", "domain": "digital_innovation", "evidence": [{"source": "kq_press_fahari_drones", "quote": "drone technology for precision farming"}]},
+    {"id": "sustainable_aviation_fuel", "name": "Sustainable aviation fuel (SAF)", "domain": "digital_innovation", "evidence": [{"source": "kq_press_saf", "quote": "Sustainable Aviation Fuel (SAF)"}, {"source": "kq_press_saf", "quote": "net zero by 2050"}]}
+  ],
+  "approvals_and_standards": [
+    {"id": "easa_part_145", "name": "EASA Part-145 approval", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "EASA Part-145 Approved"}, {"source": "kq_press_easa_part145", "quote": "Line Maintenance for Boeing 787-8, Embraer E190, and Boeing 737-700/800/900 models"}]},
+    {"id": "embraer_service_center", "name": "Embraer Authorized Service Center (Africa)", "domain": "aircraft_maintenance", "evidence": [{"source": "kq_mro", "quote": "Embraer Authorized Service Center (Africa)"}]},
+    {"id": "isago", "name": "IATA Safety Audit for Ground Operations (ISAGO)", "domain": "ground_operations", "evidence": [{"source": "kq_press_iata_ground_handling", "quote": "IATA's Safety Audit for Ground Operations (ISAGO)"}]},
+    {"id": "iosa", "name": "IATA Operational Safety Audit (IOSA) registration", "domain": "safety_security_quality", "evidence": [{"source": "kq_press_iata_ground_handling", "quote": "IOSA (IATA Operational Safety Audit) registered airline since 2009"}]},
+    {"id": "ceiv_pharma", "name": "IATA CEIV Pharma certification", "domain": "cargo", "evidence": [{"source": "kq_press_ceiv_pharma", "quote": "Center of Excellence for Independent Validators (CEIV) Pharma certification"}]},
+    {"id": "iata_temperature_control", "name": "IATA Temperature Control Regulations", "domain": "cargo", "evidence": [{"source": "kq_press_ceiv_pharma", "quote": "IATA Temperature Control Regulations"}]}
+  ],
+  "pride_centre_programmes": [
+    {"id": "crm_course", "name": "Crew Resource Management Course", "domain": "flight_operations", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Crew Resource Management Course"}]},
+    {"id": "cert_flight_dispatch", "name": "Certificate in Flight Dispatch", "domain": "flight_operations", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Certificate in Flight Dispatch"}]},
+    {"id": "cabin_crew_training", "name": "Airline Cabin Crew Training", "domain": "cabin_services", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Airline Cabin Crew Training"}]},
+    {"id": "cert_passenger_services", "name": "Certificate in Airline Passenger Services", "domain": "ground_operations", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Certificate in Airline Passenger Services"}]},
+    {"id": "dip_passenger_services", "name": "Diploma in Airline Passenger Services", "domain": "ground_operations", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Diploma in Airline Passenger Services"}]},
+    {"id": "cert_weight_balance", "name": "Certificate in Weight and Balance", "domain": "ground_operations", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Certificate in Weight and Balance"}]},
+    {"id": "sc_air_safety", "name": "Short Course in Air Safety", "domain": "safety_security_quality", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Short Course in Air Safety"}]},
+    {"id": "sc_aircraft_handling_loading", "name": "Short Course in Aircraft Handling and Loading", "domain": "ground_operations", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Short Course in Aircraft Handling and Loading"}]},
+    {"id": "sc_cargo_skills", "name": "Short Course in Cargo Skills and Procedures", "domain": "cargo", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Short Course in Cargo Skills and Procedures"}]},
+    {"id": "sc_dangerous_goods", "name": "Short Course in Dangerous Goods Regulations", "domain": "cargo", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Short Course in Dangerous Goods Regulations"}]},
+    {"id": "cert_avsec_flight_crew", "name": "Certificate in Aviation Security for Flight Crew", "domain": "safety_security_quality", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Certificate in Aviation Security for Flight Crew"}]},
+    {"id": "cert_pr_marketing", "name": "Certificate in Public Relations, Advertising & Marketing", "domain": "commercial", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Certificate in Public Relations, Advertising & Marketing"}]},
+    {"id": "bba", "name": "Bachelor of Business Administration", "domain": "commercial", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Bachelor of Business Administration"}]},
+    {"id": "ba_business_management", "name": "Bachelor of Arts in Business Management", "domain": "commercial", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Bachelor of Arts in Business Management"}]},
+    {"id": "bsc_ist", "name": "Bachelor of Science (Information Systems & Technology)", "domain": "digital_innovation", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Information Systems & Technology"}]},
+    {"id": "pgd_computer_science", "name": "Postgraduate Diploma in Computer Science", "domain": "digital_innovation", "source_type": "secondary", "evidence": [{"source": "kenyaplex_pride_centre_courses", "quote": "Postgraduate Diploma in Computer Science"}]},
+    {"id": "iata_station_management", "name": "Station Management and Ground Handling Supervision (IATA course at the Pride Centre)", "domain": "ground_operations", "source_type": "primary", "evidence": [{"source": "iata_rtp_pride_centre", "quote": "Station Management and Ground Handling Supervision"}]},
+    {"id": "iata_human_factors", "name": "Human Factors in Aviation (IATA course at the Pride Centre)", "domain": "safety_security_quality", "source_type": "primary", "evidence": [{"source": "iata_rtp_pride_centre", "quote": "Human Factors in Aviation"}]},
+    {"id": "iata_lead_auditor", "name": "Aviation Lead Auditor (IATA course at the Pride Centre)", "domain": "safety_security_quality", "source_type": "primary", "evidence": [{"source": "iata_rtp_pride_centre", "quote": "Aviation Lead Auditor"}]},
+    {"id": "mro_engineering_training", "name": "Aircraft maintenance engineering training (KQ MRO)", "domain": "aircraft_maintenance", "source_type": "primary", "evidence": [{"source": "kq_mro", "quote": "Developing Africa's next generation of licensed aviation professionals"}]}
+  ],
+  "organisation_facts": [
+    {"name": "Destinations", "value": "51 destinations worldwide, 43 in Africa", "evidence": [{"source": "kq_group_brands", "quote": "flying to 51 destinations worldwide, 43 of which are in Africa"}]},
+    {"name": "Hub", "value": "Jomo Kenyatta International Airport (JKIA), Nairobi", "evidence": [{"source": "kq_group_brands", "quote": "Terminal 1A at the Jomo Kenyatta International Airport in Nairobi"}]},
+    {"name": "Workforce", "value": "over 4,000 employees", "evidence": [{"source": "kq_alumni_network", "quote": "over 4,000 KQ employees"}]},
+    {"name": "MRO workforce", "value": "over 700 specialists", "evidence": [{"source": "kq_mro", "quote": "Over 700 highly skilled specialists"}]},
+    {"name": "Pride Centre as IATA Regional Training Partner", "value": "IATA RTP in Nairobi", "evidence": [{"source": "iata_rtp_pride_centre", "quote": "Welcome to the IATA Regional Training Partner in Nairobi!"}]}
+  ],
+  "alumni_network": {
+    "name": "KQ Alumni Network / KQ Alumni Association",
+    "value": "Official Kenya Airways alumni initiative for former colleagues; launched 14 November 2025; lists mentorship among its stated benefits.",
+    "register_url": "https://kqalumni.kenya-airways.com/",
+    "relevance_to_project": "Contradicts the proposal's claim that no institutionally endorsed alumni platform exists. It targets former employees; the page does not mention Pride Centre graduates or describe how mentors and mentees would be matched.",
+    "evidence": [
+      {"source": "kq_alumni_network", "quote": "KQ Alumni Association Official Launch Day 14th Nov 2025"},
+      {"source": "kq_alumni_network", "quote": "Value: Events, networking, mentorship, job boards."},
+      {"source": "kq_alumni_network", "quote": "Knowledge Transfer: Mentorship, storytelling, innovation."},
+      {"source": "kq_alumni_network", "quote": "a warm and meaningful space for former colleagues to reconnect, mentor, collaborate"}
+    ]
+  }
+}

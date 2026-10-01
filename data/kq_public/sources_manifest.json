@@ -1,0 +1,242 @@
+{
+  "sources": [
+    {
+      "id": "kq_fleet_overview",
+      "url": "https://www.kenya-airways.com/en/experience/our-aircraft/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:02+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 571,
+      "sha256": "1118b2a3e92d18ebef4c196f30ab653c1de5cf3bb41ce3bf104d3faf2995a5d5"
+    },
+    {
+      "id": "kq_b787_8",
+      "url": "https://www.kenya-airways.com/en/experience/our-aircraft/boeing-787-8/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:06+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 3021,
+      "sha256": "a2f8512e35efe8112b482fd1239d2d04072016a5bf896f3df036e905960b8b94"
+    },
+    {
+      "id": "kq_b737_800",
+      "url": "https://www.kenya-airways.com/en/experience/our-aircraft/boeing-737-800/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:09+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 3083,
+      "sha256": "f3a711670f872c1fc6ebf0b018ea1cbaecf055f28081949250b1095e0e26ba43"
+    },
+    {
+      "id": "kq_b737_300f",
+      "url": "https://www.kenya-airways.com/en/experience/our-aircraft/boeing-737-300f/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:12+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 2421,
+      "sha256": "a48d0bb331f167ade3c804abe56133fc5a617caa8dcda7c05b3ea3c70ac69267"
+    },
+    {
+      "id": "kq_e190",
+      "url": "https://www.kenya-airways.com/en/experience/our-aircraft/embraer-e190/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:15+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 1693,
+      "sha256": "7b2914d223b2b444dbe7ad8951f51dc766d1e4d711878deb462bc2ec0d9af3fa"
+    },
+    {
+      "id": "kq_b777_300er",
+      "url": "https://www.kenya-airways.com/en/experience/our-aircraft/boeing-777-300er/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:19+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 3177,
+      "sha256": "28b2b0d53efd56323709bf31414e7d946ea1c5cf0e91efd7c3b9d1ce7f696b58"
+    },
+    {
+      "id": "kq_class_of_service",
+      "url": "https://www.kenya-airways.com/en/experience/on-board/class-of-service/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:22+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 8133,
+      "sha256": "40e444abf48a9c655bb6678c82663ef617a93463925db43da1722b60c843cf87"
+    },
+    {
+      "id": "kq_mro",
+      "url": "https://corporate.kenya-airways.com/en/maintenance-repair-and-overhaul-mro/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:25+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 2487,
+      "sha256": "a888563bc34700094670cf0b09996f0a3510c418556b9d150ea8c7c849418210"
+    },
+    {
+      "id": "kq_ground_handling",
+      "url": "https://corporate.kenya-airways.com/en/ground-handling-services/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:28+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 4340,
+      "sha256": "c7d449c64c7546bced8d40b6f121ac243a2f160bbafe465d8ae07d2e1808f5a8"
+    },
+    {
+      "id": "kq_group_brands",
+      "url": "https://corporate.kenya-airways.com/en/about-us/kq-group-brands/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:31+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 1719,
+      "sha256": "a4d64f6f8a75663556cc0bc355111fadb8fe1cc7b725642dec995aa0c8dac8a8"
+    },
+    {
+      "id": "kq_alumni_network",
+      "url": "https://corporate.kenya-airways.com/en/alumni-network/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:35+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 3779,
+      "sha256": "30d865708582e795ab30810d6598c918438e0de136cda0037882142632d36e50"
+    },
+    {
+      "id": "kq_press_easa_part145",
+      "url": "https://corporate.kenya-airways.com/en/commitments-partnerships/corporate-responsibility/commitments/news-press-release/2025/january/kenya-airways-achieves-prestigious-easa-part-145-certification/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:37+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 2819,
+      "sha256": "558000efea06fedd2f7955b51993fa862035c3b56ff15f1a21cd1fed3334a90b"
+    },
+    {
+      "id": "kq_press_ceiv_pharma",
+      "url": "https://corporate.kenya-airways.com/en/commitments-partnerships/corporate-responsibility/commitments/news-press-release/2023/may/kenya-airways-cargo-receives-iatas-ceiv-certification-for-pharmaceutical-logistics-excellence/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:40+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 5331,
+      "sha256": "a3e365f7f10bfebef905f1bd479f13c4a14a106d3ec3f952e065a7a1e63cac99"
+    },
+    {
+      "id": "kq_press_iata_ground_handling",
+      "url": "https://corporate.kenya-airways.com/en/commitments-partnerships/corporate-responsibility/commitments/news-press-release/2023/november/kenya-airways-secures-iata-accreditation-for-ground-handling/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:43+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 2324,
+      "sha256": "6b3bec7c5091eae8ef597ccbefa35d1854b8c2564767d609011a60fd9df9e730"
+    },
+    {
+      "id": "kq_press_ndc_amadeus",
+      "url": "https://corporate.kenya-airways.com/en/commitments-partnerships/corporate-responsibility/commitments/news-press-release/2025/april/kq-goes-live-with-ndc-content-in-amadeus/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:47+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 3722,
+      "sha256": "4a299ea016fe1e7ab70fe9fd900b961a3db044a0b3dc3ca86dc3a16540dd8775"
+    },
+    {
+      "id": "kq_press_asante_rewards",
+      "url": "https://corporate.kenya-airways.com/en/commitments-partnerships/corporate-responsibility/commitments/news-press-release/2023/june/kenya-airways-unveils-new-asante-rewards-loyalty-program-to-reward-customers/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:50+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 3689,
+      "sha256": "8562bd13d417aabc07d0d9011014f4d8255ac7939dcf39611adcb74077c5d38a"
+    },
+    {
+      "id": "kq_press_fahari_drones",
+      "url": "https://corporate.kenya-airways.com/en/commitments-partnerships/corporate-responsibility/commitments/news-press-release/2023/september/fahari-aviation-scales-up-service-offering-with-additional-high-capacity-drones-for-precision-farming/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:52+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 3720,
+      "sha256": "61a518c17f9b0ec695a415ca5c54fc114b6a0e0e46e371d76c483aae47b4b88f"
+    },
+    {
+      "id": "kq_press_saf",
+      "url": "https://corporate.kenya-airways.com/en/commitments-partnerships/corporate-responsibility/commitments/news-press-release/2023/may/kq-to-pilot-use-of-sustainable-aviation-fuel-during-the-sustainable-flight-challenge/",
+      "publisher": "Kenya Airways",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:55+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 3245,
+      "sha256": "43c76bdba5faadffe68254da5a775aa4a8b79b62175f843cf17f795a2c60a15d"
+    },
+    {
+      "id": "iata_rtp_pride_centre",
+      "url": "https://www.iata.org/en/training/courses/classroom-training-centers/rtp/kq/",
+      "publisher": "IATA",
+      "source_type": "primary",
+      "fetched_at": "2026-09-17T10:16:58+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 3261,
+      "sha256": "f2a5099eaeb4b6ec3d16e8e49d20e29a65c2ff062830c29a0e962f4e9e41fa1b"
+    },
+    {
+      "id": "kenyaplex_pride_centre_courses",
+      "url": "https://www.kenyaplex.com/colleges/courses/631",
+      "publisher": "Kenyaplex (third-party directory)",
+      "source_type": "secondary",
+      "fetched_at": "2026-09-17T10:17:03+00:00",
+      "http_status": 200,
+      "status": "ok",
+      "chars": 3295,
+      "sha256": "ee5bb2bdb9e365fce73393d73339d180c6780539205f1840f5d270750cc3f736"
+    }
+  ],
+  "excluded": [
+    {
+      "url": "https://www.kqpridecentre.com/",
+      "reason": "robots.txt disallows all crawlers (Disallow: /). Verify programme names manually in a browser."
+    },
+    {
+      "url": "https://kqalumni.kenya-airways.com/",
+      "reason": "Registration application marked noindex; handles personal data."
+    },
+    {
+      "url": "https://careers.kenya-airways.com/",
+      "reason": "JavaScript application with no static content; job adverts are not needed."
+    },
+    {
+      "url": "https://corporate.kenya-airways.com/en/commitments-partnerships/corporate-responsibility/commitments/news-press-release/2023/kq/ (staff story pages)",
+      "reason": "Pages about named individuals (personal data)."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# source_id: kq_press_ndc_amadeus
+# url: https://corporate.kenya-airways.com/en/commitments-partnerships/corporate-responsibility/commitments/news-press-release/2025/april/kq-goes-live-with-ndc-content-in-amadeus/
+# publisher: Kenya Airways
+# fetched_at: 2026-09-17T10:16:47+00:00
+
+Kenya Airways PLC | Kenya Airways Partners with IATA to Host the 37th IATA Ground Handling Conference 2025
+08 Apr 2025
+Customer Updates
+News
+Kenya Airways Goes Live With NDC Content in Amadeus
+Nairobi, Kenya, April 07, 2025.......Kenya Airways becomes first in Sub-Saharan Africa to distribute NDC Content through Amadeus Travel Platform
+Kenya Airways has started deploying its New Distribution Capability (NDC-sourced) content to travel seller customers in Kenya via the Amadeus Travel Platform. This means that Amadeus-connected travel sellers will be among the first to gain access to NDC content from one of the most progressive carriers in the region. This follows Kenya Airways’ decision to adopt Altéa NDC to effectively and consistently distribute and service new content and fares through an NDC connectivity across channels, enhancing its retailing capabilities.
+Share on
+Download PDF
+|
+View PDF
+The strong synergies between Altéa NDC and the Amadeus Travel Platform will enable faster and smoother implementation of the airline's NDC offers, reducing time to market and bring enhanced productivity to travel sellers.
+NDC (New Distribution Capability) is an IATA-developed XML-based data transmission standard that aims to modernize how airlines distribute and sell their products, offering airlines greater flexibility and control over their content and distribution channels. When fully implemented, travel sellers worldwide will have access to the entire Kenya Airways NDC content offering, allowing agents to build new and exciting travel offers.
+Julius Thairu, Chief Commercial and Customer Officer, Kenya Airways, says: “This is a significant milestone for Kenya Airways as we continue to innovate and enhance our travel retailing capabilities. Amadeus has been at the forefront of driving NDC adoption across the global travel ecosystem and was therefore the natural choice for this step on our distribution journey. We are very happy to be able to offer our full range of NDC content through Amadeus’ leading technology and to its travel sellers’ network.
+Christophe Roux, SVP Airlines, Middle East, Turkey, and Africa, Amadeus, follows up: “Kenya Airways was among the first airlines in Africa to understand the value that NDC technology could offer for its customers, and it’s a pleasure to help that retailing ambition come to life. We are very proud that Kenya Airways has trusted Amadeus end to end to enable its modern retailing strategy. With Kenya Airways’ NDC content live on the Amadeus Travel Platform, the airline will benefit from significant reach throughout the global community of travel sellers, which again will have the ability to create the bespoke, personalized offers travelers of today expect.”
+Related news
+Nairobi, Kenya, April 07, 2025.......Kenya Airways becomes first in Sub-Saharan Africa to distribute NDC Content through Amadeus Travel Platform Kenya Airways has started deploying its New Distribution Capability (NDC-sourced) content to travel seller customers in Kenya via the Amadeus Travel Platform. This means that Amadeus-connected travel sellers will be among the first to gain access to NDC content from one of the most progressive carriers in the region. This follows Kenya Airways’ decision to adopt Altéa NDC to effectively and consistently distribute and service new content and fares through an NDC connectivity across channels, enhancing its retailing capabilities.
+Share
+Browser Compatibility Notice
+The browser you are using is not supported.
+For the best website experience, please view the website within Google
+Chrome; Firefox; or Microsoft Edge.
+Download Google Chrome
+Download Firefox
+Download Microsoft Edge
+Not now
+Chrome, Firefox, or Microsoft Edge.
