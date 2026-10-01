@@ -74,6 +74,7 @@ desktop.ini
 **/.impeccable/*.local.json
 **/.impeccable/*.cache.json
 **/.impeccable/questions/
+**/.impeccable/review/
 
 # ---------------------------------------------------------------- logs
 *.log
