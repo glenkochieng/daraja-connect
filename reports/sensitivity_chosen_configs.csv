@@ -1,0 +1,13 @@
+scenario,seed,missing_policy,text,skills,specialisation
+standard,42,zero,0.4,0.3,0.3
+standard,43,zero,0.4,0.2,0.4
+standard,44,renormalise_content,0.2,0.2,0.6
+vocabulary_mismatch,42,renormalise_content,0.1,0.6,0.3
+vocabulary_mismatch,43,zero,0.4,0.4,0.2
+vocabulary_mismatch,44,renormalise_content,0.2,0.3,0.5
+sparse_profiles,42,renormalise,0.2,0.6,0.2
+sparse_profiles,43,zero,0.3,0.2,0.5
+sparse_profiles,44,zero,0.6,0.2,0.2
+hard,42,renormalise,0.4,0.4,0.2
+hard,43,zero,0.5,0.3,0.2
+hard,44,zero,0.4,0.2,0.4

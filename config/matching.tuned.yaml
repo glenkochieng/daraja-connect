@@ -1,0 +1,33 @@
+weights:
+  text: 0.4
+  skills: 0.3
+  specialisation: 0.3
+missing_policy: zero
+filters:
+  require_consent: true
+  require_available: true
+  respect_capacity: true
+  min_experience_gap_years: 2
+top_k: 5
+text:
+  use_glossary: true
+  ngram_range:
+  - 1
+  - 2
+  sublinear_tf: true
+  min_df: 1
+  stop_words: english
+required_mentee_blocks_any:
+- text
+- skills
+metadata:
+  tuned_at: '2026-09-17T10:44:35+00:00'
+  method: grid search over the weight simplex (step 0.1) x missing-data policies
+  split: validation
+  objective: mean ndcg@5
+  relevance_labels: simulated (data/synthetic/hidden/simulated_relevance.csv)
+  validation_score:
+    precision@5: 0.9077
+    recall@5: 0.5372
+    mrr@5: 0.9679
+    ndcg@5: 0.8061

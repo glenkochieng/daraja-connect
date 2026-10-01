@@ -1,0 +1,10 @@
+reference,compared_with,metric,n_pairs,mean_difference,wilcoxon_statistic,p_value
+weighted_cosine,random,ndcg@5,176,0.7306002553955452,0.0,1.207130544537576e-30
+weighted_cosine,rule_based,ndcg@5,176,0.1549646527359461,1865.5,5.232969509517585e-16
+weighted_cosine,skills_only,ndcg@5,176,0.2217606231275777,897.0,9.392521130972593e-20
+weighted_cosine,text_only,ndcg@5,176,0.267674296858622,643.5,1.5724813200190596e-24
+weighted_cosine,unweighted_cosine,ndcg@5,176,-0.0013728291811400887,229.5,0.7168799244928805
+weighted_cosine,weighted_no_glossary,ndcg@5,176,0.00222093004343231,495.5,0.622923293309391
+weighted_cosine,weighted_policy_renormalise,ndcg@5,176,0.008950030472981327,1075.0,0.17982467182308037
+weighted_cosine,weighted_policy_renormalise_content,ndcg@5,176,0.008207012570931859,109.0,0.03230206723865943
+weighted_cosine,weighted_policy_zero,ndcg@5,176,0.0,,1.0
