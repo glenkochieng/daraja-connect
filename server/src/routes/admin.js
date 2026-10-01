@@ -4,6 +4,8 @@ import { requireAdmin, requireAuth } from '../lib/auth.js';
 import { badRequest, notFound } from '../lib/errors.js';
 import { serializeUser } from '../lib/serialize.js';
 import { idParams, paginate, pagination, validate } from '../lib/validate.js';
+import { MentorshipRequest } from '../models/MentorshipRequest.js';
+import { Recommendation } from '../models/Recommendation.js';
 import { USER_STATUSES, USER_TYPES, User } from '../models/User.js';
 
 const escapeRegex = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -33,6 +35,10 @@ export async function adminStats() {
     users: {
       byStatus: await countBy(User, 'status'),
       byType: await countBy(User, 'userType', { status: 'approved' }),
+    },
+    mentorship: {
+      requestsByStatus: await countBy(MentorshipRequest, 'status'),
+      recommendationsShown: await Recommendation.countDocuments(),
     },
   };
 }
