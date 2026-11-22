@@ -11,13 +11,30 @@ import pandas as pd
 from daraja import paths
 from daraja.schema import MenteeProfile, MentorProfile
 
+LIST_FIELDS = {"can_mentor_in", "wants_to_learn"}
+
+
+def read_profile_rows(path: str | Path) -> list[dict]:
+    """A JSON list of profiles, or a CSV laid out as save_profiles writes it (lists joined with ';')."""
+    path = Path(path)
+    if path.suffix.lower() != ".csv":
+        return json.loads(path.read_text(encoding="utf-8"))
+    rows = []
+    for record in pd.read_csv(path, dtype=str, keep_default_na=False).to_dict("records"):
+        row = {k: v.strip() for k, v in record.items() if v.strip()}  # an empty cell takes the schema default
+        for field in LIST_FIELDS & row.keys():
+            row[field] = [t.strip() for t in row[field].split(";") if t.strip()]
+        row.setdefault("consent_given", False)  # real data: no recorded consent means no consent
+        rows.append(row)
+    return rows
+
 
 def load_mentors(path: str | Path = paths.SYNTHETIC_DIR / "mentors.json") -> list[MentorProfile]:
-    return [MentorProfile(**row) for row in json.loads(Path(path).read_text(encoding="utf-8"))]
+    return [MentorProfile(**row) for row in read_profile_rows(path)]
 
 
 def load_mentees(path: str | Path = paths.SYNTHETIC_DIR / "mentees.json") -> list[MenteeProfile]:
-    return [MenteeProfile(**row) for row in json.loads(Path(path).read_text(encoding="utf-8"))]
+    return [MenteeProfile(**row) for row in read_profile_rows(path)]
 
 
 def save_profiles(profiles, json_path: str | Path, csv_path: str | Path | None = None) -> None:

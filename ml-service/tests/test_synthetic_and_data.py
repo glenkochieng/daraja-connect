@@ -62,3 +62,18 @@ def test_weight_grid():
     assert len(grid) == 66
     assert all(abs(sum(w.values()) - 1) < 1e-9 for w in grid)
     assert len(weight_grid(0.5)) == 6
+
+
+def test_profiles_load_from_csv_and_missing_consent_means_none(tmp_path):
+    from daraja.data import load_mentees, load_mentors, save_profiles
+
+    mentors = load_mentors()[:20]
+    save_profiles(mentors, tmp_path / "m.json", tmp_path / "m.csv")
+    assert load_mentors(tmp_path / "m.csv") == mentors
+    (tmp_path / "e.csv").write_text(
+        "mentee_id,goals_text,wants_to_learn\nP-1,Learn load control,load_control ; dangerous_goods\n",
+        encoding="utf-8",
+    )
+    (mentee,) = load_mentees(tmp_path / "e.csv")
+    assert mentee.wants_to_learn == ["load_control", "dangerous_goods"]
+    assert mentee.consent_given is False
