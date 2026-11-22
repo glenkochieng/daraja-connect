@@ -148,6 +148,7 @@ VS Code launch configurations (F5) are included for the API, its tests and the m
 | `ML_SERVICE_URL` | `http://127.0.0.1:8000` | Matching service address |
 | `ML_TIMEOUT_MS` | `8000` | Timeout for matching requests |
 | `AUTH_RATE_LIMIT` | `20` | Sign-in and registration attempts per IP per 15 minutes |
+| `TRUST_PROXY` | `1` | Production only: reverse proxies in front of the API (2 behind CloudFront and Caddy) |
 | `ADMIN_NAME`, `ADMIN_EMAIL`, `ADMIN_PASSWORD` | – | Administrator created on start-up if missing |
 | `SEED_ON_START` | `auto` | `auto` seeds only the in-memory database; `true` also seeds a real one; `false` never |
 | `SEED_USER_PASSWORD` | – | Password for all sample accounts; empty disables them |

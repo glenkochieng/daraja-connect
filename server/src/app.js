@@ -22,8 +22,8 @@ import { usersRouter } from './routes/users.js';
 export function createApp({ config, mlClient, taxonomy, log = console }) {
   const app = express();
   app.disable('x-powered-by');
-  // Behind AWS load balancers the client IP arrives in X-Forwarded-For.
-  if (config.isProduction) app.set('trust proxy', 1);
+  // Behind proxies the client IP arrives in X-Forwarded-For; trust exactly the configured hops.
+  if (config.isProduction) app.set('trust proxy', config.trustProxy);
 
   app.use(helmet());
   app.use(cors({ origin: config.clientOrigins }));

@@ -49,10 +49,11 @@ Region: choose one region for EC2, CloudFront origin and Atlas, ideally close to
 | `ADMIN_EMAIL`, `ADMIN_PASSWORD` | First administrator; change the password after the first sign-in |
 | `SEED_ON_START` | `false` (never load sample members into production) |
 | `SEED_USER_PASSWORD` | Not set |
+| `TRUST_PROXY` | Number of proxies in front of the API: `2` behind CloudFront and Caddy, `1` behind Caddy alone |
 
 Client build: `VITE_API_URL` stays empty when CloudFront forwards `/api/*` to the API (same origin).
 
-**Proxy hops.** In production the API sets Express `trust proxy` to 1 hop (`server/src/app.js`), which is right when only Caddy sits in front. With CloudFront in front of Caddy there are two hops, so the sign-in rate limit would see CloudFront's address instead of the user's and every user would share one limit. Before going live, make the hop count configurable (#58) and set it to 2, or let CloudFront call the API origin directly without Caddy.
+**Proxy hops.** In production the API trusts `TRUST_PROXY` proxy hops (default 1, `server/src/app.js`), which is right when only Caddy sits in front. With CloudFront in front of Caddy there are two hops: set `TRUST_PROXY=2`, otherwise the sign-in rate limit sees CloudFront's address instead of the user's and every user shares one limit.
 
 ## Steps
 
