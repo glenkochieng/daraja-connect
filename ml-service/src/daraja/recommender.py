@@ -50,7 +50,7 @@ GENERIC_REASON_WORDS = frozenset(
         "roles", "career", "careers", "skill", "skills", "learn", "learning", "learned", "want",
         "help", "helping", "build", "strong", "good", "honest", "feedback", "value", "new",
         "preparation", "prepare", "preparing", "staff", "team", "mentor", "mentoring", "mentee",
-        "completed", "certificate", "course", "programme", "program", "graduate", "currently",
+        "completed", "certificate", "course", "programme", "program", "graduate", "currently", "support",
     }
 )
 
