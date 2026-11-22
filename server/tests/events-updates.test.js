@@ -62,6 +62,15 @@ describe('events', () => {
       'body.endsAt',
       'body.onlineUrl',
     ]);
+    // null and unparseable dates are refused, not stored as 1 January 1970 (#53)
+    for (const startsAt of [null, 'not a date', 0]) {
+      const res = await api
+        .post('/api/events')
+        .set(bearer(admin.token))
+        .send({ ...EVENT, startsAt })
+        .expect(400);
+      expect(res.body.error.details.map((d) => d.field)).toContain('body.startsAt');
+    }
   });
 
   it('takes RSVPs up to capacity, once per member, and frees a place on cancel', async () => {

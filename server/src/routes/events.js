@@ -5,12 +5,15 @@ import { badRequest, conflict, notFound } from '../lib/errors.js';
 import { idParams, pagination, validate } from '../lib/validate.js';
 import { Event, Rsvp } from '../models/Event.js';
 
+// A date string only: z.coerce.date() alone turns null into 1 January 1970 (#53).
+const dateString = z.string().min(1).pipe(z.coerce.date());
+
 const eventBody = z
   .object({
     title: z.string().trim().min(3).max(160),
     description: z.string().trim().max(5000).default(''),
-    startsAt: z.coerce.date(),
-    endsAt: z.coerce.date().optional(),
+    startsAt: dateString,
+    endsAt: dateString.optional(),
     location: z.string().trim().max(200).default(''),
     isOnline: z.boolean().default(false),
     onlineUrl: z.union([z.url(), z.literal('')]).default(''),
