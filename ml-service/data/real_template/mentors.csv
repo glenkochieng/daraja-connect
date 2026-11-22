@@ -1,0 +1,2 @@
+mentor_id,user_type,role_title,specialisation,years_experience,expertise_text,can_mentor_in,is_available,max_mentees,current_mentees,consent_given
+M-EXAMPLE,former_staff,Former Load Control Supervisor,ground_operations,18,"Eighteen years in load control and weight and balance at JKIA, including dangerous goods acceptance.",load_control;dangerous_goods,true,2,0,true
