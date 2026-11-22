@@ -58,16 +58,9 @@ def create_app(mentors_path: str | Path | None = None, config_path: str | Path |
     programmes = [
         {"id": p["id"], "name": p["name"], "domain": p["domain"]} for p in load_kq_vocabulary()["pride_centre_programmes"]
     ]
-    state: dict = {}
-
-    def reload() -> None:
-        config = load_config(config_path)
-        mentors = load_mentor_profiles(mentors_path)
-        state["config"] = config
-        state["recommender"] = ContentRecommender(config, taxonomy).fit(mentors)
-        state["loaded_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-
-    reload()
+    config = load_config(config_path)
+    default_recommender = ContentRecommender(config, taxonomy).fit(load_mentor_profiles(mentors_path))
+    loaded_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     app = FastAPI(
         title="Daraja Connect matching service",
         version=__version__,
@@ -76,9 +69,8 @@ def create_app(mentors_path: str | Path | None = None, config_path: str | Path |
 
     @app.get("/health")
     def health() -> dict:
-        rec: ContentRecommender = state["recommender"]
-        return {"status": "ok", "mentors_loaded": len(rec.pool), "config_version": rec.config.version,
-                "weights": rec.config.weights, "loaded_at": state["loaded_at"]}
+        return {"status": "ok", "mentors_loaded": len(default_recommender.pool), "config_version": config.version,
+                "weights": config.weights, "loaded_at": loaded_at}
 
     @app.get("/taxonomy")
     def get_taxonomy() -> dict:
@@ -97,11 +89,11 @@ def create_app(mentors_path: str | Path | None = None, config_path: str | Path |
         if mentee.specialisation and mentee.specialisation not in taxonomy.specialisations:
             raise HTTPException(status_code=422, detail=f"Unknown specialisation: {mentee.specialisation}")
         if request.mentors is None:
-            return state["recommender"].recommend(mentee, k=request.k, exclude_mentor_ids=request.exclude_mentor_ids)
+            return default_recommender.recommend(mentee, k=request.k, exclude_mentor_ids=request.exclude_mentor_ids)
 
         # Rank the candidate pool sent by the backend.
-        recommender = ContentRecommender(state["config"], taxonomy)
-        version = state["config"].version
+        recommender = ContentRecommender(config, taxonomy)
+        version = config.version
         if not recommender.is_complete(mentee):
             return RecommendationResult(mentee_id=mentee.mentee_id, status="incomplete_profile", config_version=version)
         if not request.mentors:
@@ -111,11 +103,6 @@ def create_app(mentors_path: str | Path | None = None, config_path: str | Path |
         except ValueError as error:  # e.g. duplicate mentor ids
             raise HTTPException(status_code=422, detail=str(error)) from error
         return recommender.recommend(mentee, k=request.k, exclude_mentor_ids=request.exclude_mentor_ids)
-
-    @app.post("/mentors/reload")
-    def reload_mentors() -> dict:
-        reload()
-        return {"status": "reloaded", "mentors_loaded": len(state["recommender"].pool), "loaded_at": state["loaded_at"]}
 
     return app
 
