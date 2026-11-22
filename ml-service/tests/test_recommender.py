@@ -117,6 +117,7 @@ def test_shared_terms_skip_generic_words_and_repeats():
     terms = ["years", "interview", "interview preparation", "preparation", "station", "work experience"]
     assert shared_phrases(terms, 3) == ["interview preparation", "station"]
     assert shared_phrases(["years", "experience", "work"], 3) == []
+    assert shared_phrases(["support", "heavy maintenance"], 3) == ["heavy maintenance"]  # #61
     # Words another reason already shows are not repeated.
     covered = ["station", "management", "ground", "handling"]
     assert shared_phrases(["station", "handling", "interview preparation"], 3, covered) == ["interview preparation"]

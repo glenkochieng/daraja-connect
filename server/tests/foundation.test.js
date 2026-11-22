@@ -27,6 +27,12 @@ describe('configuration', () => {
     const config = loadConfig({ NODE_ENV: 'test', CLIENT_ORIGIN: 'http://a.test, http://b.test' });
     expect(config.clientOrigins).toEqual(['http://a.test', 'http://b.test']);
   });
+
+  it('reads the trusted proxy hop count, defaulting to one', () => {
+    expect(loadConfig({ NODE_ENV: 'test' }).trustProxy).toBe(1);
+    expect(loadConfig({ NODE_ENV: 'test', TRUST_PROXY: '2' }).trustProxy).toBe(2);
+    expect(() => loadConfig({ NODE_ENV: 'test', TRUST_PROXY: '-1' })).toThrow(/TRUST_PROXY/);
+  });
 });
 
 describe('app foundation', () => {

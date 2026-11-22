@@ -90,9 +90,7 @@ Response:
 
 `status` is `ok`, `incomplete_profile` (the mentee has neither goals text nor topics to learn; a specialisation alone is not enough) or `no_eligible_mentors`. `config_version` is a short hash of the matching configuration, stored with every logged recommendation. A block score is `null` when that block is missing on either side. Ties are broken by mentor id, so results are deterministic.
 
-### `POST /mentors/reload`
-
-Reloads the configuration and the default mentor file without restarting. Returns `{ status: "reloaded", mentors_loaded, loaded_at }`.
+The configuration and the default mentor file are read once at start-up; restart the service after changing them.
 
 ## Settings
 

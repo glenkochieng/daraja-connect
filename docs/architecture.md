@@ -112,7 +112,7 @@ Accepting a request reserves a place with a conditional update (`currentMentees 
 - Roles (`member`, `admin`) and approval (`pending`, `approved`, `rejected`) enforced by middleware; ownership checked for edits and deletions.
 - `helmet` headers, CORS restricted to `CLIENT_ORIGIN`, 200 kB JSON body limit.
 - Secrets only in environment variables (`server/.env` is gitignored; production secrets belong in AWS Secrets Manager or Parameter Store).
-- The matching service has no authentication (including `POST /mentors/reload`), so it must never be publicly reachable. In production it sits on a private network that only the API can reach.
+- The matching service has no authentication, so it must never be publicly reachable. In production it sits on a private network that only the API can reach.
 
 ## 6. Reliability and scale
 

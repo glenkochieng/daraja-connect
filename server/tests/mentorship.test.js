@@ -80,7 +80,10 @@ describe('mentor recommendations', () => {
     const m2 = await mentor(api);
     await registerUser(api, { userType: 'current_staff' }); // pending staff: not a candidate
     await registerApproved(api, { userType: 'pride_alumni' }); // another mentee: not a candidate
+    const admin = await registerAdmin(api); // a staff-type admin with a mentor profile: not a candidate
+    await setUser(admin.user.id, { 'profile.specialisation': 'cargo' });
     const me = await mentee(api);
+    await request(api, me.token, admin.user.id).expect(404);
 
     const res = await api
       .get('/api/mentorship/recommendations?k=5')
@@ -282,7 +285,7 @@ describe('mentorship requests', () => {
     const stats = await api.get('/api/admin/stats').set(bearer(admin.token)).expect(200);
     expect(stats.body.mentorship).toEqual({
       requestsByStatus: { pending: 1 },
-      recommendationsShown: 2,
+      recommendationsShown: 1, // the mentor only; the administrator is not a candidate (#60)
     });
   });
 });
