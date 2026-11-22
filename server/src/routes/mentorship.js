@@ -65,7 +65,10 @@ export function mentorshipRouter({ config, mlClient }) {
     if (!req.user.isMentee) throw forbidden('Only Pride Centre alumni can request a mentor');
     const { mentorId, message, recommendationId } = req.valid.body;
     const mentor = await User.findById(mentorId);
-    if (!mentor || mentor.status !== 'approved') throw notFound('Mentor not found');
+    // Administrators are not mentors, as in the directory.
+    if (!mentor || mentor.status !== 'approved' || mentor.role !== 'member') {
+      throw notFound('Mentor not found');
+    }
     if (!mentor.isMentor) throw badRequest('This member is not a mentor');
     if (!mentor.mentor.isAvailable)
       throw conflict('This mentor is not taking new mentees right now');

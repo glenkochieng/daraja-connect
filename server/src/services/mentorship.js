@@ -57,6 +57,7 @@ export async function recommendMentors({ mentee, mlClient, k = 5 }) {
   const [mentors, openWith] = await Promise.all([
     User.find({
       status: 'approved',
+      role: 'member',
       userType: { $in: ['current_staff', 'former_staff'] },
       _id: { $ne: mentee._id },
     }).lean(),
